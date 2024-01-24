@@ -9,14 +9,15 @@ from torch.optim.lr_scheduler import LambdaLR
 from models.clap_encoder import CLAP_Encoder
 
 from huggingface_hub import PyTorchModelHubMixin
-
+from transformers import logging
+logging.set_verbosity_error()
 
 class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
     def __init__(
         self,
         ss_model: nn.Module = None,
         waveform_mixer = None,
-        query_encoder: nn.Module = CLAP_Encoder().eval(),
+        query_encoder: nn.Module = None, # CLAP_Encoder().eval()
         loss_function = None,
         optimizer_type: str = None,
         learning_rate: float = None,

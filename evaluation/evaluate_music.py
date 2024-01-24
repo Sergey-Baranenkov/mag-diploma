@@ -12,6 +12,7 @@ import pathlib
 import librosa
 import lightning.pytorch as pl
 from models.clap_encoder import CLAP_Encoder
+from data.audiotext_dataset import AudioTextDataset
 
 sys.path.append('../AudioSep/')
 from utils import (
@@ -25,8 +26,8 @@ from utils import (
 
 class MUSICEvaluator:
     def __init__(
-        self,
-        sampling_rate=32000
+            self,
+            sampling_rate=32000
     ) -> None:
 
         self.sampling_rate = sampling_rate
@@ -34,39 +35,44 @@ class MUSICEvaluator:
         with open('evaluation/metadata/music_eval.csv') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             eval_list = [row for row in csv_reader][1:]
-        
+
         self.eval_list = eval_list
         self.audio_dir = 'evaluation/data/music'
 
         self.source_types = [
-        "acoustic guitar", 
-        "violin", 
-        "accordion", 
-        "xylophone", 
-        "erhu", 
-        "trumpet", 
-        "tuba", 
-        "cello", 
-        "flute", 
-        "saxophone"]
+            "acoustic guitar",
+            "violin",
+            "accordion",
+            "xylophone",
+            "erhu",
+            "trumpet",
+            "tuba",
+            "cello",
+            "flute",
+            "saxophone"]
 
     def __call__(
-        self,
-        pl_model: pl.LightningModule
+            self,
+            pl_model: pl.LightningModule
     ) -> Dict:
         r"""Evalute."""
 
         print(f'Evaluation on MUSIC Test with [text label] queries.')
-        
+
         pl_model.eval()
         device = pl_model.device
 
         sisdrs_list = {source_type: [] for source_type in self.source_types}
         sdris_list = {source_type: [] for source_type in self.source_types}
 
+        text_conditions = pl_model.query_encoder.get_query_embed(
+            modality='text',
+            text=['Sound of guitar'],
+            device=device
+        )
+
         with torch.no_grad():
             for eval_data in tqdm(self.eval_list):
-
                 idx, caption, _, _, = eval_data
 
                 source_path = os.path.join(self.audio_dir, f'segment-{idx}.wav')
@@ -76,25 +82,53 @@ class MUSICEvaluator:
                 mixture, fs = librosa.load(mixture_path, sr=self.sampling_rate, mono=True)
 
                 sdr_no_sep = calculate_sdr(ref=source, est=mixture)
-                                
+
                 text = [caption]
 
-                conditions = pl_model.query_encoder.get_query_embed(
-                    modality='text',
-                    text=text,
-                    device=device 
-                )
-                    
+                # tmp_dataset = AudioTextDataset([], self.sampling_rate)
+                # tmp_dataset.all_data_json = [
+                #     {
+                #         "wav": source_path,
+                #         "caption": caption
+                #     }
+                # ]
+
+                # data_dict = {
+                #     'text': text,
+                #     'waveform': audio_data,
+                #     'modality': 'audio_text'
+                # }
+
+                # audio_segment = tmp_dataset[0]['waveform']
+
+                # audio_conditions = pl_model.query_encoder.get_query_embed(
+                #     modality='audio',
+                #     audio=audio_segment.squeeze(1),
+                #     device=device
+                # )
+
+                # text_conditions = pl_model.query_encoder.get_query_embed(
+                #     modality='text',
+                #     text=['acoustic guitar'],
+                #     device=device
+                # )
+
+                # combined_conditions = torch.cat((audio_conditions, text_conditions), dim=0)
+                #print(combined_conditions.shape)
+                #average_conditions = torch.mean(combined_conditions, dim=0)
+
+                conditions = text_conditions
+
                 input_dict = {
                     "mixture": torch.Tensor(mixture)[None, None, :].to(device),
                     "condition": conditions,
                 }
-                
+
                 sep_segment = pl_model.ss_model(input_dict)["waveform"]
-                    # sep_segment: (batch_size=1, channels_num=1, segment_samples)
+                # sep_segment: (batch_size=1, channels_num=1, segment_samples)
 
                 sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()
-                    # sep_segment: (segment_samples,)
+                # sep_segment: (segment_samples,)
 
                 sdr = calculate_sdr(ref=source, est=sep_segment)
                 sdri = sdr - sdr_no_sep
@@ -105,14 +139,14 @@ class MUSICEvaluator:
 
         mean_sisdr_list = []
         mean_sdri_list = []
-        
+
         for source_class in self.source_types:
             sisdr = np.mean(sisdrs_list[source_class])
             sdri = np.mean(sdris_list[source_class])
             mean_sisdr_list.append(sisdr)
             mean_sdri_list.append(sdri)
-        
+
         mean_sdri = np.mean(mean_sdri_list)
         mean_sisdr = np.mean(mean_sisdr_list)
-        
+
         return mean_sisdr, mean_sdri

@@ -9,6 +9,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import yaml
+from panns_inference.models import Cnn14_DecisionLevelMax, Cnn14
+
 from models.audiosep import AudioSep, get_model_class
 
 
@@ -335,7 +337,6 @@ def get_ss_model(config_yaml) -> nn.Module:
         pl_model: pl.LightningModule
     """
     configs = parse_yaml(config_yaml)
-
     ss_model_type = configs["model"]["model_type"]
     input_channels = configs["model"]["input_channels"]
     output_channels = configs["model"]["output_channels"]
