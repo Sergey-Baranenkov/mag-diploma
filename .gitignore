@@ -5,3 +5,9 @@ checkpoint
 separation_result
 separated_audio.wav
 evaluation/data
+lightning_logs
+tf_logs
+statistics
+logs
+eval_logs
+checkpoints

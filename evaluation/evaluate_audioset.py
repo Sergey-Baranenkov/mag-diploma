@@ -1,24 +1,19 @@
 import os
-import sys
 import re
+import sys
 from typing import Dict, List
 
-import pandas as pd
-import numpy as np
-import torch
-from tqdm import tqdm
-import pathlib
 import librosa
 import lightning.pytorch as pl
-from models.clap_encoder import CLAP_Encoder
+import numpy as np
+import pandas as pd
+import torch
+from tqdm import tqdm
 
 sys.path.append('../AudioSep/')
 from utils import (
-    load_ss_model,
     calculate_sdr,
     calculate_sisdr,
-    parse_yaml,
-    get_mean_sdr_from_dict,
 )
 
 

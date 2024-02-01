@@ -413,3 +413,12 @@ def parse_yaml(config_yaml: str) -> Dict:
 
     with open(config_yaml, "r") as fr:
         return yaml.load(fr, Loader=yaml.FullLoader)
+def get_conv_layers(model):
+    conv_layers = []
+    # Используем named_modules для получения наименований всех сверточных слоев
+    for name, module in model.named_modules():
+        # Проверяем, является ли модуль сверточным слоем
+        if isinstance(module, nn.Conv2d):  # Можно добавить другие типы сверточных слоев, если нужно
+            conv_layers.append(name)
+
+    return conv_layers

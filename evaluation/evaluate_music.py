@@ -1,26 +1,18 @@
+import csv
 import os
 import sys
-import re
-from typing import Dict, List
+from typing import Dict
 
-import csv
-import pandas as pd
+import librosa
+import lightning.pytorch as pl
 import numpy as np
 import torch
 from tqdm import tqdm
-import pathlib
-import librosa
-import lightning.pytorch as pl
-from models.clap_encoder import CLAP_Encoder
-from data.audiotext_dataset import AudioTextDataset
 
 sys.path.append('../AudioSep/')
 from utils import (
-    load_ss_model,
     calculate_sdr,
     calculate_sisdr,
-    parse_yaml,
-    get_mean_sdr_from_dict,
 )
 
 
@@ -65,12 +57,6 @@ class MUSICEvaluator:
         sisdrs_list = {source_type: [] for source_type in self.source_types}
         sdris_list = {source_type: [] for source_type in self.source_types}
 
-        text_conditions = pl_model.query_encoder.get_query_embed(
-            modality='text',
-            text=['Sound of guitar'],
-            device=device
-        )
-
         with torch.no_grad():
             for eval_data in tqdm(self.eval_list):
                 idx, caption, _, _, = eval_data
@@ -85,37 +71,11 @@ class MUSICEvaluator:
 
                 text = [caption]
 
-                # tmp_dataset = AudioTextDataset([], self.sampling_rate)
-                # tmp_dataset.all_data_json = [
-                #     {
-                #         "wav": source_path,
-                #         "caption": caption
-                #     }
-                # ]
-
-                # data_dict = {
-                #     'text': text,
-                #     'waveform': audio_data,
-                #     'modality': 'audio_text'
-                # }
-
-                # audio_segment = tmp_dataset[0]['waveform']
-
-                # audio_conditions = pl_model.query_encoder.get_query_embed(
-                #     modality='audio',
-                #     audio=audio_segment.squeeze(1),
-                #     device=device
-                # )
-
-                # text_conditions = pl_model.query_encoder.get_query_embed(
-                #     modality='text',
-                #     text=['acoustic guitar'],
-                #     device=device
-                # )
-
-                # combined_conditions = torch.cat((audio_conditions, text_conditions), dim=0)
-                #print(combined_conditions.shape)
-                #average_conditions = torch.mean(combined_conditions, dim=0)
+                text_conditions = pl_model.query_encoder.get_query_embed(
+                    modality='text',
+                    text=text,
+                    device=device
+                )
 
                 conditions = text_conditions
 

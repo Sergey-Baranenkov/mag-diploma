@@ -1,28 +1,29 @@
-from typing import Any, Callable, Dict
 import random
+
 import lightning.pytorch as pl
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.optim.lr_scheduler import LambdaLR
-
-from models.clap_encoder import CLAP_Encoder
-
 from huggingface_hub import PyTorchModelHubMixin
+from torch.optim.lr_scheduler import LambdaLR
 from transformers import logging
+
+from models.interfaces import QueryEncoder, SSModel
+
 logging.set_verbosity_error()
+
 
 class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
     def __init__(
-        self,
-        ss_model: nn.Module = None,
-        waveform_mixer = None,
-        query_encoder: nn.Module = None, # CLAP_Encoder().eval()
-        loss_function = None,
-        optimizer_type: str = None,
-        learning_rate: float = None,
-        lr_lambda_func = None,
-        use_text_ratio: float =1.0,
+            self,
+            ss_model: SSModel = None,
+            waveform_mixer=None,
+            query_encoder: QueryEncoder = None,
+            loss_function=None,
+            optimizer_type: str = None,
+            learning_rate: float = None,
+            lr_lambda_func=None,
+            use_text_ratio: float = 1.0,
     ):
         r"""Pytorch Lightning wrapper of PyTorch model, including forward,
         optimization of model, etc.
@@ -46,9 +47,26 @@ class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
         self.learning_rate = learning_rate
         self.lr_lambda_func = lr_lambda_func
 
+    def forward(self, prompt: str, mixture, device: torch.device = None):
+        text = [prompt]
+        text_conditions = self.query_encoder.get_query_embed(
+            modality='text',
+            text=text,
+            device=device
+        )
 
-    def forward(self, x):
-        pass
+        conditions = text_conditions
+
+        input_dict = {
+            "mixture": torch.Tensor(mixture)[None, None, :].to(device),
+            "condition": conditions,
+        }
+
+        # todo chunk inference ?
+        sep_segment = self.ss_model(input_dict)["waveform"]
+
+        sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()
+        return sep_segment
 
     def training_step(self, batch_data_dict, batch_idx):
         r"""Forward a mini-batch data to model, calculate loss function, and
@@ -73,20 +91,17 @@ class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
 
         batch_text = batch_audio_text_dict['text']
         batch_audio = batch_audio_text_dict['waveform']
-        device = batch_audio.device
-        
+
         mixtures, segments = self.waveform_mixer(
             waveforms=batch_audio
         )
 
-        # calculate text embed for audio-text data
-        if self.query_encoder_type == 'CLAP':
-            conditions = self.query_encoder.get_query_embed(
-                modality='hybird',
-                text=batch_text,
-                audio=segments.squeeze(1),
-                use_text_ratio=self.use_text_ratio,
-            )
+        conditions = self.query_encoder.get_query_embed(
+            modality='hybrid',
+            text=batch_text,
+            audio=segments.squeeze(1),
+            use_text_ratio=self.use_text_ratio,
+        )
 
         input_dict = {
             'mixture': mixtures[:, None, :].squeeze(1),
@@ -110,12 +125,12 @@ class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
         loss = self.loss_function(output_dict, target_dict)
 
         self.log_dict({"train_loss": loss})
-        
+
         return loss
 
     def test_step(self, batch, batch_idx):
         pass
-    
+
     def configure_optimizers(self):
         r"""Configure optimizer.
         """
@@ -144,7 +159,7 @@ class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
         }
 
         return output_dict
-    
+
 
 def get_model_class(model_type):
     if model_type == 'ResUNet30':
