@@ -353,7 +353,7 @@ dependencies:
       - langchainplus-sdk==0.0.17
       - lazy-loader==0.2
       - librosa==0.10.0.post2
-      - lightning==2.0.0
+      - lightning==2.2.0
       - lightning-cloud==0.5.33
       - lightning-utilities==0.8.0
       - lit==17.0.6

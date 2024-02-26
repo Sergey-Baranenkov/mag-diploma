@@ -15,8 +15,9 @@ from models.clap_encoder import CLAP_Encoder
 from models.resunet import *
 from optimizers.lr_schedulers import get_lr_lambda
 from utils import create_logging
-from utils import get_ss_model
-from utils import parse_yaml, load_ss_model
+from utils import parse_yaml
+from model_loaders import load_ss_model
+
 torch.set_float32_matmul_precision('high')
 
 def get_dirs(
@@ -261,8 +262,8 @@ def train(args) -> NoReturn:
         logger=None,
         callbacks=callbacks,
         fast_dev_run=False,
-        max_epochs=30,
-        log_every_n_steps=30,
+        max_epochs=-1,
+        log_every_n_steps=38,
         use_distributed_sampler=True,
         sync_batchnorm=sync_batchnorm,
         num_sanity_val_steps=2,
@@ -277,7 +278,7 @@ def train(args) -> NoReturn:
         train_dataloaders=None,
         val_dataloaders=None,
         datamodule=data_module,
-        #ckpt_path=resume_checkpoint_path, //todo check
+        ckpt_path=resume_checkpoint_path if resume_checkpoint_path else None,
     )
 
 

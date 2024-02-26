@@ -16,26 +16,15 @@ logging.set_verbosity_error()
 class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
     def __init__(
             self,
-            ss_model: SSModel = None,
+            ss_model: SSModel,
             waveform_mixer=None,
             query_encoder: QueryEncoder = None,
             loss_function=None,
-            optimizer_type: str = None,
-            learning_rate: float = None,
-            lr_lambda_func=None,
-            use_text_ratio: float = 1.0,
+            optimizer_type='AdamW',
+            learning_rate=1e-4,
+            lr_lambda_func=lambda epoch: 1.0,
+            use_text_ratio=1.0
     ):
-        r"""Pytorch Lightning wrapper of PyTorch model, including forward,
-        optimization of model, etc.
-
-        Args:
-            ss_model: nn.Module
-            anchor_segment_detector: nn.Module
-            loss_function: function or object
-            learning_rate: float
-            lr_lambda: function
-        """
-
         super().__init__()
         self.ss_model = ss_model
         self.waveform_mixer = waveform_mixer
@@ -48,117 +37,42 @@ class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
         self.lr_lambda_func = lr_lambda_func
 
     def forward(self, prompt: str, mixture, device: torch.device = None):
-        text = [prompt]
-        text_conditions = self.query_encoder.get_query_embed(
-            modality='text',
-            text=text,
-            device=device
-        )
-
-        conditions = text_conditions
-
-        input_dict = {
-            "mixture": torch.Tensor(mixture)[None, None, :].to(device),
-            "condition": conditions,
-        }
-
-        # todo chunk inference ?
-        sep_segment = self.ss_model(input_dict)["waveform"]
-
-        sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()
+        text_conditions = self.query_encoder.get_query_embed(modality='text', text=[prompt], device=device)
+        input_dict = {'mixture': mixture[None, None, :], 'condition': text_conditions}
+        sep_segment = self.ss_model(input_dict)['waveform'].squeeze().cpu().numpy()
         return sep_segment
 
-    def training_step(self, batch_data_dict, batch_idx):
-        r"""Forward a mini-batch data to model, calculate loss function, and
-        train for one step. A mini-batch data is evenly distributed to multiple
-        devices (if there are) for parallel training.
-
-        Args:
-            batch_data_dict: e.g. 
-                'audio_text': {
-                    'text': ['a sound of dog', ...]
-                    'waveform': (batch_size, 1, samples)
-            }
-            batch_idx: int
-
-        Returns:
-            loss: float, loss function of this mini-batch
-        """
-        # [important] fix random seeds across devices
+    def training_step(self, batch, batch_idx):
         random.seed(batch_idx)
+        text, waveform = batch['audio_text']['text'], batch['audio_text']['waveform']
+        mixtures, segments = self.waveform_mixer(waveform)
+        conditions = self.query_encoder.get_query_embed('hybrid', text, segments.squeeze(1),
+                                                        self.use_text_ratio)
+        input_dict = {'mixture': mixtures[:, None, :].squeeze(1), 'condition': conditions}
+        sep_segment = self.ss_model(input_dict)['waveform'].squeeze()
+        sep_segment = sep_segment.squeeze()
 
-        batch_audio_text_dict = batch_data_dict['audio_text']
-
-        batch_text = batch_audio_text_dict['text']
-        batch_audio = batch_audio_text_dict['waveform']
-
-        mixtures, segments = self.waveform_mixer(
-            waveforms=batch_audio
-        )
-
-        conditions = self.query_encoder.get_query_embed(
-            modality='hybrid',
-            text=batch_text,
-            audio=segments.squeeze(1),
-            use_text_ratio=self.use_text_ratio,
-        )
-
-        input_dict = {
-            'mixture': mixtures[:, None, :].squeeze(1),
-            'condition': conditions,
-        }
-
+        # (batch_size, 1, segment_samples)
         target_dict = {
             'segment': segments.squeeze(1),
         }
-
-        self.ss_model.train()
-        sep_segment = self.ss_model(input_dict)['waveform']
-        sep_segment = sep_segment.squeeze()
-        # (batch_size, 1, segment_samples)
-
         output_dict = {
             'segment': sep_segment,
         }
 
         # Calculate loss.
         loss = self.loss_function(output_dict, target_dict)
-
-        self.log_dict({"train_loss": loss})
-
+        self.log('train_loss', loss)
         return loss
 
-    def test_step(self, batch, batch_idx):
-        pass
-
     def configure_optimizers(self):
-        r"""Configure optimizer.
-        """
-
-        if self.optimizer_type == "AdamW":
-            optimizer = optim.AdamW(
-                params=self.ss_model.parameters(),
-                lr=self.learning_rate,
-                betas=(0.9, 0.999),
-                eps=1e-08,
-                weight_decay=0.0,
-                amsgrad=True,
-            )
+        if self.optimizer_type == 'AdamW':
+            optimizer = optim.AdamW(self.ss_model.parameters(), lr=self.learning_rate)
         else:
-            raise NotImplementedError
+            raise NotImplementedError("Only AdamW optimizer is implemented")
 
         scheduler = LambdaLR(optimizer, self.lr_lambda_func)
-
-        output_dict = {
-            "optimizer": optimizer,
-            "lr_scheduler": {
-                'scheduler': scheduler,
-                'interval': 'step',
-                'frequency': 1,
-            }
-        }
-
-        return output_dict
+        return {'optimizer': optimizer, 'lr_scheduler': {'scheduler': scheduler, 'interval': 'step', 'frequency': 1}}
 
 
 def get_model_class(model_type):

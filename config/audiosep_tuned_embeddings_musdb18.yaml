@@ -10,23 +10,23 @@ data:
     loudness_norm:
         lower_db: -10
         higher_db: 10
-    max_mix_num: 2
+    max_mix_num: 4
 
 train:
     optimizer:
         optimizer_type: AdamW
         learning_rate: 1e-4
-        warm_up_steps: 100
-        reduce_lr_steps: 1000
+        warm_up_steps: 1000
+        reduce_lr_steps: 10000
         lr_lambda_type: constant_warm_up
     num_nodes: 1
     num_workers: 6
     loss_type: l1_wav
     sync_batchnorm: True
     batch_size_per_device: 8
-    steps_per_epoch: 100  # Every 10000 steps is called an `epoch`.
-    evaluate_step_frequency: 100     # Evaluate every #evaluate_step_frequency steps.
-    save_step_frequency: 200  # Save every #save_step_frequency steps.
+    steps_per_epoch: 1000  # Every 1000 steps is called an `epoch`.
+    evaluate_step_frequency: 500     # Evaluate every #evaluate_step_frequency steps.
+    save_step_frequency: 1482  # Save every #save_step_frequency steps.
     early_stop_steps: 10001
     random_seed: 1234
 

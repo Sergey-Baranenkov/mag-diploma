@@ -19,3 +19,6 @@ class SSModel(ABC):  # todo typing
     @abstractmethod
     def __call__(self, dict):
         pass
+
+    def parameters(self):
+        pass

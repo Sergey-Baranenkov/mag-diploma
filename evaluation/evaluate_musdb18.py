@@ -1,90 +1,59 @@
 import csv
 import os
-import sys
-from typing import Dict
-
 import librosa
-import lightning.pytorch as pl
-import numpy as np
 import torch
+import numpy as np
 from tqdm import tqdm
 
-sys.path.append('../AudioSep/')
-from utils import (
-    calculate_sdr,
-    calculate_sisdr,
-)
-
+# Предполагается, что calculate_sdr и calculate_sisdr определены в utils
+from utils import calculate_sdr, calculate_sisdr
 
 class MUSDB18Evaluator:
-    def __init__(
-            self,
-            sampling_rate=32000
-    ) -> None:
-
+    def __init__(self, sampling_rate=32000, audio_dir='evaluation/data/musdb18/train', metadata_path='evaluation/metadata/musdb18_train_eval.csv'):
         self.sampling_rate = sampling_rate
+        self.audio_dir = audio_dir
 
-        with open('evaluation/metadata/musdb18_eval.csv') as csv_file:
+        # Загрузка метаданных для оценки
+        with open(metadata_path) as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
-            eval_list = [row for row in csv_reader][1:]
+            self.eval_list = [row for row in csv_reader][1:]
 
-        self.eval_list = eval_list
-        self.audio_dir = 'evaluation/data/musdb18/test'
+        self.source_types = ["bass", "drums", "vocals"]
 
-        self.source_types = [
-            "bass",
-            "drums",
-            "vocals",
-           ]
-
-    def __call__(
-            self,
-            pl_model: pl.LightningModule
-    ) -> Dict:
-        r"""Evalute."""
-
-        print(f'Evaluation on Musdb18 Test with [text label] queries.')
-
-        pl_model.eval()
-        device = pl_model.device
+    def __call__(self, model):
+        model.eval()
+        device = model.device
 
         sisdrs_list = {source_type: [] for source_type in self.source_types}
         sdris_list = {source_type: [] for source_type in self.source_types}
 
         with torch.no_grad():
-            for eval_data in tqdm(self.eval_list):
-                idx, src, caption, mxtr, = eval_data
+            for eval_data in tqdm(self.eval_list, desc="Evaluating"):
+                idx, src, caption, mxtr = eval_data
 
                 source_path = os.path.join(self.audio_dir, src)
                 mixture_path = os.path.join(self.audio_dir, mxtr)
 
-                source, fs = librosa.load(
-                    source_path,
-                    sr=self.sampling_rate,
-                    mono=True,
-                    duration=10,
-                    offset=1
-                )
+                source, _ = librosa.load(source_path, sr=self.sampling_rate, mono=True, duration=10, offset=1)
+                mixture, _ = librosa.load(mixture_path, sr=self.sampling_rate, mono=True, duration=10, offset=1)
 
-                mixture, fs = librosa.load(
-                    mixture_path,
-                    sr=self.sampling_rate,
-                    mono=True,
-                    duration=10,
-                    offset=1
-                )
+                # Подготовка данных для модели
+                mixture_tensor = torch.tensor(mixture).to(device)  # Добавляем размерности batch и канала
+                source_tensor = torch.tensor(source).float().to(device)
 
-                sdr_no_sep = calculate_sdr(ref=source, est=mixture)
+                # Инференс модели
+                sep_segment = model(prompt=caption, mixture=mixture_tensor, device=device)
 
-                sep_segment = pl_model(caption, mixture, device)
-
-                sdr = calculate_sdr(ref=source, est=sep_segment)
+                # Вычисление метрик
+                sdr_no_sep = calculate_sdr(ref=source_tensor.cpu().numpy(), est=mixture)
+                sdr = calculate_sdr(ref=source_tensor.cpu().numpy(), est=sep_segment)
                 sdri = sdr - sdr_no_sep
-                sisdr = calculate_sisdr(ref=source, est=sep_segment)
+                sisdr = calculate_sisdr(ref=source_tensor.cpu().numpy(), est=sep_segment)
 
                 sisdrs_list[caption].append(sisdr)
                 sdris_list[caption].append(sdri)
 
+        # Вычисление и вывод средних метрик
         mean_sisdr_list = []
         mean_sdri_list = []
 
@@ -97,4 +66,5 @@ class MUSDB18Evaluator:
         mean_sdri = np.mean(mean_sdri_list)
         mean_sisdr = np.mean(mean_sisdr_list)
 
+        print(f"Mean SI-SDR: {mean_sisdr}, Mean SDRI: {mean_sdri}")
         return mean_sisdr, mean_sdri

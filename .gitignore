@@ -11,3 +11,4 @@ statistics
 logs
 eval_logs
 checkpoints
+wandb

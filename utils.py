@@ -2,17 +2,19 @@ import os
 import datetime
 import json
 import logging
+import pathlib
+
 import librosa
 import pickle
-from typing import Dict
+from typing import Dict, List
 import numpy as np
 import torch
 import torch.nn as nn
 import yaml
 from panns_inference.models import Cnn14_DecisionLevelMax, Cnn14
 
-from models.audiosep import AudioSep, get_model_class
-
+from data.audiotext_dataset import AudioTextDataset
+from data.datamodules import DataModule
 
 def ignore_warnings():
     import warnings
@@ -324,95 +326,6 @@ def loudness(data, input_loudness, target_loudness):
 
     return output
 
-
-def get_ss_model(config_yaml) -> nn.Module:
-    r"""Load trained universal source separation model.
-
-    Args:
-        configs (Dict)
-        checkpoint_path (str): path of the checkpoint to load
-        device (str): e.g., "cpu" | "cuda"
-
-    Returns:
-        pl_model: pl.LightningModule
-    """
-    configs = parse_yaml(config_yaml)
-    ss_model_type = configs["model"]["model_type"]
-    input_channels = configs["model"]["input_channels"]
-    output_channels = configs["model"]["output_channels"]
-    condition_size = configs["model"]["condition_size"]
-    
-    # Initialize separation model
-    SsModel = get_model_class(model_type=ss_model_type)
-
-    ss_model = SsModel(
-        input_channels=input_channels,
-        output_channels=output_channels,
-        condition_size=condition_size,
-    )
-
-    return ss_model
-
-
-def load_ss_model(
-    configs: Dict,
-    checkpoint_path: str,
-    query_encoder: nn.Module
-) -> nn.Module:
-    r"""Load trained universal source separation model.
-
-    Args:
-        configs (Dict)
-        checkpoint_path (str): path of the checkpoint to load
-        device (str): e.g., "cpu" | "cuda"
-
-    Returns:
-        pl_model: pl.LightningModule
-    """
-
-    ss_model_type = configs["model"]["model_type"]
-    input_channels = configs["model"]["input_channels"]
-    output_channels = configs["model"]["output_channels"]
-    condition_size = configs["model"]["condition_size"]
-    
-    # Initialize separation model
-    SsModel = get_model_class(model_type=ss_model_type)
-
-    ss_model = SsModel(
-        input_channels=input_channels,
-        output_channels=output_channels,
-        condition_size=condition_size,
-    )
-
-    # Load PyTorch Lightning model
-    pl_model = AudioSep.load_from_checkpoint(
-        checkpoint_path=checkpoint_path,
-        strict=False,
-        ss_model=ss_model,
-        waveform_mixer=None,
-        query_encoder=query_encoder,
-        loss_function=None,
-        optimizer_type=None,
-        learning_rate=None,
-        lr_lambda_func=None,
-        map_location=torch.device('cpu'),
-    )
-
-    return pl_model
-
-
-def parse_yaml(config_yaml: str) -> Dict:
-    r"""Parse yaml file.
-
-    Args:
-        config_yaml (str): config yaml path
-
-    Returns:
-        yaml_dict (Dict): parsed yaml file
-    """
-
-    with open(config_yaml, "r") as fr:
-        return yaml.load(fr, Loader=yaml.FullLoader)
 def get_conv_layers(model):
     conv_layers = []
     # Используем named_modules для получения наименований всех сверточных слоев
@@ -422,3 +335,121 @@ def get_conv_layers(model):
             conv_layers.append(name)
 
     return conv_layers
+
+
+def get_dirs(
+    workspace: str,
+    filename: str,
+    config_yaml: str,
+    devices_num: int
+) -> List[str]:
+    r"""Get directories and paths.
+
+    Args:
+        workspace (str): directory of workspace
+        filename (str): filename of current .py file.
+        config_yaml (str): config yaml path
+        devices_num (int): 0 for cpu and 8 for training with 8 GPUs
+
+    Returns:
+        checkpoints_dir (str): directory to save checkpoints
+        logs_dir (str), directory to save logs
+        tf_logs_dir (str), directory to save TensorBoard logs
+        statistics_path (str), directory to save statistics
+    """
+
+    os.makedirs(workspace, exist_ok=True)
+
+    yaml_name = pathlib.Path(config_yaml).stem
+
+    # Directory to save checkpoints
+    checkpoints_dir = os.path.join(
+        workspace,
+        "checkpoints",
+        filename,
+        "{},devices={}".format(yaml_name, devices_num),
+    )
+    os.makedirs(checkpoints_dir, exist_ok=True)
+
+    # Directory to save logs
+    logs_dir = os.path.join(
+        workspace,
+        "logs",
+        filename,
+        "{},devices={}".format(yaml_name, devices_num),
+    )
+    os.makedirs(logs_dir, exist_ok=True)
+
+    # Directory to save TensorBoard logs
+    create_logging(logs_dir, filemode="w")
+
+    tf_logs_dir = os.path.join(
+        workspace,
+        "tf_logs",
+        filename,
+        "{},devices={}".format(yaml_name, devices_num),
+    )
+
+    # Directory to save statistics
+    statistics_path = os.path.join(
+        workspace,
+        "statistics",
+        filename,
+        "{},devices={}".format(yaml_name, devices_num),
+        "statistics.pkl",
+    )
+    os.makedirs(os.path.dirname(statistics_path), exist_ok=True)
+
+    return checkpoints_dir, logs_dir, tf_logs_dir, statistics_path
+
+
+def get_data_module(
+    config_yaml: str,
+    num_workers: int,
+    batch_size: int,
+) -> DataModule:
+    r"""Create data_module. Mini-batch data can be obtained by:
+
+    code-block:: python
+
+        data_module.setup()
+
+        for batch_data_dict in data_module.train_dataloader():
+            print(batch_data_dict.keys())
+            break
+
+    Args:
+        workspace: str
+        config_yaml: str
+        num_workers: int, e.g., 0 for non-parallel and 8 for using cpu cores
+            for preparing data in parallel
+        distributed: bool
+
+    Returns:
+        data_module: DataModule
+    """
+
+    # read configurations
+    configs = parse_yaml(config_yaml)
+    sampling_rate = configs['data']['sampling_rate']
+    segment_seconds = configs['data']['segment_seconds']
+
+    # audio-text datasets
+    datafiles = configs['data']['datafiles']
+
+    # dataset
+    dataset = AudioTextDataset(
+        datafiles=datafiles,
+        sampling_rate=sampling_rate,
+        max_clip_len=segment_seconds,
+    )
+
+
+    # data module
+    data_module = DataModule(
+        train_dataset=dataset,
+        num_workers=num_workers,
+        batch_size=batch_size
+    )
+
+    return data_module

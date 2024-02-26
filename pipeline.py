@@ -4,7 +4,8 @@ import torch
 import numpy as np
 import librosa
 from scipy.io.wavfile import write
-from utils import ignore_warnings, parse_yaml, load_ss_model
+from utils import ignore_warnings, parse_yaml
+from model_loaders import load_ss_model
 from models.clap_encoder import CLAP_Encoder
 
 def build_audiosep(config_yaml, checkpoint_path, device):
@@ -39,6 +40,33 @@ def separate_audio(model, audio_file, text, output_file, device='cuda', use_chun
             sep_segment = np.squeeze(sep_segment)
         else:
             sep_segment = model.ss_model(input_dict)["waveform"]
+            sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()
+
+        write(output_file, 32000, np.round(sep_segment * 32767).astype(np.int16))
+        print(f'Separated audio written to [{output_file}]')
+
+def separate_audio2(pl_model, audio_file, text, output_file, device='cuda', use_chunk=False):
+    print(f'Separating audio from [{audio_file}] with textual query: [{text}]')
+    mixture, fs = librosa.load(audio_file, sr=32000, mono=True)
+    with torch.no_grad():
+        text = [text]
+
+        conditions = pl_model.model.query_encoder.get_query_embed(
+            modality='text',
+            text=text,
+            device=device
+        )
+
+        input_dict = {
+            "mixture": torch.Tensor(mixture)[None, None, :].to(device),
+            "condition": conditions,
+        }
+
+        if use_chunk:
+            sep_segment = pl_model.model.ss_model.chunk_inference(input_dict)
+            sep_segment = np.squeeze(sep_segment)
+        else:
+            sep_segment = pl_model.model.ss_model(input_dict)["waveform"]
             sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()
 
         write(output_file, 32000, np.round(sep_segment * 32767).astype(np.int16))

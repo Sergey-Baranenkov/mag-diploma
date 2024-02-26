@@ -2,7 +2,6 @@ import argparse
 import os
 
 import torch
-from tqdm import tqdm
 import numpy as np
 from evaluation.evaluate_audioset import AudioSetEvaluator
 from evaluation.evaluate_audiocaps import AudioCapsEvaluator
@@ -16,12 +15,10 @@ from models.audiosep_lora import AudioSepLora
 from models.clap_encoder import CLAP_Encoder
 
 from utils import (
-    load_ss_model,
-    calculate_sdr,
-    calculate_sisdr,
     parse_yaml,
-    get_mean_sdr_from_dict,
-)
+    get_mean_sdr_from_dict, get_conv_layers, )
+from model_loaders import load_ss_model
+
 
 def get_model(name: str, device=torch.device('cuda')):
     match name:
@@ -48,29 +45,10 @@ def get_model(name: str, device=torch.device('cuda')):
             base_model = get_model('audiosep')
 
             model = AudioSepTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/step=400.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/step=1482.ckpt',
                 strict=False,
                 ss_model=base_model.ss_model,
-                query_encoder = base_model.query_encoder,
-                waveform_mixer=None,
-                loss_function=None,
-                optimizer_type=None,
-                learning_rate=None,
-                lr_lambda_func=None,
-            )\
-                .eval()\
-                .to(device)
-
-            return model
-
-        case 'audiosep_lora':
-            base_model = get_model('audiosep')
-
-            model = AudioSepLora.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,devices=1/step=400.ckpt',
-                strict=False,
-                ss_model=base_model.ss_model,
-                query_encoder = base_model.query_encoder,
+                query_encoder=base_model.query_encoder,
                 waveform_mixer=None,
                 loss_function=None,
                 optimizer_type=None,
@@ -81,9 +59,39 @@ def get_model(name: str, device=torch.device('cuda')):
                 .to(device)
 
             return model
+
+        case 'audiosep_lora':
+            base_model = get_model('audiosep')
+            model = AudioSepLora.load_from_checkpoint(
+                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,devices=1/epoch=19.ckpt',
+                strict=False,
+                pretrained_audiosep_model=base_model,
+                loss_function=None,
+                waveform_mixer=None,
+                lr_lambda_func=None
+            ) \
+                .eval() \
+                .to(device)
+
+            # model = AudioSepLora.load_from_checkpoint(
+            #     checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,devices=1/epoch=25.ckpt',
+            #     strict=False,
+            #     pretrained_audiosep_model = base_model,
+            #     target_modules = [],
+            #     waveform_mixer=None,
+            #     loss_function=None,
+            #     optimizer_type=None,
+            #     learning_rate=None,
+            #     lr_lambda_func=None,
+            # ) \
+            #     .eval() \
+            #     .to(device)
+
+            return model
     raise Exception('unknown model')
 
-def eval(model_name: str, datasets_to_test: list[str]):
+
+def benchmark(model_name: str, datasets_to_test: list[str]):
     log_dir = 'eval_logs'
     os.makedirs(log_dir, exist_ok=True)
 
@@ -178,13 +186,5 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    eval(args.model_name, args.datasets_to_test)
+    benchmark(args.model_name, args.datasets_to_test)
 
-   
-
-
-
-
-
-
-#%%

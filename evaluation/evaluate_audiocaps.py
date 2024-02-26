@@ -15,12 +15,12 @@ from models.clap_encoder import CLAP_Encoder
 
 sys.path.append('../AudioSep/')
 from utils import (
-    load_ss_model,
     calculate_sdr,
     calculate_sisdr,
     parse_yaml,
     get_mean_sdr_from_dict,
 )
+from model_loaders import load_ss_model
 
 
 class AudioCapsEvaluator:
