@@ -436,18 +436,23 @@ def get_data_module(
 
     # audio-text datasets
     datafiles = configs['data']['datafiles']
-
+    val_datafiles = configs['data']['val_datafiles']
     # dataset
-    dataset = AudioTextDataset(
+    train_dataset = AudioTextDataset(
         datafiles=datafiles,
         sampling_rate=sampling_rate,
         max_clip_len=segment_seconds,
     )
 
-
+    val_dataset = AudioTextDataset(
+        datafiles=val_datafiles,
+        sampling_rate=sampling_rate,
+        max_clip_len=segment_seconds,
+    )
     # data module
     data_module = DataModule(
-        train_dataset=dataset,
+        train_dataset=train_dataset,
+        val_dataset=val_dataset,
         num_workers=num_workers,
         batch_size=batch_size
     )

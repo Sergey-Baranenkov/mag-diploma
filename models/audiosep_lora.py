@@ -10,6 +10,7 @@ from peft import LoraConfig, get_peft_model
 from torch.optim.lr_scheduler import LambdaLR
 from transformers import logging
 from models.audiosep import AudioSep
+from utils import calculate_sdr, calculate_sisdr
 
 logging.set_verbosity_error()
 
@@ -87,7 +88,6 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
         return {'optimizer': optimizer, 'lr_scheduler': {'scheduler': scheduler, 'interval': 'step', 'frequency': 1}}
 
     def on_train_epoch_start(self) -> None:
-        super().on_validation_epoch_start()
         self.epoch_losses = []
         return
 
@@ -103,39 +103,42 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
 
     def print_parameters(self):
         self.model.print_trainable_parameters()
-    # def validation_step(self, batch, batch_idx):
-    #     text, waveform = batch['audio_text']['text'], batch['audio_text']['waveform']
-    #     mixtures, references = self.waveform_mixer(waveform)
-    #     conditions = self.query_encoder.get_query_embed('hybrid', text, references.squeeze(1), self.use_text_ratio)
-    #     input_dict = {'mixture': mixtures[:, None, :], 'condition': conditions}
-    #     estimated_segments = self.ss_model(input_dict)['waveform'].squeeze()
-    #
-    #     # Calculate metrics for each example in the batch
-    #     sdr_values = []
-    #     sisdr_values = []
-    #     for ref, est in zip(references.squeeze(1), estimated_segments):
-    #         sdr = calculate_sdr(ref.cpu().numpy(), est.cpu().numpy())
-    #         sisdr = calculate_sisdr(ref.cpu().numpy(), est.cpu().numpy())
-    #         sdr_values.append(sdr)
-    #         sisdr_values.append(sisdr)
-    #
-    #     # Average metrics across the batch
-    #     avg_sdr = torch.tensor(sdr_values).mean()
-    #     avg_sisdr = torch.tensor(sisdr_values).mean()
-    #
-    #     # Log individual metrics
-    #     self.log('val_sdr', avg_sdr, on_step=False, on_epoch=True, prog_bar=True, logger=True)
-    #     self.log('val_sisdr', avg_sisdr, on_step=False, on_epoch=True, prog_bar=True, logger=True)
-    #
-    #     # Return the metrics for use in validation_epoch_end
-    #     return {'val_sdr': avg_sdr, 'val_sisdr': avg_sisdr}
-    #
-    # def validation_epoch_end(self, validation_step_outputs):
-    #     # Aggregate metrics from all validation steps
-    #     avg_sdr = torch.stack([x['val_sdr'] for x in validation_step_outputs]).mean()
-    #     avg_sisdr = torch.stack([x['val_sisdr'] for x in validation_step_outputs]).mean()
-    #
-    #     # Log aggregated metrics
-    #     self.log('avg_val_sdr', avg_sdr, prog_bar=True)
-    #     self.log('avg_val_sisdr', avg_sisdr, prog_bar=True)
+
+    def validation_step(self, batch, batch_idx):
+        print(1)
+        # text, waveform = batch['audio_text']['text'], batch['audio_text']['waveform']
+        # mixtures, references = self.waveform_mixer(waveform)
+        # conditions = self.query_encoder.get_query_embed('hybrid', text, references.squeeze(1), self.use_text_ratio)
+        # input_dict = {'mixture': mixtures[:, None, :], 'condition': conditions}
+        # estimated_segments = self.ss_model(input_dict)['waveform'].squeeze()
+        #
+        # # Calculate metrics for each example in the batch
+        # sdr_values = []
+        # sisdr_values = []
+        # for ref, est in zip(references.squeeze(1), estimated_segments):
+        #     sdr = calculate_sdr(ref.cpu().numpy(), est.cpu().numpy())
+        #     sisdr = calculate_sisdr(ref.cpu().numpy(), est.cpu().numpy())
+        #     sdr_values.append(sdr)
+        #     sisdr_values.append(sisdr)
+        #
+        # # Average metrics across the batch
+        # avg_sdr = torch.tensor(sdr_values).mean()
+        # avg_sisdr = torch.tensor(sisdr_values).mean()
+        #
+        # # Log individual metrics
+        # self.log('val_sdr', avg_sdr, on_step=False, on_epoch=True, prog_bar=True, logger=True)
+        # self.log('val_sisdr', avg_sisdr, on_step=False, on_epoch=True, prog_bar=True, logger=True)
+        #
+        # # Return the metrics for use in validation_epoch_end
+        return {'val_sdr': 1, 'val_sisdr': 2}
+
+    def on_validation_epoch_end(self, validation_step_outputs):
+        print(2)
+        # Aggregate metrics from all validation steps
+        # avg_sdr = torch.stack([x['val_sdr'] for x in validation_step_outputs]).mean()
+        # avg_sisdr = torch.stack([x['val_sisdr'] for x in validation_step_outputs]).mean()
+        #
+        # # Log aggregated metrics
+        # self.log('avg_val_sdr', avg_sdr, prog_bar=True)
+        # self.log('avg_val_sisdr', avg_sisdr, prog_bar=True)
     # %%

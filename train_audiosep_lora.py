@@ -122,10 +122,10 @@ def train(args) -> NoReturn:
         precision="32-true",
         logger=wandb_logger,
         callbacks=callbacks,
-        fast_dev_run=False,
+        fast_dev_run=True,
         max_epochs=-1,
         log_every_n_steps=38,
-        use_distributed_sampler=True,
+        use_distributed_sampler=False,
         sync_batchnorm=sync_batchnorm,
         num_sanity_val_steps=2,
         enable_checkpointing=True,
@@ -136,8 +136,6 @@ def train(args) -> NoReturn:
     # Fit, evaluate, and save checkpoints.
     trainer.fit(
         model=pl_model,
-        train_dataloaders=None,
-        val_dataloaders=None,
         datamodule=data_module,
         ckpt_path=resume_checkpoint_path if resume_checkpoint_path else None,
     )

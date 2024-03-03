@@ -4,7 +4,8 @@ task_name: AudioSepLora
 data:
     datafiles:
         - 'datafiles/musdb18.json'
-
+    val_datafiles:
+        - 'datafiles/musdb18.json'
     sampling_rate: 32000
     segment_seconds: 5
     loudness_norm:
