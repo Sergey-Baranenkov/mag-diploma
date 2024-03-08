@@ -16,7 +16,7 @@ from models.clap_encoder import CLAP_Encoder
 
 from utils import (
     parse_yaml,
-    get_mean_sdr_from_dict, get_conv_layers, )
+    get_mean_sdr_from_dict, get_layers, )
 from model_loaders import load_ss_model
 
 
@@ -63,7 +63,7 @@ def get_model(name: str, device=torch.device('cuda')):
         case 'audiosep_lora':
             base_model = get_model('audiosep')
             model = AudioSepLora.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,devices=1/epoch=19.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,timestamp=1709915992.4774446/epoch=19.ckpt',
                 strict=False,
                 pretrained_audiosep_model=base_model,
                 loss_function=None,

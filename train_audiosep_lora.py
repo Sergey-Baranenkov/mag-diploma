@@ -14,7 +14,7 @@ from models.audiosep_lora import AudioSepLora
 from models.clap_encoder import CLAP_Encoder
 from models.resunet import *
 from optimizers.lr_schedulers import get_lr_lambda
-from utils import parse_yaml, get_data_module, get_dirs, get_conv_layers
+from utils import parse_yaml, get_data_module, get_dirs, get_layers
 
 torch.set_float32_matmul_precision('high')
 
@@ -67,10 +67,15 @@ def train(args) -> NoReturn:
         batch_size=batch_size,
         num_workers=num_workers,
     )
+
+    total_steps = 40 * 1000 # fixme
     lr_lambda_func = get_lr_lambda(
         lr_lambda_type=lr_lambda_type,
         warm_up_steps=warm_up_steps,
         reduce_lr_steps=reduce_lr_steps,
+        total_steps=total_steps,
+        min_lr=1e-6,
+        max_lr=1e-4
     )
 
     segment_mixer = SegmentMixer(
@@ -92,7 +97,7 @@ def train(args) -> NoReturn:
         query_encoder=query_encoder
     )
 
-    target_modules = get_conv_layers(model)
+    target_modules = get_layers(model.ss_model, (nn.Conv2d, nn.Linear))
     # pytorch-lightning model
     pl_model = AudioSepLora(
         pretrained_audiosep_model=model,
@@ -100,7 +105,7 @@ def train(args) -> NoReturn:
         waveform_mixer=segment_mixer,
         loss_function=loss_function,
         learning_rate=learning_rate,
-        lr_lambda_func=lambda epoch: 1.0,
+        lr_lambda_func=lr_lambda_func,
         optimizer_type='AdamW'
     )
 
@@ -167,3 +172,5 @@ if __name__ == "__main__":
     args.filename = pathlib.Path(__file__).stem
 
     train(args)
+
+#%%

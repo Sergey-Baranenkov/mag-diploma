@@ -12,3 +12,4 @@ logs
 eval_logs
 checkpoints
 wandb
+research/ww-img

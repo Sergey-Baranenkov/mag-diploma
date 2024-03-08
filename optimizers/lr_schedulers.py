@@ -3,9 +3,9 @@ from typing import Callable
 
 
 def linear_warm_up(
-    step: int, 
-    warm_up_steps: int, 
-    reduce_lr_steps: int
+        step: int,
+        warm_up_steps: int,
+        reduce_lr_steps: int
 ) -> float:
     r"""Get linear warm up scheduler for LambdaLR.
 
@@ -32,9 +32,9 @@ def linear_warm_up(
 
 
 def constant_warm_up(
-    step: int, 
-    warm_up_steps: int, 
-    reduce_lr_steps: int
+        step: int,
+        warm_up_steps: int,
+        reduce_lr_steps: int
 ) -> float:
     r"""Get constant warm up scheduler for LambdaLR.
 
@@ -51,7 +51,7 @@ def constant_warm_up(
     Returns:
         lr_scale (float): learning rate scaler
     """
-    
+
     if 0 <= step < warm_up_steps:
         lr_scale = 0.001
 
@@ -68,8 +68,8 @@ def constant_warm_up(
 
 
 def get_lr_lambda(
-    lr_lambda_type: str, 
-    **kwargs
+        lr_lambda_type: str,
+        **kwargs
 ) -> Callable:
     r"""Get learning scheduler.
 
@@ -82,16 +82,16 @@ def get_lr_lambda(
     if lr_lambda_type == "constant_warm_up":
 
         lr_lambda_func = partial(
-            constant_warm_up, 
-            warm_up_steps=kwargs["warm_up_steps"], 
+            constant_warm_up,
+            warm_up_steps=kwargs["warm_up_steps"],
             reduce_lr_steps=kwargs["reduce_lr_steps"],
         )
 
     elif lr_lambda_type == "linear_warm_up":
 
         lr_lambda_func = partial(
-            linear_warm_up, 
-            warm_up_steps=kwargs["warm_up_steps"], 
+            linear_warm_up,
+            warm_up_steps=kwargs["warm_up_steps"],
             reduce_lr_steps=kwargs["reduce_lr_steps"],
         )
 

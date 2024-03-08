@@ -3,6 +3,7 @@ import datetime
 import json
 import logging
 import pathlib
+import time
 
 import librosa
 import pickle
@@ -326,16 +327,13 @@ def loudness(data, input_loudness, target_loudness):
 
     return output
 
-def get_conv_layers(model):
-    conv_layers = []
-    # Используем named_modules для получения наименований всех сверточных слоев
+def get_layers(model, filters):
+    layers = []
     for name, module in model.named_modules():
-        # Проверяем, является ли модуль сверточным слоем
-        if isinstance(module, nn.Conv2d):  # Можно добавить другие типы сверточных слоев, если нужно
-            conv_layers.append(name)
+        if isinstance(module, filters):
+            layers.append(name)
 
-    return conv_layers
-
+    return layers
 
 def get_dirs(
     workspace: str,
@@ -361,13 +359,13 @@ def get_dirs(
     os.makedirs(workspace, exist_ok=True)
 
     yaml_name = pathlib.Path(config_yaml).stem
-
+    timestamp = time.time()
     # Directory to save checkpoints
     checkpoints_dir = os.path.join(
         workspace,
         "checkpoints",
         filename,
-        "{},devices={}".format(yaml_name, devices_num),
+        "{},timestamp={}".format(yaml_name, timestamp),
     )
     os.makedirs(checkpoints_dir, exist_ok=True)
 
@@ -376,7 +374,7 @@ def get_dirs(
         workspace,
         "logs",
         filename,
-        "{},devices={}".format(yaml_name, devices_num),
+        "{},timestamp={}".format(yaml_name, timestamp),
     )
     os.makedirs(logs_dir, exist_ok=True)
 
@@ -387,7 +385,7 @@ def get_dirs(
         workspace,
         "tf_logs",
         filename,
-        "{},devices={}".format(yaml_name, devices_num),
+        "{},timestamp={}".format(yaml_name, timestamp),
     )
 
     # Directory to save statistics
@@ -395,7 +393,7 @@ def get_dirs(
         workspace,
         "statistics",
         filename,
-        "{},devices={}".format(yaml_name, devices_num),
+        "{},timestamp={}".format(yaml_name, timestamp),
         "statistics.pkl",
     )
     os.makedirs(os.path.dirname(statistics_path), exist_ok=True)
