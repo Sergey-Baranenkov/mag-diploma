@@ -11,11 +11,11 @@ class QueryEncoder(ABC):
             text=None,
             use_text_ratio: float = 1,
             device=None
-    ):  # todo typing
+    ):
         pass
 
 
-class SSModel(ABC):  # todo typing
+class SSModel(ABC):
     @abstractmethod
     def __call__(self, dict):
         pass

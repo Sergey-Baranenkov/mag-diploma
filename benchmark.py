@@ -46,7 +46,7 @@ def get_model(name: str, device=torch.device('cuda')):
             base_model = get_model('audiosep')
 
             model = AudioSepTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/epoch=29.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/epoch=19.ckpt',
                 strict=False,
                 ss_model=base_model.ss_model,
                 query_encoder=base_model.query_encoder,
@@ -79,7 +79,8 @@ def get_model(name: str, device=torch.device('cuda')):
         case 'audiosep_lora_and_embeddings':
             base_model = get_model('audiosep')
             model = AudioSepLoraAndTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_lora_and_tuned_embeddings/audiosep_lora_musdb18,timestamp=1710433509.9260345/epoch=49.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_lora_and_tuned_embeddings/'
+                                'audiosep_lora_and_tuned_embeddings_musdb18,timestamp=1710451587.1702235/epoch=19.ckpt',
                 strict=False,
                 pretrained_audiosep_model=base_model,
                 loss_function=None,

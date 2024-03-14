@@ -5,14 +5,39 @@ import lightning.pytorch as pl
 import numpy as np
 import torch
 import torch.optim as optim
+import typing
 from huggingface_hub import PyTorchModelHubMixin
 from peft import LoraConfig, get_peft_model
 from torch import nn
 from torch.optim.lr_scheduler import LambdaLR
 from transformers import logging
 from models.audiosep import AudioSep
+from models.interfaces import QueryEncoder
 
 logging.set_verbosity_error()
+
+
+class TunedQueryEncoder(pl.LightningModule, QueryEncoder):
+    def __init__(self, query_encoder: QueryEncoder, device=None):
+        super().__init__()
+        self.query_encoder = query_encoder
+        self.tuned_embedding_layer = nn.Sequential(
+            nn.Linear(512, 32),
+            nn.ReLU(),
+            nn.Linear(32, 512)
+        ).to(device)
+
+    def get_query_embed(
+            self,
+            modality: typing.Literal['text', 'audio', 'hybrid'],
+            audio=None,
+            text=None,
+            use_text_ratio: float = 1,
+            device=None
+    ):
+        conditions = self.query_encoder.get_query_embed(modality, audio, text, use_text_ratio, device)
+        conditions = self.tuned_embedding_layer(conditions)
+        return conditions
 
 
 class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
@@ -40,12 +65,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         )
 
         model = get_peft_model(pretrained_audiosep_model, config)
-
-        self.embedding_layer = nn.Sequential(
-            nn.Linear(512, 512),
-            nn.ReLU(),
-            nn.Linear(512, 512)
-        )
+        model.query_encoder = TunedQueryEncoder(model.query_encoder)
         self.model = model
         self.waveform_mixer = waveform_mixer
         self.loss_function = loss_function
@@ -59,7 +79,6 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             text=text,
             device=device
         )
-        conditions = self.embedding_layer(conditions)
 
         input_dict = {
             "mixture": torch.Tensor(mixture)[None, None, :].to(device),
@@ -82,8 +101,6 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             use_text_ratio=1.0
         )
 
-        conditions = self.embedding_layer(conditions)
-
         input_dict = {'mixture': mixtures[:, None, :].squeeze(1), 'condition': conditions}
         sep_segment = self.model.ss_model(input_dict)['waveform'].squeeze()
         # (batch_size, 1, segment_samples)
@@ -102,7 +119,8 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
 
     def configure_optimizers(self):
         if self.hparams.optimizer_type == 'AdamW':
-            optimizer = optim.AdamW({*self.model.parameters(), *self.embedding_layer.parameters()}, lr=self.hparams.learning_rate)
+            optimizer = optim.AdamW(self.model.parameters(),
+                                    lr=self.hparams.learning_rate)
         else:
             raise NotImplementedError("Only AdamW optimizer is implemented")
 
@@ -123,8 +141,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         lora_params = {k: v for k, v in self.state_dict().items() if 'lora' in k.lower()}
 
         # Добавляем параметры слоя self.embedding_layer
-        embedding_params = {f'embedding_layer.{k}': v for k, v in self.embedding_layer.state_dict().items()}
-
+        embedding_params = {k: v for k, v in self.state_dict().items() if 'tuned_embedding_layer' in k.lower()}
         # Объединяем параметры LoRa и embedding_layer в один словарь
         checkpoint_params = {**lora_params, **embedding_params}
 

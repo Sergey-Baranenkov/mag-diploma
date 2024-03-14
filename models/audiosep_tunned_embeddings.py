@@ -5,11 +5,36 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import typing
 from huggingface_hub import PyTorchModelHubMixin
 from torch.optim.lr_scheduler import LambdaLR
 from transformers import logging
 from models.interfaces import QueryEncoder, SSModel
+
 logging.set_verbosity_error()
+
+
+class TunedQueryEncoder(pl.LightningModule, QueryEncoder):
+    def __init__(self, query_encoder: QueryEncoder, device=None):
+        super().__init__()
+        self.query_encoder = query_encoder
+        self.tuned_embedding_layer = nn.Sequential(
+            nn.Linear(512, 32),
+            nn.ReLU(),
+            nn.Linear(32, 512)
+        ).to(device)
+
+    def get_query_embed(
+            self,
+            modality: typing.Literal['text', 'audio', 'hybrid'],
+            audio=None,
+            text=None,
+            use_text_ratio: float = 1,
+            device=None
+    ):
+        conditions = self.query_encoder.get_query_embed(modality, audio, text, use_text_ratio, device)
+        conditions = self.tuned_embedding_layer(conditions)
+        return conditions
 
 
 class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
@@ -20,23 +45,18 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             loss_function=None,
             query_encoder: QueryEncoder = None,
             learning_rate: float = None,
-            lr_lambda_func = None,
-            optimizer_type = 'AdamW'
+            lr_lambda_func=None,
+            optimizer_type='AdamW'
     ):  # Существующие параметры
         super().__init__()
         self.learning_rate = learning_rate
         self.lr_lambda_func = lr_lambda_func
         self.ss_model = ss_model
-        self.query_encoder = query_encoder
+        self.query_encoder = TunedQueryEncoder(query_encoder)
         self.waveform_mixer = waveform_mixer
         self.loss_function = loss_function
 
         self.optimizer_type = optimizer_type
-        self.embedding_layer = nn.Sequential(
-            nn.Linear(512, 512),
-            nn.ReLU(),
-            nn.Linear(512, 512)
-        )
 
     def forward(self, prompt: str, mixture, device: torch.device = None):
         text = [prompt]
@@ -45,7 +65,6 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             text=text,
             device=device
         )
-        conditions = self.embedding_layer(conditions)
 
         input_dict = {
             "mixture": torch.Tensor(mixture)[None, None, :].to(device),
@@ -72,7 +91,6 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             modality='text',
             text=batch_text,
         )
-        conditions = self.embedding_layer(conditions)
 
         input_dict = {
             'mixture': mixtures[:, None, :].squeeze(1),
@@ -86,7 +104,6 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         self.ss_model.eval()
         sep_segment = self.ss_model(input_dict)['waveform']
         sep_segment = sep_segment.squeeze()
-
 
         output_dict = {
             'segment': sep_segment,
@@ -117,7 +134,7 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
 
         if self.optimizer_type == "AdamW":
             optimizer = optim.AdamW(
-                params=self.embedding_layer.parameters(),
+                params=self.query_encoder.tuned_embedding_layer.parameters(),
                 lr=self.learning_rate,
                 betas=(0.9, 0.999),
                 eps=1e-08,
