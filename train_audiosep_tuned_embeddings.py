@@ -4,6 +4,8 @@ import os
 import pathlib
 
 import torch
+from lightning.pytorch.callbacks import ModelCheckpoint
+from pytorch_lightning.loggers import WandbLogger
 from torch.utils.tensorboard import SummaryWriter
 
 from callbacks.base import CheckpointEveryNSteps
@@ -174,7 +176,7 @@ def train(args) -> NoReturn:
     lr_lambda_type = configs['train']["optimizer"]['lr_lambda_type']
     warm_up_steps = configs['train']["optimizer"]['warm_up_steps']
     reduce_lr_steps = configs['train']["optimizer"]['reduce_lr_steps']
-    save_step_frequency = configs['train']['save_step_frequency']
+    save_epoch_frequency = configs['train']['save_epoch_frequency']
     resume_checkpoint_path = args.resume_checkpoint_path
     if resume_checkpoint_path == "":
         resume_checkpoint_path = None
@@ -245,21 +247,21 @@ def train(args) -> NoReturn:
         lr_lambda_func = lr_lambda_func
     )
 
-    checkpoint_every_n_steps = CheckpointEveryNSteps(
-        checkpoints_dir=checkpoints_dir,
-        save_step_frequency=save_step_frequency,
+    checkpoint_every_n_epochs = ModelCheckpoint(
+        dirpath=checkpoints_dir,
+        filename='{epoch}',
+        every_n_epochs=save_epoch_frequency,
+        save_top_k=-1
     )
 
-    summary_writer = SummaryWriter(log_dir=tf_logs_dir)
-
-    callbacks = [checkpoint_every_n_steps]
-
+    callbacks = [checkpoint_every_n_epochs]
+    wandb_logger = WandbLogger(name='embeddings', project='diploma')
     trainer = pl.Trainer(
         accelerator='auto',
         devices='auto',
         num_nodes=num_nodes,
         precision="32-true",
-        logger=None,
+        logger=wandb_logger,
         callbacks=callbacks,
         fast_dev_run=False,
         max_epochs=-1,
@@ -267,7 +269,7 @@ def train(args) -> NoReturn:
         use_distributed_sampler=True,
         sync_batchnorm=sync_batchnorm,
         num_sanity_val_steps=2,
-        enable_checkpointing=False,
+        enable_checkpointing=True,
         enable_progress_bar=True,
         enable_model_summary=True,
     )

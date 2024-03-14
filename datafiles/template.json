@@ -2,7 +2,7 @@
     "data": [
      {
       "wav": "path_to_audio_file",
-      "caption": "textual_desciptions"
+      "caption": "textual_descriptions"
      }
     ]
 }

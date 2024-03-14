@@ -1,0 +1,32 @@
+---
+task_name: AudioSepLoraTunedEmbeddings
+
+data:
+    datafiles:
+        - 'datafiles/musdb18.json'
+
+    sampling_rate: 32000
+    segment_seconds: 5
+    loudness_norm:
+        lower_db: -10
+        higher_db: 10
+    max_mix_num: 4
+
+train:
+    optimizer:
+        optimizer_type: AdamW
+        learning_rate: 1e-3
+        warm_up_steps: 76
+        reduce_lr_steps: 380
+        lr_lambda_type: linear_warm_up
+    num_nodes: 1
+    num_workers: 6
+    loss_type: l1_wav
+    sync_batchnorm: True
+    batch_size_per_device: 8
+    steps_per_epoch: 1000
+    evaluate_step_frequency: 500
+    save_epoch_frequency: 10
+    early_stop_steps: 1000001
+    random_seed: 1234
+

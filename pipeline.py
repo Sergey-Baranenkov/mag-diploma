@@ -21,7 +21,15 @@ def build_audiosep(config_yaml, checkpoint_path, device):
     return model
 
 
-def separate_audio(model, audio_file, text, output_file, device='cuda', use_chunk=False):
+def separate_audio(
+        model,
+        audio_file,
+        text,
+        output_file,
+        device='cuda',
+        use_chunk=False,
+        additional_embedding_layer = None
+):
     print(f'Separating audio from [{audio_file}] with textual query: [{text}]')
     mixture, fs = librosa.load(audio_file, sr=32000, mono=True)
     with torch.no_grad():
@@ -32,6 +40,9 @@ def separate_audio(model, audio_file, text, output_file, device='cuda', use_chun
             text=text,
             device=device
         )
+
+        if additional_embedding_layer:
+            conditions = additional_embedding_layer(conditions)
 
         input_dict = {
             "mixture": torch.Tensor(mixture)[None, None, :].to(device),

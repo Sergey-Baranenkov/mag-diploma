@@ -52,7 +52,6 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             "condition": conditions,
         }
 
-        # todo chunk inference ?
         sep_segment = self.ss_model(input_dict)["waveform"]
 
         sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()

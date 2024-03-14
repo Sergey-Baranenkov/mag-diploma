@@ -68,12 +68,10 @@ def train(args) -> NoReturn:
         num_workers=num_workers,
     )
 
-    total_steps = 40 * 1000 # fixme
     lr_lambda_func = get_lr_lambda(
         lr_lambda_type=lr_lambda_type,
         warm_up_steps=warm_up_steps,
         reduce_lr_steps=reduce_lr_steps,
-        total_steps=total_steps,
         min_lr=1e-6,
         max_lr=1e-4
     )

@@ -10,6 +10,7 @@ from evaluation.evaluate_music import MUSICEvaluator
 from evaluation.evaluate_esc50 import ESC50Evaluator
 from evaluation.evaluate_clotho import ClothoEvaluator
 from evaluation.evaluate_musdb18 import MUSDB18Evaluator
+from models.audiosep_lora_and_tuned_embeddings import AudioSepLoraAndTunedEmbeddings
 from models.audiosep_tunned_embeddings import AudioSepTunedEmbeddings
 from models.audiosep_lora import AudioSepLora
 from models.clap_encoder import CLAP_Encoder
@@ -45,7 +46,7 @@ def get_model(name: str, device=torch.device('cuda')):
             base_model = get_model('audiosep')
 
             model = AudioSepTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/step=1482.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/epoch=29.ckpt',
                 strict=False,
                 ss_model=base_model.ss_model,
                 query_encoder=base_model.query_encoder,
@@ -63,7 +64,7 @@ def get_model(name: str, device=torch.device('cuda')):
         case 'audiosep_lora':
             base_model = get_model('audiosep')
             model = AudioSepLora.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,timestamp=1709915992.4774446/epoch=19.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,timestamp=1710365653.9683235/epoch=19.ckpt',
                 strict=False,
                 pretrained_audiosep_model=base_model,
                 loss_function=None,
@@ -73,21 +74,22 @@ def get_model(name: str, device=torch.device('cuda')):
                 .eval() \
                 .to(device)
 
-            # model = AudioSepLora.load_from_checkpoint(
-            #     checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,devices=1/epoch=25.ckpt',
-            #     strict=False,
-            #     pretrained_audiosep_model = base_model,
-            #     target_modules = [],
-            #     waveform_mixer=None,
-            #     loss_function=None,
-            #     optimizer_type=None,
-            #     learning_rate=None,
-            #     lr_lambda_func=None,
-            # ) \
-            #     .eval() \
-            #     .to(device)
+            return model.model.merge_and_unload()
 
-            return model
+        case 'audiosep_lora_and_embeddings':
+            base_model = get_model('audiosep')
+            model = AudioSepLoraAndTunedEmbeddings.load_from_checkpoint(
+                checkpoint_path='checkpoints/train_audiosep_lora_and_tuned_embeddings/audiosep_lora_musdb18,timestamp=1710433509.9260345/epoch=49.ckpt',
+                strict=False,
+                pretrained_audiosep_model=base_model,
+                loss_function=None,
+                waveform_mixer=None,
+                lr_lambda_func=None
+            ) \
+                .eval() \
+                .to(device)
+
+            return model.model.merge_and_unload()
     raise Exception('unknown model')
 
 
@@ -125,24 +127,28 @@ def benchmark(model_name: str, datasets_to_test: list[str]):
         # evaluation on VGGSound+ (YAN)
         SISDR, SDRi = vggsound_evaluator(pl_model)
         msg_vgg = "VGGSound Avg SDRi: {:.3f}, SISDR: {:.3f}".format(SDRi, SISDR)
+        msgs.append(msg_vgg)
         print(msg_vgg)
 
     if 'musdb18' in datasets_to_test:
         # evaluation on MUSIC
         SISDR, SDRi = musdb18_evaluator(pl_model)
         msg_musdb = "Musdb18 Avg SDRi: {:.3f}, SISDR: {:.3f}".format(SDRi, SISDR)
+        msgs.append(msg_musdb)
         print(msg_musdb)
 
     if 'music' in datasets_to_test:
         # evaluation on MUSIC
         SISDR, SDRi = music_evaluator(pl_model)
         msg_music = "MUSIC Avg SDRi: {:.3f}, SISDR: {:.3f}".format(SDRi, SISDR)
+        msgs.append(msg_music)
         print(msg_music)
 
     if 'esc50' in datasets_to_test:
         # evaluation on ESC-50
         SISDR, SDRi = esc50_evaluator(pl_model)
         msg_esc50 = "ESC-50 Avg SDRi: {:.3f}, SISDR: {:.3f}".format(SDRi, SISDR)
+        msgs.append(msg_esc50)
         print(msg_esc50)
 
     if 'audioset' in datasets_to_test:
@@ -158,12 +164,14 @@ def benchmark(model_name: str, datasets_to_test: list[str]):
         SDRi = get_mean_sdr_from_dict(median_sdris)
         SISDR = get_mean_sdr_from_dict(median_sisdrs)
         msg_audioset = "AudioSet Avg SDRi: {:.3f}, SISDR: {:.3f}".format(SDRi, SISDR)
+        msgs.append(msg_audioset)
         print(msg_audioset)
 
     if 'audiocaps' in datasets_to_test:
         # evaluation on AudioCaps
         SISDR, SDRi = audiocaps_evaluator(pl_model)
         msg_audiocaps = "AudioCaps Avg SDRi: {:.3f}, SISDR: {:.3f}".format(SDRi, SISDR)
+        msgs.append(msg_audiocaps)
         print(msg_audiocaps)
 
     # open file in write mode

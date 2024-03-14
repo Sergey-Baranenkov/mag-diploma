@@ -9,7 +9,7 @@ from tqdm import tqdm
 from utils import calculate_sdr, calculate_sisdr
 
 class MUSDB18Evaluator:
-    def __init__(self, sampling_rate=32000, audio_dir='evaluation/data/musdb18/train', metadata_path='evaluation/metadata/musdb18_train_eval.csv'):
+    def __init__(self, sampling_rate=32000, audio_dir='evaluation/data/musdb18/test', metadata_path='evaluation/metadata/musdb18_eval.csv'):
         self.sampling_rate = sampling_rate
         self.audio_dir = audio_dir
 
