@@ -77,6 +77,35 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         sep_segment = sep_segment.squeeze(0).squeeze(0).data.cpu().numpy()
         return sep_segment
 
+    def batch_forward(self, batch, batch_idx):
+        random.seed(batch_idx)
+
+        batch_audio_text_dict = batch['audio_text']
+        batch_text = batch_audio_text_dict['text']
+        batch_audio = batch_audio_text_dict['waveform']
+
+        mixtures, segments = self.waveform_mixer(
+            waveforms=batch_audio
+        )
+
+        conditions = self.query_encoder.get_query_embed(
+            modality='text',
+            text=batch_text,
+        )
+
+        input_dict = {
+            'mixture': mixtures[:, None, :].squeeze(1),
+            'condition': conditions,
+        }
+
+        target_dict = {
+            'segment': segments.squeeze(1),
+        }
+
+        sep_segment = self.ss_model(input_dict)['waveform']
+
+        return sep_segment, target_dict
+
     def training_step(self, batch, batch_idx):
         sep_segment, target_dict = self.batch_forward(batch, batch_idx)
         sep_segment = sep_segment.squeeze()
@@ -92,14 +121,31 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
 
         return loss
 
-    def on_train_epoch_start(self) -> None:
-        super().on_validation_epoch_start()
-        self.epoch_losses = []
-        return
+    def validation_step(self, batch, batch_idx):
+        sep_segment, target_dict = self.batch_forward(batch, batch_idx)
+        sep_segment = sep_segment.squeeze()
+        output_dict = {
+            'segment': sep_segment,
+        }
 
-    def on_train_epoch_end(self):
-        loss = np.mean(self.epoch_losses)
-        print('mean epoch loss:', loss)
+        # Calculate metrics for each example in the batch
+        sdr_values = []
+        sisdr_values = []
+        for ref, est in zip(target_dict['segment'], sep_segment.squeeze(1)):
+            sdr = calculate_sdr(ref.cpu().numpy(), est.cpu().numpy())
+            sisdr = calculate_sisdr(ref.cpu().numpy(), est.cpu().numpy())
+            sdr_values.append(sdr)
+            sisdr_values.append(sisdr)
+
+        # Average metrics across the batch
+        avg_sdr = torch.tensor(sdr_values).mean()
+        avg_sisdr = torch.tensor(sisdr_values).mean()
+        loss = self.loss_function(output_dict, target_dict)
+        res_dict = {"val_loss": loss, "val_sdr": avg_sdr, "val_sisdr": avg_sisdr}
+
+        self.log_dict(res_dict)
+
+        return res_dict
 
     def configure_optimizers(self):
         r"""Configure optimizer.
@@ -130,57 +176,11 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
 
         return output_dict
 
-    def validation_step(self, batch, batch_idx):
-        sep_segment, target_dict = self.batch_forward(batch, batch_idx)
-        sep_segment = sep_segment.squeeze()
-        output_dict = {
-            'segment': sep_segment,
-        }
+    def on_train_epoch_start(self) -> None:
+        super().on_validation_epoch_start()
+        self.epoch_losses = []
+        return
 
-        # Calculate metrics for each example in the batch
-        sdr_values = []
-        sisdr_values = []
-        for ref, est in zip(target_dict['segment'], sep_segment.squeeze(1)):
-            sdr = calculate_sdr(ref.cpu().numpy(), est.cpu().numpy())
-            sisdr = calculate_sisdr(ref.cpu().numpy(), est.cpu().numpy())
-            sdr_values.append(sdr)
-            sisdr_values.append(sisdr)
-
-        # Average metrics across the batch
-        avg_sdr = torch.tensor(sdr_values).mean()
-        avg_sisdr = torch.tensor(sisdr_values).mean()
-        loss = self.loss_function(output_dict, target_dict)
-        res_dict = {"val_loss": loss, "val_sdr": avg_sdr, "val_sisdr": avg_sisdr}
-
-        self.log_dict(res_dict)
-
-        return res_dict
-
-    def batch_forward(self, batch, batch_idx):
-        random.seed(batch_idx)
-
-        batch_audio_text_dict = batch['audio_text']
-        batch_text = batch_audio_text_dict['text']
-        batch_audio = batch_audio_text_dict['waveform']
-
-        mixtures, segments = self.waveform_mixer(
-            waveforms=batch_audio
-        )
-
-        conditions = self.query_encoder.get_query_embed(
-            modality='text',
-            text=batch_text,
-        )
-
-        input_dict = {
-            'mixture': mixtures[:, None, :].squeeze(1),
-            'condition': conditions,
-        }
-
-        target_dict = {
-            'segment': segments.squeeze(1),
-        }
-
-        sep_segment = self.ss_model(input_dict)['waveform']
-
-        return sep_segment, target_dict
+    def on_train_epoch_end(self):
+        loss = np.mean(self.epoch_losses)
+        print('mean epoch loss:', loss)
