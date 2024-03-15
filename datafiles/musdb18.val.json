@@ -1,0 +1,604 @@
+{
+    "data": [
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Oh No/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Oh No/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Oh No/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Side Effects Project - Sing With Me/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Side Effects Project - Sing With Me/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Side Effects Project - Sing With Me/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Carlos Gonzalez - A Place For Us/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Carlos Gonzalez - A Place For Us/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Carlos Gonzalez - A Place For Us/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Doppler Shift - Atrophy/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Doppler Shift - Atrophy/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Doppler Shift - Atrophy/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Signe Jakobsen - What Have You Done To Me/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Signe Jakobsen - What Have You Done To Me/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Signe Jakobsen - What Have You Done To Me/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Long Wait - Dark Horses/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Long Wait - Dark Horses/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Long Wait - Dark Horses/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Sunshine Garcia Band - For I Am The Moon/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Sunshine Garcia Band - For I Am The Moon/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Sunshine Garcia Band - For I Am The Moon/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Raft Monk - Tiring/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Raft Monk - Tiring/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Raft Monk - Tiring/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Punkdisco - Oral Hygiene/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Punkdisco - Oral Hygiene/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Punkdisco - Oral Hygiene/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Too Much/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Too Much/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Too Much/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Detsky Sad - Walkie Talkie/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Detsky Sad - Walkie Talkie/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Detsky Sad - Walkie Talkie/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Bulldozer/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Bulldozer/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Bulldozer/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Forkupines - Semantics/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Forkupines - Semantics/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Forkupines - Semantics/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Mountaineering Club - Mallory/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Mountaineering Club - Mallory/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Mountaineering Club - Mallory/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Girls Under Glass - We Feel Alright/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Girls Under Glass - We Feel Alright/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Girls Under Glass - We Feel Alright/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Louis Cressy Band - Good Time/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Louis Cressy Band - Good Time/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Louis Cressy Band - Good Time/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises - Falcon 69/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises - Falcon 69/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises - Falcon 69/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/AM Contra - Heart Peripheral/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/AM Contra - Heart Peripheral/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/AM Contra - Heart Peripheral/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Sambasevam Shanmugam - Kaathaadi/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Sambasevam Shanmugam - Kaathaadi/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Sambasevam Shanmugam - Kaathaadi/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Motor Tapes - Shore/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Motor Tapes - Shore/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Motor Tapes - Shore/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Timboz - Pony/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Timboz - Pony/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Timboz - Pony/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Mu - Too Bright/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Mu - Too Bright/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Mu - Too Bright/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Enda Reilly - Cur An Long Ag Seol/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Enda Reilly - Cur An Long Ag Seol/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Enda Reilly - Cur An Long Ag Seol/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/We Fell From The Sky - Not You/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/We Fell From The Sky - Not You/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/We Fell From The Sky - Not You/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Bobby Nobody - Stitch Up/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Bobby Nobody - Stitch Up/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Bobby Nobody - Stitch Up/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Cristina Vane - So Easy/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Cristina Vane - So Easy/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Cristina Vane - So Easy/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/M.E.R.C. Music - Knockout/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/M.E.R.C. Music - Knockout/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/M.E.R.C. Music - Knockout/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Tom McKenzie - Directions/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Tom McKenzie - Directions/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Tom McKenzie - Directions/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Skelpolu - Resurrection/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Skelpolu - Resurrection/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Skelpolu - Resurrection/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Al James - Schoolboy Facination/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Al James - Schoolboy Facination/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Al James - Schoolboy Facination/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Over The Top/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Over The Top/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Over The Top/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Nerve 9 - Pray For The Rain/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Nerve 9 - Pray For The Rain/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Nerve 9 - Pray For The Rain/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Hollow Ground - Ill Fate/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Hollow Ground - Ill Fate/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Hollow Ground - Ill Fate/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Like Horses/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Like Horses/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Like Horses/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Lyndsey Ollard - Catching Up/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Lyndsey Ollard - Catching Up/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Lyndsey Ollard - Catching Up/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Angels In Amplifiers - I'm Alright/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Angels In Amplifiers - I'm Alright/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Angels In Amplifiers - I'm Alright/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises (Baumi) - SDRNR/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises (Baumi) - SDRNR/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises (Baumi) - SDRNR/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Little Chicago's Finest - My Own/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Little Chicago's Finest - My Own/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Little Chicago's Finest - My Own/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Triviul feat. The Fiend - Widow/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Triviul feat. The Fiend - Widow/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Triviul feat. The Fiend - Widow/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Buitraker - Revo X/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Buitraker - Revo X/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Buitraker - Revo X/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Borderline/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Borderline/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Borderline/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Ben Carrigan - We'll Talk About It All Tonight/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Ben Carrigan - We'll Talk About It All Tonight/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Ben Carrigan - We'll Talk About It All Tonight/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/James Elder & Mark M Thompson - The English Actor/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/James Elder & Mark M Thompson - The English Actor/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/James Elder & Mark M Thompson - The English Actor/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Zeno - Signs/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Zeno - Signs/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Zeno - Signs/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Moosmusic - Big Dummy Shake/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Moosmusic - Big Dummy Shake/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Moosmusic - Big Dummy Shake/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Juliet's Rescue - Heartbeats/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Juliet's Rescue - Heartbeats/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Juliet's Rescue - Heartbeats/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Georgia Wonder - Siren/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Georgia Wonder - Siren/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Georgia Wonder - Siren/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Broken Man/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Broken Man/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Broken Man/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Arise - Run Run Run/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Arise - Run Run Run/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Arise - Run Run Run/drums.wav",
+            "caption": "drums"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Happy Daze/vocals.wav",
+            "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Happy Daze/bass.wav",
+            "caption": "bass"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Happy Daze/drums.wav",
+            "caption": "drums"
+        }
+    ]
+}

@@ -46,7 +46,7 @@ def get_model(name: str, device=torch.device('cuda')):
             base_model = get_model('audiosep')
 
             model = AudioSepTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,devices=1/epoch=19.ckpt',
+                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,timestamp=1710542731.753242/epoch=29.ckpt',
                 strict=False,
                 ss_model=base_model.ss_model,
                 query_encoder=base_model.query_encoder,

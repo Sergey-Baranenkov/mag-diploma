@@ -153,13 +153,12 @@ def train(args) -> NoReturn:
         enable_checkpointing=True,
         enable_progress_bar=True,
         enable_model_summary=True,
+        check_val_every_n_epoch=1,
     )
 
     # Fit, evaluate, and save checkpoints.
     trainer.fit(
-        model=pl_model, 
-        train_dataloaders=None,
-        val_dataloaders=None,
+        model=pl_model,
         datamodule=data_module,
         ckpt_path=resume_checkpoint_path if resume_checkpoint_path else None,
     )

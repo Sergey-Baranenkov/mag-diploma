@@ -2,8 +2,10 @@
 task_name: AudioSepLora
 
 data:
-    datafiles:
-        - 'datafiles/musdb18.json'
+    train_datafiles:
+        - 'datafiles/musdb18.train.json'
+    validation_datafiles:
+        - 'datafiles/musdb18.val.json'
 
     sampling_rate: 32000
     segment_seconds: 5

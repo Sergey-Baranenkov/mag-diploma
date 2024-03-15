@@ -432,20 +432,24 @@ def get_data_module(
     sampling_rate = configs['data']['sampling_rate']
     segment_seconds = configs['data']['segment_seconds']
 
-    # audio-text datasets
-    datafiles = configs['data']['datafiles']
+    train_datafiles = configs['data']['train_datafiles']
+    validation_datafiles = configs['data']['validation_datafiles']
 
-    # dataset
-    dataset = AudioTextDataset(
-        datafiles=datafiles,
+    train_dataset = AudioTextDataset(
+        datafiles=train_datafiles,
         sampling_rate=sampling_rate,
         max_clip_len=segment_seconds,
     )
 
+    validation_dataset = AudioTextDataset(
+        datafiles=validation_datafiles,
+        sampling_rate=sampling_rate,
+        max_clip_len=segment_seconds,
+    )
 
-    # data module
     data_module = DataModule(
-        train_dataset=dataset,
+        train_dataset=train_dataset,
+        validation_dataset=validation_dataset,
         num_workers=num_workers,
         batch_size=batch_size
     )

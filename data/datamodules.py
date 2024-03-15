@@ -9,6 +9,7 @@ class DataModule(pl.LightningDataModule):
     def __init__(
         self,
         train_dataset: object,
+        validation_dataset: object,
         batch_size: int,
         num_workers: int
     ):
@@ -30,6 +31,7 @@ class DataModule(pl.LightningDataModule):
         """
         super().__init__()
         self._train_dataset = train_dataset
+        self._validation_dataset = validation_dataset
         self.num_workers = num_workers
         self.batch_size = batch_size
         self.collate_fn = collate_fn
@@ -67,9 +69,17 @@ class DataModule(pl.LightningDataModule):
         return train_loader
 
     def val_dataloader(self):
-        # val_split = Dataset(...)
-        # return DataLoader(val_split)
-        pass
+        validation_loader = DataLoader(
+            dataset=self._validation_dataset,
+            batch_size=self.batch_size,
+            collate_fn=self.collate_fn,
+            num_workers=self.num_workers,
+            pin_memory=True,
+            persistent_workers=False,
+            shuffle=False
+        )
+
+        return validation_loader
 
     def test_dataloader(self):
         # test_split = Dataset(...)
