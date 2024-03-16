@@ -58,6 +58,7 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         self.loss_function = loss_function
 
         self.optimizer_type = optimizer_type
+        self.strict_loading = False
 
     def forward(self, prompt: str, mixture, device: torch.device = None):
         text = [prompt]
@@ -184,3 +185,9 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
     def on_train_epoch_end(self):
         loss = np.mean(self.epoch_losses)
         print('mean epoch loss:', loss)
+
+    def on_save_checkpoint(self, checkpoint: dict) -> dict:
+        embedding_params = {k: v for k, v in self.state_dict().items() if 'tuned_embedding_layer' in k.lower()}
+        checkpoint_params = {**embedding_params}
+        checkpoint['state_dict'] = checkpoint_params
+        return checkpoint

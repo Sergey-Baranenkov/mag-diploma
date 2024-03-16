@@ -58,6 +58,7 @@ def train(args) -> NoReturn:
     warm_up_steps = configs['train']["optimizer"]['warm_up_steps']
     reduce_lr_steps = configs['train']["optimizer"]['reduce_lr_steps']
     save_epoch_frequency = configs['train']['save_epoch_frequency']
+    check_val_every_n_epoch = configs['train']['check_val_every_n_epoch']
     resume_checkpoint_path = args.resume_checkpoint_path
     if resume_checkpoint_path == "":
         resume_checkpoint_path = None
@@ -153,7 +154,7 @@ def train(args) -> NoReturn:
         enable_checkpointing=True,
         enable_progress_bar=True,
         enable_model_summary=True,
-        check_val_every_n_epoch=1,
+        check_val_every_n_epoch=check_val_every_n_epoch,
     )
 
     # Fit, evaluate, and save checkpoints.

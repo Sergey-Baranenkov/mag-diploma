@@ -47,6 +47,7 @@ def train(args) -> NoReturn:
     warm_up_steps = configs['train']["optimizer"]['warm_up_steps']
     reduce_lr_steps = configs['train']["optimizer"]['reduce_lr_steps']
     save_epoch_frequency = configs['train']['save_epoch_frequency']
+    check_val_every_n_epoch = configs['train']['check_val_every_n_epoch']
     base_model_config_path = './config/audiosep_base.yaml'
     clap_checkpoint_path = './checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt'
     audiosep_checkpoint_path = './checkpoint/audiosep_base_4M_steps.ckpt'
@@ -134,6 +135,7 @@ def train(args) -> NoReturn:
         enable_checkpointing=True,
         enable_progress_bar=True,
         enable_model_summary=True,
+        check_val_every_n_epoch=check_val_every_n_epoch,
     )
 
     # Fit, evaluate, and save checkpoints.

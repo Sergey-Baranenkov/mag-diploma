@@ -27,7 +27,7 @@ train:
     sync_batchnorm: True
     batch_size_per_device: 8
     steps_per_epoch: 1000
-    evaluate_step_frequency: 500
+    check_val_every_n_epoch: 1
     save_epoch_frequency: 10
     early_stop_steps: 1000001
     random_seed: 1234
