@@ -31,4 +31,4 @@ train:
     save_epoch_frequency: 10
     early_stop_steps: 1000001
     random_seed: 1234
-
+    log_every_n_steps: 38

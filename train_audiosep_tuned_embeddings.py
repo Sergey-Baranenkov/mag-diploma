@@ -59,6 +59,7 @@ def train(args) -> NoReturn:
     reduce_lr_steps = configs['train']["optimizer"]['reduce_lr_steps']
     save_epoch_frequency = configs['train']['save_epoch_frequency']
     check_val_every_n_epoch = configs['train']['check_val_every_n_epoch']
+    log_every_n_steps = configs['train']['log_every_n_steps']
     resume_checkpoint_path = args.resume_checkpoint_path
     if resume_checkpoint_path == "":
         resume_checkpoint_path = None
@@ -147,7 +148,7 @@ def train(args) -> NoReturn:
         callbacks=callbacks,
         fast_dev_run=False,
         max_epochs=-1,
-        log_every_n_steps=38,
+        log_every_n_steps=log_every_n_steps,
         use_distributed_sampler=True,
         sync_batchnorm=sync_batchnorm,
         num_sanity_val_steps=2,

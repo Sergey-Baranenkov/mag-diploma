@@ -1,0 +1,4040 @@
+{
+    "data": [
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_5.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/69131_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/61072_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_6.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196251_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/69131_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_5.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/420887.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/66518.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/213144_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/161303_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_7.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/50357_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/66515.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/213135.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/161303_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/262312.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_8.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_6.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/62212.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/432759.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/69131_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/181344_5.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/407538_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/57536.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/181344_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/262314.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/407348.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_8.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/407538_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/50357_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/50357_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/66517.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/61072_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/61072_5.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/77316.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/260179.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/161303_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/66512.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/213144_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/181344_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/62215.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/264507.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/55150.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/161303_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/262313.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/66513.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196251_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/69131_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/50357_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/61072_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/407538_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/73345.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/66514.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/181344_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_7.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/181344_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/69131_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/61072_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_5.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_6.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196251_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/211687.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/181344_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/61072_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/407538_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/211688.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/56380_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/60963.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/161303_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/213144_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196251_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/213136.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196251_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/196255_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Cat/26104_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn/327511.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn/154790.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn/172734.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn/106075.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn/48227.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/188364_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/126392.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/119445.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/328985_2.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/235964.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/50856_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/154844_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168874.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/50856_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/328985_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/187604.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/150984.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/94298_2.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/118102.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/188893.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/252841_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/154844_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/328985_4.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/119443.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/267080.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/390240.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168870.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/94298_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/94298_4.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/336550_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/60498.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168876.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168882.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/188900.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/393536.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/267081.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168877.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/352511.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/267078.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/155512.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/267079.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/94298_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/188902.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/252841_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/51677.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/328985_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/336550_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/367999.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/328985_3.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168875.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/137007_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/250011.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/167874.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/168880.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/137007_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/144969.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/60828.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/154844_2.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/64453.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/188364_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Electric_shaver_toothbrush/94298_3.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_9.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/412389.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29913_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/320909_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/214850_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/339675_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/267008.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29888_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/80125_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/33932.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/240785.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/209006_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88856.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/12832.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/80125_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29888_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/214850_4.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/145124_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/105385.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/105023_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/414218.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/12862.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/209006_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/80131.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29891.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/237383.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/80115.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/205016.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88858.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/145124_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/138050_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/320909_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29913_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/267486.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/412380_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/233381.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/179174.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88839_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/266949.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/389685.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/427257.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_5.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/82048.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/221791.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/214187.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/377048.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/214850_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/339675_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/138050_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/209002_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/105023_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/128275.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/80125_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/208905_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/266989.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/205040.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/208905_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322406_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/145124_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/214850_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_6.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/12826.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29913_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/263608_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_4.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88826_4.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/234588.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/339675_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29913_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/348082.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/406428.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88826_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/71802.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88826_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/376854.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29913_4.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/208919.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88826_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/263608_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/331646.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322395.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88839_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322406_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29888_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/209002_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/412380_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/394795.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/406433.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_8.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/97559.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/320909_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/71797.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/267004.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/214850_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/12828.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/219550.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/105023_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/12887.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_10.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_7.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88826_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/263608_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/16391.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/322407_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/29888_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dishes/88839_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/274499.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/351406.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/3203.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/174467.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/179675.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/121582.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/403333.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/403531.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/137258.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying/388092.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/231551.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/172732.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/182007.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/212054.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/194680.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/94743.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/205693_0.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/178255.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/349694.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/19840.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/182010.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/79236.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/205693_1.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/178256.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/48228.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/159346.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/82417.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/249575.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/141681_1.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/195835.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/172733.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/46744.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/430632.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/182012.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/141681.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/50763.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/181999.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/50764.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/152020_1.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/188365.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/82416.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/328908.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/30215.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/424677.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/144873.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/117669.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/159347.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/19872.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/241265.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/159348.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/100210.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/213567.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/182009.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/212059.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/141681_0.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/152020_3.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/152020_0.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/386774.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/152020_2.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/141682.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner/339673.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/20101_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/21986.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/20101_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/87151.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/424946_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/164036_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/424946_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/259537_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/131641_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/177875.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/81061.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_10.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/274289.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_11.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275629.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_13.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/54277_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/345805.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/88021_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/192761.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275069.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/411517_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/424946_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/88021_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_11.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_10.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/54277_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/41629.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_12.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_12.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196376.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/411517_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/370919.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/131641_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/249303_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/209536.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_14.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_13.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/330400_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/69185.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_12.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275565.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/162851_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/400695.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/330400_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_13.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/80341.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/249303_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_12.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/38229_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/418898_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/34853_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_11.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/162851_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_11.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/69385.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/164690.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/245445_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/424946_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/54277_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275072.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/258175_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/20101_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/330400_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275070.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/258175_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196368.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/54277_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/164036_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/70102.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/259537_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_10.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/212128.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/110165.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/258175_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/259537_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/258175_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255194_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/141287.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/162851_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_10.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275071.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/275566.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/164036_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/264106_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/258175_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/13613_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/162851_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/189332_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/255193_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/88021_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/245445_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/196838_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/38229_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/268823_15.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/382236_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/151242_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Alarm_bell_ringing/259537_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/33689_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_5.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/96543_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93375_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/328711_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/95786_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/328711_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/59041.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/235016.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93363_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_19.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/215682_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106436_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/275791.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/96543_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_7.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106438.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/320658.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/33687_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93368_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/91028.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/260992.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/107808_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93363_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_4.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/235149_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/108875.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/81936.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/33689_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_15.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/328711_3.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/422724.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_6.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_10.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/124810_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106454_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106441_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93379_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/328711_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/107542.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/95286.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/67744_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_7.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106436_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93375_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_21.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_20.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/109911_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/262233_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77420.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106436_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/124810_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_3.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/94393_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/63331.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/95786_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77423_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/95800.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/262233_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/124810_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93368_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_11.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/82788_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/254393.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/109859_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93368_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/99464_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/124818.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_6.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/80613.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/107808_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/235149_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/99464_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77423_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77409.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/109911_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106468_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/67744_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/108885_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/93379_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/99464_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_17.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/108885_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/33687_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106468_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/94393_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/104736.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_3.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106454_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/242663.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/96543_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/109859_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/254034.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106441_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/82788_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_14.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/71558.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77422_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/241581.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/80190.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106454_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_9.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_5.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_8.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/95786_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_12.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77422_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/89312_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106468_3.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/77415.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/234996.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_18.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/106468_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/241578.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/429038.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_13.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/215682_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/402021.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/215682_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/89312_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/87687_4.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Speech/147985_16.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/122821.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/273194.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/172737.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/106073.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/122820.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/94284.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/252654.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/135429.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/263902.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/94293.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/172736.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/106074.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/144872.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/106072.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/388017.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Vacuum_cleaner_nOn_nOff/244328.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/182393.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/208747.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/183673.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/119116.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/232245.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/384084.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/16754.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/360797.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/351277.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/208748.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/167505.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/396168.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/240540.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/188234.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/393444.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/65933.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/16121.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/65583.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/77924.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/233296.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/169075.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/185446.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/65931.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/408719.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/71149.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/330834.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/152823.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/169073.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/319017.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/413554.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/33844.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/175295.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/264451.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/424727.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/321105.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/411933.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/212624.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/408807.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/53293.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/166021.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOff/65932.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/99438_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98781_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/74955_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/54992_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98770_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98778_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/72677_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/418018_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98780_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/408305_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/52159_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/71731_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98786_0.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/75333.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/69231_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/76934_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98768_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/96730_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/72677_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98790_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/54276_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/96508_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/71044_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/367689_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/60829_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98777_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/405200_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/56269_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/96704_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/408304_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/62034_0.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/371817.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/52068_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/408302_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/68733_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/408714_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98765_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/418017_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/95936_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/413283_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/62034_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/404438_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/52158_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/50591_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/71246_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98792_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98762_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98786_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98767_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/408296_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/50630_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/59240_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/413295_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/52152_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/405200_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/54276_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/49385_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/408302_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/71587_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98772.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/74955_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/72200_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/54992_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/52644_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98778_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/96507_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/60830.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Running_water/98783_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/272234_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/31633_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/46750.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_7.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220768_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_11.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/46749.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_19.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_11.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_12.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/387710.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/31632_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/353530.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/353529.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/272191_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_12.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/272191_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_8.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/31633_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220774_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_8.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220774_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_4.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/173319.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/353528.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/245423_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_7.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_13.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_9.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/178493.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220768_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/31632_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220774_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_4.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_4.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/234883.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/393768_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_3.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/387712.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_3.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/202718_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/245424.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/202718_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_18.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/31632_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_15.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_6.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_6.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/98053.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/71791.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/245423_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/46747.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/251352.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/272234_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/202718_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_9.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/178399.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/46746.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/71783.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_14.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220768_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/272234_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_8.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_7.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/353527.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_5.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/185823.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/387709.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_16.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/31633_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/366521.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/245425_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_10.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/46748.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_10.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/272234_3.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220806_5.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_20.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220777.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/245423_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/22620.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/334515.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_5.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/393144.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/245425_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_6.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/387708.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/220779_3.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Blender/254498_17.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_8.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/372535_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/128023.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_8.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236221.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/67049_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/107190_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/276085_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/155309.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/372535_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236054.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/110389.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236123.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236263.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/46129_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236045.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/420449.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236051.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/387689.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236169.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/390804_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_9.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/254191_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/128040_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_10.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/55154.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236077.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/260776.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/128040_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236243.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/107190_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/254191_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/128040_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/390804_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/107190_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236116.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/372535_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236052.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_10.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_8.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/390804_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/386766_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_9.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/50614.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236011.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236067.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/332175_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/67049_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/235872.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/235876.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/67049_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236174.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/46129_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/365053_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/128036.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/46129_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/327138.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/107190_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/332175_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236106.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/46129_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/386766_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/115357_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_9.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/344955_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/244469_11.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/67049_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236033.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/386766_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236182.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/403327_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/236190.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/386766_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/276085_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/254191_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/166489_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/67049_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/4918_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Dog/348129_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/49147.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/169074.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/86028.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/152659.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/62109.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/339482.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/235537.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/104379.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/77483.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/366068.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/277512.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/77481.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/train/soundbank/foreground/Frying_nOn_nOff/424872.wav",
+            "caption": "frying"
+        }
+    ]
+}

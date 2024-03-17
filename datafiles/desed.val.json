@@ -1,0 +1,1260 @@
+{
+    "data": [
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water_nOn/591.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water_nOn/40545_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/265541.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/266610_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/266610_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/418160.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/64017.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/238753_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/64011.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/220018.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/54062.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_4.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/238753_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/64007.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/238753_1.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_6.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_5.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_2.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/54058.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_0.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/64014.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/213889_3.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/64009.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/220019.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/54057.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/64005.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Cat/165106.wav",
+            "caption": "cat"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner_nOn/71936.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner_nOn/378308.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/366069.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/35021_3.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/156110.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/91517.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/35021_0.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/59327.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/59326.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/239565.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/35021_4.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/35021_1.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/2503.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/91520.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/331161.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/35021_2.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/235566.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/417229.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Electric_shaver_toothbrush/91516.wav",
+            "caption": "electric shaver toothbrush"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/377500.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20081_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/429494_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20079_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/427113_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/50114.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/325254_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/325254_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/429494_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/379144_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20079_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/377982.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/365519_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/164574.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20081_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/377501_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/325254_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/272022_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/365519_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20093.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/427113_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20081_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/377501_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/272022_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/429494_3.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/379144_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/365519_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20081_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/429494_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20079_2.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20097_0.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/418508.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/20097_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dishes/325254_1.wav",
+            "caption": "dishes"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying/347708.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying/417995.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner_nOff/81573.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner_nOff/81574.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water_nOn_nOff/71216.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender_nOff/371074.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender_nOff/340833.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender_nOff/340832.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/389755.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/352270.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/271460.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/146200_1.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/352266.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/47000.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/327387.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/152533.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/152532.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/146200_0.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/352268.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/189735.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/352273.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/352272.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner/352271.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/22627_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_12.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/79440_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/22627_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_10.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_16.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_14.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_13.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_14.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_6.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/22627_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/271399_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/79440_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_19.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/271399_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/79638.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/22627_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_11.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_20.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/271399_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/271399_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_15.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_15.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_3.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_12.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_2.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/271399_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_9.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_17.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_11.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_17.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_8.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_4.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/72558_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_1.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_13.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_7.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/79440_0.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_10.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/329896_18.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/79633.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_5.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Alarm_bell_ringing/233645_16.wav",
+            "caption": "alarm bell ringing"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189419.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/361089_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92955.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/97828.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189407.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/277010_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236561_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189361.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189405.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236605.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92922.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236487_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92961_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236420.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189415.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189410.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189413.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/122204.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236531.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/277010_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236651.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189433.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189382.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236487_3.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92951.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236487_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189377.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189421.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236487_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236348.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/361089_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92965.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/277010_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189420.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/86461.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/146291.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92962.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92961_0.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236368.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/277010_3.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92967.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/189386.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92932.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236561_2.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/236561_1.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92931.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Speech/92972.wav",
+            "caption": "speech"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Vacuum_cleaner_nOn_nOff/16845.wav",
+            "caption": "vacuum cleaner"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/353124.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/140454.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/378702.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/427134.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/235511.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/234469.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/239639.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/138048.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/417913.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/433717.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/132472.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/35872.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOff/15292.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/406067_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/71218_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371920_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371913_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/41634.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/406230.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371920_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/49538_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371615_2.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/406066_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371918.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/588_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/408348_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371914_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/371615_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/589_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Running_water/99181_1.wav",
+            "caption": "running water"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/170745.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/158737_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/362765_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/340830.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/87621.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/344652.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/362765_3.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/116434_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/362765_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/56563_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/362765_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/116434_1.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/340831.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/347682.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/366511.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/366512.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/116434_3.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/232915.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/158737_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/56563_0.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/116434_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/187340.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/366510.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Blender/158737_2.wav",
+            "caption": "blender"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/432755.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_13.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/380156_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/74723_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/103076_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/380156_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_11.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_9.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/121891_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/18282.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/103076_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/380156_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/103076_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_7.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/380156_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_5.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/341090_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/84654.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/74723_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/103076_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_12.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_4.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_6.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/103076_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/74723_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/121891_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/74723_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/74723_2.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/121891_0.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/103076_3.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_14.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_1.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_10.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Dog/59513_8.wav",
+            "caption": "dog"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOn_nOff/215143.wav",
+            "caption": "frying"
+        },
+        {
+            "wav": "evaluation/data/desed/eval/soundbank/foreground/Frying_nOn_nOff/428863.wav",
+            "caption": "frying"
+        }
+    ]
+}
