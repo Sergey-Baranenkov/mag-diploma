@@ -1,0 +1,34 @@
+---
+task_name: AudioSepLora
+
+data:
+    train_datafiles:
+        - 'datafiles/desed.train.json'
+    validation_datafiles:
+        - 'datafiles/desed.val.json'
+
+    sampling_rate: 16000
+    segment_seconds: 5
+    loudness_norm:
+        lower_db: -10
+        higher_db: 10
+    max_mix_num: 4
+
+train:
+    optimizer:
+        optimizer_type: AdamW
+        learning_rate: 1e-3
+        warm_up_steps: 254
+        reduce_lr_steps: 1280
+        lr_lambda_type: linear_warm_up
+    num_nodes: 1
+    num_workers: 6
+    loss_type: l1_wav
+    sync_batchnorm: True
+    batch_size_per_device: 8
+    steps_per_epoch: 1000
+    check_val_every_n_epoch: 1
+    save_epoch_frequency: 10
+    early_stop_steps: 1000001
+    random_seed: 1234
+
