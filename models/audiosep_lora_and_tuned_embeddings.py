@@ -1,4 +1,5 @@
 import random
+from collections import defaultdict
 from typing import List
 
 import lightning.pytorch as pl
@@ -11,9 +12,9 @@ from peft import LoraConfig, get_peft_model
 from torch import nn
 from torch.optim.lr_scheduler import LambdaLR
 from transformers import logging
-from models.audiosep import AudioSep
+from models.audiosep import AudioSep, get_averaged_metrics
 from models.interfaces import QueryEncoder
-from utils import calculate_sisdr, calculate_sdr
+from utils import calculate_sisdr, calculate_sdr, flatmap
 
 logging.set_verbosity_error()
 
@@ -51,6 +52,8 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             optimizer_type,
             learning_rate,
             lr_lambda_func,
+            logs_per_class: bool,
+            lora_params: dict,
     ):
         super().__init__()
         self.save_hyperparameters(ignore=[
@@ -63,6 +66,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         self.epoch_losses = None
         config = LoraConfig(
             target_modules=target_modules,
+            *lora_params
         )
 
         model = get_peft_model(pretrained_audiosep_model, config)
@@ -72,6 +76,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         self.loss_function = loss_function
         self.lr_lambda_func = lr_lambda_func
         self.strict_loading = False
+        self.logs_per_class = logs_per_class
 
     def forward(self, prompt: str, mixture, device: torch.device = None):
         text = [prompt]
@@ -108,46 +113,95 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             'segment': segments.squeeze(1),
         }
 
-        return sep_segment, target_dict
+        return sep_segment, target_dict, input_dict['mixture']
 
     def training_step(self, batch, batch_idx):
-        sep_segment, target_dict = self.batch_forward(batch, batch_idx)
+        texts = batch['audio_text']['text']
+        batch_size = len(texts)
+        sep_segment, target_dict, mixtures = self.batch_forward(batch, batch_idx)
         sep_segment = sep_segment.squeeze()
 
         output_dict = {
             'segment': sep_segment,
         }
 
-        # Calculate loss.
+        # Calculate metrics for each example in the batch
+        sdr_values = defaultdict(list)
+        sdr_i_values = defaultdict(list)
+        sisdr_values = defaultdict(list)
+
+        for ref, est, mixture, text in zip(target_dict['segment'], sep_segment.squeeze(1), mixtures, texts):
+            ref = ref.cpu().numpy()
+            est = est.detach().cpu().numpy()
+
+            sdr_no_sep = calculate_sdr(ref=ref, est=mixture.cpu().numpy())
+            sdr = calculate_sdr(ref=ref, est=est)
+            sisdr = calculate_sisdr(ref=ref, est=est)
+
+            sdri = sdr - sdr_no_sep
+            sdr_values[text].append(sdr)
+            sdr_i_values[text].append(sdri)
+            sisdr_values[text].append(sisdr)
+
+        if self.logs_per_class:
+            for cls in sdr_values.keys():
+                res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'train', cls)
+                self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
+        else:
+            res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()), flatmap(sisdr_values.values()), 'train')
+            self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
+
         loss = self.loss_function(output_dict, target_dict)
-        self.epoch_losses.append(loss.item())
-        self.log_dict({"train_loss": loss})
+
+        res_dict = {
+            "train_loss": loss,
+        }
+
+        self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         return loss
 
     def validation_step(self, batch, batch_idx):
-        sep_segment, target_dict = self.batch_forward(batch, batch_idx)
+        texts = batch['audio_text']['text']
+        batch_size = len(texts)
+        sep_segment, target_dict, mixtures = self.batch_forward(batch, batch_idx)
         sep_segment = sep_segment.squeeze()
         output_dict = {
             'segment': sep_segment,
         }
 
         # Calculate metrics for each example in the batch
-        sdr_values = []
-        sisdr_values = []
-        for ref, est in zip(target_dict['segment'], sep_segment.squeeze(1)):
-            sdr = calculate_sdr(ref.cpu().numpy(), est.cpu().numpy())
-            sisdr = calculate_sisdr(ref.cpu().numpy(), est.cpu().numpy())
-            sdr_values.append(sdr)
-            sisdr_values.append(sisdr)
+        sdr_values = defaultdict(list)
+        sdr_i_values = defaultdict(list)
+        sisdr_values = defaultdict(list)
+        for ref, est, mixture, text in zip(target_dict['segment'], sep_segment.squeeze(1), mixtures, texts):
+            ref = ref.cpu().numpy()
+            est = est.cpu().numpy()
 
-        # Average metrics across the batch
-        avg_sdr = torch.tensor(sdr_values).mean()
-        avg_sisdr = torch.tensor(sisdr_values).mean()
+            sdr_no_sep = calculate_sdr(ref=ref, est=mixture.cpu().numpy())
+            sdr = calculate_sdr(ref=ref, est=est)
+            sisdr = calculate_sisdr(ref=ref, est=est)
+
+            sdri = sdr - sdr_no_sep
+            sdr_values[text].append(sdr)
+            sdr_i_values[text].append(sdri)
+            sisdr_values[text].append(sisdr)
+
+        if self.logs_per_class:
+            for cls in sdr_values.keys():
+                res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'val', cls)
+                self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
+        else:
+            res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()), flatmap(sisdr_values.values()), 'val')
+            self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
+
         loss = self.loss_function(output_dict, target_dict)
-        res_dict = {"val_loss": loss, "val_sdr": avg_sdr, "val_sisdr": avg_sisdr}
 
-        self.log_dict(res_dict)
+        res_dict = {
+            "train_loss": loss,
+        }
+
+        self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         return res_dict
 
@@ -170,12 +224,3 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
 
     def print_parameters(self):
         self.model.print_trainable_parameters()
-
-    def on_train_epoch_start(self) -> None:
-        super().on_validation_epoch_start()
-        self.epoch_losses = []
-        return
-
-    def on_train_epoch_end(self):
-        loss = np.mean(self.epoch_losses)
-        print('mean epoch loss:', loss)

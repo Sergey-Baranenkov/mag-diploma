@@ -17,6 +17,13 @@ from panns_inference.models import Cnn14_DecisionLevelMax, Cnn14
 from data.audiotext_dataset import AudioTextDataset
 from data.datamodules import DataModule
 
+from functools import reduce
+
+
+def flatmap(array: List[List]) -> List:
+    return reduce(list.__add__, array)
+
+
 def ignore_warnings():
     import warnings
     # Ignore UserWarning from torch.meshgrid
@@ -25,7 +32,6 @@ def ignore_warnings():
     # Refined regex pattern to capture variations in the warning message
     pattern = r"Some weights of the model checkpoint at roberta-base were not used when initializing RobertaModel: \['lm_head\..*'\].*"
     warnings.filterwarnings('ignore', message=pattern)
-
 
 
 def create_logging(log_dir, filemode):
@@ -79,7 +85,7 @@ def parse_yaml(config_yaml: str) -> Dict:
 
 def get_audioset632_id_to_lb(ontology_path: str) -> Dict:
     r"""Get AudioSet 632 classes ID to label mapping."""
-    
+
     audioset632_id_to_lb = {}
 
     with open(ontology_path) as f:
@@ -92,9 +98,9 @@ def get_audioset632_id_to_lb(ontology_path: str) -> Dict:
 
 
 def load_pretrained_panns(
-    model_type: str,
-    checkpoint_path: str,
-    freeze: bool
+        model_type: str,
+        checkpoint_path: str,
+        freeze: bool
 ) -> nn.Module:
     r"""Load pretrained pretrained audio neural networks (PANNs).
 
@@ -151,9 +157,9 @@ def ids_to_hots(ids, classes_num, device):
 
 
 def calculate_sdr(
-    ref: np.ndarray,
-    est: np.ndarray,
-    eps=1e-10
+        ref: np.ndarray,
+        est: np.ndarray,
+        eps=1e-10
 ) -> float:
     r"""Calculate SDR between reference and estimation.
 
@@ -163,7 +169,6 @@ def calculate_sdr(
     """
     reference = ref
     noise = est - reference
-
 
     numerator = np.clip(a=np.mean(reference ** 2), a_min=eps, a_max=None)
 
@@ -186,7 +191,7 @@ def calculate_sisdr(ref, est):
 
     reference = ref.copy()
     estimate = est.copy()
-    
+
     reference = reference.reshape(reference.size, 1)
     estimate = estimate.reshape(estimate.size, 1)
 
@@ -197,12 +202,12 @@ def calculate_sisdr(ref, est):
     e_true = a * reference
     e_res = estimate - e_true
 
-    Sss = (e_true**2).sum()
-    Snn = (e_res**2).sum()
+    Sss = (e_true ** 2).sum()
+    Snn = (e_res ** 2).sum()
 
-    sisdr = 10 * np.log10((eps+ Sss)/(eps + Snn))
+    sisdr = 10 * np.log10((eps + Sss) / (eps + Snn))
 
-    return sisdr 
+    return sisdr
 
 
 class StatisticsContainer(object):
@@ -269,11 +274,12 @@ def get_active_frames(frames: np.ndarray, threshold: float) -> np.ndarray:
 
 def repeat_to_length(audio: np.ndarray, segment_samples: int) -> np.ndarray:
     r"""Repeat audio to length."""
-    
+
     repeats_num = (segment_samples // audio.shape[-1]) + 1
-    audio = np.tile(audio, repeats_num)[0 : segment_samples]
+    audio = np.tile(audio, repeats_num)[0: segment_samples]
 
     return audio
+
 
 def calculate_segmentwise_sdr(ref, est, hop_samples, return_sdr_list=False):
     min_len = min(ref.shape[-1], est.shape[-1])
@@ -281,8 +287,8 @@ def calculate_segmentwise_sdr(ref, est, hop_samples, return_sdr_list=False):
     sdrs = []
     while pointer + hop_samples < min_len:
         sdr = calculate_sdr(
-            ref=ref[:, pointer : pointer + hop_samples], 
-            est=est[:, pointer : pointer + hop_samples],
+            ref=ref[:, pointer: pointer + hop_samples],
+            est=est[:, pointer: pointer + hop_samples],
         )
         sdrs.append(sdr)
         pointer += hop_samples
@@ -313,8 +319,8 @@ def loudness(data, input_loudness, target_loudness):
     -------
     output : torch.Tensor
         Loudness normalized output data.
-    """    
-        
+    """
+
     # calculate the gain needed to scale to the desired loudness level
     delta_loudness = target_loudness - input_loudness
     gain = torch.pow(10.0, delta_loudness / 20.0)
@@ -327,6 +333,7 @@ def loudness(data, input_loudness, target_loudness):
 
     return output
 
+
 def get_layers(model, filters):
     layers = []
     for name, module in model.named_modules():
@@ -335,11 +342,14 @@ def get_layers(model, filters):
 
     return layers
 
+
 def get_dirs(
-    workspace: str,
-    filename: str,
-    config_yaml: str,
-    devices_num: int
+        workspace: str,
+        filename: str,
+        config_yaml: str,
+        devices_num: int,
+        checkpoint_filename_args: str,
+        timestamp: float,
 ) -> List[str]:
     r"""Get directories and paths.
 
@@ -348,6 +358,8 @@ def get_dirs(
         filename (str): filename of current .py file.
         config_yaml (str): config yaml path
         devices_num (int): 0 for cpu and 8 for training with 8 GPUs
+        checkpoint_filename_args (str): checkpoint params for filename
+        timestamp: (float): current timestamp
 
     Returns:
         checkpoints_dir (str): directory to save checkpoints
@@ -359,13 +371,12 @@ def get_dirs(
     os.makedirs(workspace, exist_ok=True)
 
     yaml_name = pathlib.Path(config_yaml).stem
-    timestamp = time.time()
     # Directory to save checkpoints
     checkpoints_dir = os.path.join(
         workspace,
         "checkpoints",
         filename,
-        "{},timestamp={}".format(yaml_name, timestamp),
+        "{},args={},timestamp={}".format(yaml_name, checkpoint_filename_args, timestamp),
     )
     os.makedirs(checkpoints_dir, exist_ok=True)
 
@@ -374,7 +385,7 @@ def get_dirs(
         workspace,
         "logs",
         filename,
-        "{},timestamp={}".format(yaml_name, timestamp),
+        "{},args={},timestamp={}".format(yaml_name, checkpoint_filename_args, timestamp),
     )
     os.makedirs(logs_dir, exist_ok=True)
 
@@ -385,7 +396,7 @@ def get_dirs(
         workspace,
         "tf_logs",
         filename,
-        "{},timestamp={}".format(yaml_name, timestamp),
+        "{},args={},timestamp={}".format(yaml_name, checkpoint_filename_args, timestamp),
     )
 
     # Directory to save statistics
@@ -393,7 +404,7 @@ def get_dirs(
         workspace,
         "statistics",
         filename,
-        "{},timestamp={}".format(yaml_name, timestamp),
+        "{},args={},timestamp={}".format(yaml_name, checkpoint_filename_args, timestamp),
         "statistics.pkl",
     )
     os.makedirs(os.path.dirname(statistics_path), exist_ok=True)
@@ -402,9 +413,9 @@ def get_dirs(
 
 
 def get_data_module(
-    config_yaml: str,
-    num_workers: int,
-    batch_size: int,
+        config_yaml: str,
+        num_workers: int,
+        batch_size: int,
 ) -> DataModule:
     r"""Create data_module. Mini-batch data can be obtained by:
 

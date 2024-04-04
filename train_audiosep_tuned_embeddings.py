@@ -2,6 +2,7 @@ import argparse
 import logging
 import os
 import pathlib
+import time
 
 import torch
 from lightning.pytorch.callbacks import ModelCheckpoint
@@ -23,6 +24,7 @@ from model_loaders import load_ss_model
 torch.set_float32_matmul_precision('high')
 
 def train(args) -> NoReturn:
+    timestamp = time.time()
     r"""Train, evaluate, and save checkpoints.
 
     Args:
@@ -40,6 +42,7 @@ def train(args) -> NoReturn:
     # Read config file.
     configs = parse_yaml(config_yaml)
 
+    task_name = configs['task_name']
     # Configuration of data
     max_mix_num = configs['data']['max_mix_num']
     sampling_rate = configs['data']['sampling_rate']
@@ -48,7 +51,8 @@ def train(args) -> NoReturn:
 
     # Configuration of the trainer
     num_nodes = configs['train']['num_nodes']
-    batch_size = configs['train']['batch_size_per_device'] 
+    batch_size = configs['train']['batch_size_per_device']
+    logs_per_class = configs['train']['logs_per_class']
     sync_batchnorm = configs['train']['sync_batchnorm'] 
     num_workers = configs['train']['num_workers']
     loss_type = configs['train']['loss_type']
@@ -60,6 +64,8 @@ def train(args) -> NoReturn:
     save_epoch_frequency = configs['train']['save_epoch_frequency']
     check_val_every_n_epoch = configs['train']['check_val_every_n_epoch']
     log_every_n_steps = configs['train']['log_every_n_steps']
+    checkpoint_filename_args = configs["train"]["checkpoint_filename_args"]
+
     resume_checkpoint_path = args.resume_checkpoint_path
     if resume_checkpoint_path == "":
         resume_checkpoint_path = None
@@ -68,7 +74,7 @@ def train(args) -> NoReturn:
 
     # Get directories and paths
     checkpoints_dir, logs_dir, tf_logs_dir, statistics_path = get_dirs(
-        workspace, filename, config_yaml, devices_num,
+        workspace, filename, config_yaml, devices_num, checkpoint_filename_args, timestamp,
     )
 
     logging.info(configs)
@@ -127,7 +133,8 @@ def train(args) -> NoReturn:
         ss_model=model.ss_model,
         query_encoder=model.query_encoder,
         learning_rate = learning_rate,
-        lr_lambda_func = lr_lambda_func
+        lr_lambda_func = lr_lambda_func,
+        logs_per_class=logs_per_class,
     )
 
     checkpoint_every_n_epochs = ModelCheckpoint(
@@ -138,7 +145,7 @@ def train(args) -> NoReturn:
     )
 
     callbacks = [checkpoint_every_n_epochs]
-    wandb_logger = WandbLogger(name='embeddings', project='diploma')
+    wandb_logger = WandbLogger(name=f'{task_name}_{checkpoint_filename_args}_{timestamp}', project='diploma')
     trainer = pl.Trainer(
         accelerator='auto',
         devices='auto',

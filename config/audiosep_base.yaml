@@ -22,6 +22,8 @@ model:
     use_text_ratio: 1.0
 
 train:
+    checkpoint_filename_args: 'default'
+    logs_per_class: False
     optimizer:
         optimizer_type: AdamW
         learning_rate: 1e-3

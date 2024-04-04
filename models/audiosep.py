@@ -13,6 +13,25 @@ from models.interfaces import QueryEncoder, SSModel
 logging.set_verbosity_error()
 
 
+def get_averaged_metrics(sdr_values: list,
+                         sdr_i_values: list,
+                         sisdr_values: list,
+                         phase: str, cls_name: str = 'avg',
+                         ):
+    # Average metrics across the batch
+    avg_sdr = torch.tensor(sdr_values).mean()
+    avg_sdr_i = torch.tensor(sdr_i_values).mean()
+    avg_sisdr = torch.tensor(sisdr_values).mean()
+
+    res_dict = {
+        f"{phase}_sdr_{cls_name}": avg_sdr,
+        f"{phase}_sdr_i_{cls_name}": avg_sdr_i,
+        f"{phase}_si_sdr_{cls_name}": avg_sisdr
+    }
+
+    return res_dict
+
+
 class AudioSep(pl.LightningModule, PyTorchModelHubMixin):
     def __init__(
             self,

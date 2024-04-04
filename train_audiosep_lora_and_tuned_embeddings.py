@@ -1,6 +1,7 @@
 import argparse
 import logging
 import pathlib
+import time
 
 from lightning.pytorch.callbacks import ModelCheckpoint
 from pytorch_lightning.loggers import WandbLogger
@@ -21,6 +22,7 @@ torch.set_float32_matmul_precision('high')
 
 
 def train(args) -> NoReturn:
+    timestamp = time.time()
     # arguments & parameters
     workspace = args.workspace
     config_yaml = args.config_yaml
@@ -30,6 +32,7 @@ def train(args) -> NoReturn:
     # Read config file.
     configs = parse_yaml(config_yaml)
 
+    task_name = configs['task_name']
     # Configuration of data
     max_mix_num = configs['data']['max_mix_num']
     sampling_rate = configs['data']['sampling_rate']
@@ -39,6 +42,8 @@ def train(args) -> NoReturn:
     # Configuration of the trainer
     num_nodes = configs['train']['num_nodes']
     batch_size = configs['train']['batch_size_per_device']
+    lora_params = configs['train']['lora_params']
+    logs_per_class = configs['train']['logs_per_class']
     sync_batchnorm = configs['train']['sync_batchnorm']
     num_workers = configs['train']['num_workers']
     loss_type = configs['train']['loss_type']
@@ -50,6 +55,7 @@ def train(args) -> NoReturn:
     check_val_every_n_epoch = configs['train']['check_val_every_n_epoch']
     save_epoch_frequency = configs['train']['save_epoch_frequency']
     log_every_n_steps = configs['train']['log_every_n_steps']
+    checkpoint_filename_args = configs["train"]["checkpoint_filename_args"]
 
     base_model_config_path = './config/audiosep_base.yaml'
     clap_checkpoint_path = './checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt'
@@ -62,7 +68,7 @@ def train(args) -> NoReturn:
 
     # Get directories and paths
     checkpoints_dir, logs_dir, tf_logs_dir, statistics_path = get_dirs(
-        workspace, filename, config_yaml, devices_num,
+        workspace, filename, config_yaml, devices_num, checkpoint_filename_args, timestamp,
     )
 
     # data module
@@ -108,7 +114,9 @@ def train(args) -> NoReturn:
         loss_function=loss_function,
         learning_rate=learning_rate,
         lr_lambda_func=lr_lambda_func,
-        optimizer_type='AdamW'
+        optimizer_type='AdamW',
+        lora_params=lora_params,
+        logs_per_class=logs_per_class,
     )
 
     pl_model.print_parameters()
@@ -121,7 +129,7 @@ def train(args) -> NoReturn:
     )
 
     callbacks = [checkpoint_every_n_epochs]
-    wandb_logger = WandbLogger(name='lora_and_tuned_embeddings', project='diploma')
+    wandb_logger = WandbLogger(name=f'{task_name}_{checkpoint_filename_args}_{timestamp}', project='diploma')
     trainer = pl.Trainer(
         accelerator='auto',
         devices='auto',
