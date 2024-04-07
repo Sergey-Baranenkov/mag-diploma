@@ -21,7 +21,7 @@ from utils import (
 from model_loaders import load_ss_model
 
 
-def get_model(name: str, device=torch.device('cuda')):
+def get_model(name: str, checkpoint_path: str, device=torch.device('cuda')):
     match name:
         case 'audiosep':
             SS_CONFIG_PATH = './config/audiosep_base.yaml'
@@ -43,10 +43,10 @@ def get_model(name: str, device=torch.device('cuda')):
 
             return model
         case 'audiosep_embeddings':
-            base_model = get_model('audiosep')
+            base_model = get_model('audiosep', '')
 
             model = AudioSepTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_tuned_embeddings/audiosep_tuned_embeddings_musdb18,timestamp=1710542731.753242/epoch=29.ckpt',
+                checkpoint_path=checkpoint_path,
                 strict=False,
                 ss_model=base_model.ss_model,
                 query_encoder=base_model.query_encoder,
@@ -62,9 +62,9 @@ def get_model(name: str, device=torch.device('cuda')):
             return model
 
         case 'audiosep_lora':
-            base_model = get_model('audiosep')
+            base_model = get_model('audiosep', '')
             model = AudioSepLora.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_lora/audiosep_lora_musdb18,timestamp=1710365653.9683235/epoch=19.ckpt',
+                checkpoint_path=checkpoint_path,
                 strict=False,
                 pretrained_audiosep_model=base_model,
                 loss_function=None,
@@ -77,10 +77,9 @@ def get_model(name: str, device=torch.device('cuda')):
             return model.model.merge_and_unload()
 
         case 'audiosep_lora_and_embeddings':
-            base_model = get_model('audiosep')
+            base_model = get_model('audiosep', '')
             model = AudioSepLoraAndTunedEmbeddings.load_from_checkpoint(
-                checkpoint_path='checkpoints/train_audiosep_lora_and_tuned_embeddings/'
-                                'audiosep_lora_and_tuned_embeddings_musdb18,timestamp=1710451587.1702235/epoch=19.ckpt',
+                checkpoint_path=checkpoint_path,
                 strict=False,
                 pretrained_audiosep_model=base_model,
                 loss_function=None,
@@ -94,7 +93,7 @@ def get_model(name: str, device=torch.device('cuda')):
     raise Exception('unknown model')
 
 
-def benchmark(model_name: str, datasets_to_test: list[str]):
+def benchmark(model_name: str, datasets_to_test: list[str], checkpoint_path: str):
     log_dir = 'eval_logs'
     os.makedirs(log_dir, exist_ok=True)
 
@@ -113,7 +112,7 @@ def benchmark(model_name: str, datasets_to_test: list[str]):
     # ESC-50 Evaluator
     esc50_evaluator = ESC50Evaluator()
 
-    pl_model = get_model(model_name)
+    pl_model = get_model(model_name, checkpoint_path)
     msgs = []
     print(f'-------  Start Evaluation  -------')
 
@@ -193,7 +192,16 @@ if __name__ == '__main__':
     parser.add_argument(
         "--datasets_to_test", nargs='+', required=True, help="Name of the model to evaluate."
     )
+
+    parser.add_argument(
+        "--checkpoint_path",
+        type=str,
+        required=True,
+        default='',
+        help="Path of pretrained checkpoint",
+    )
+
     args = parser.parse_args()
 
-    benchmark(args.model_name, args.datasets_to_test)
+    benchmark(args.model_name, args.datasets_to_test, args.checkpoint_path)
 

@@ -15,10 +15,10 @@ data:
     max_mix_num: 4
 
 train:
-    checkpoint_filename_args: 'default'
+    checkpoint_filename_args: 'logs_per_class=True, dropout=0.1'
     logs_per_class: True
     lora_params:
-        lora_dropout: 0
+        lora_dropout: 0.1
         lora_alpha: 8
         r: 8
     optimizer:
@@ -31,7 +31,7 @@ train:
     num_workers: 6
     loss_type: l1_wav
     sync_batchnorm: True
-    batch_size_per_device: 8
+    batch_size_per_device: 6
     steps_per_epoch: 1000
     check_val_every_n_epoch: 1
     save_epoch_frequency: 10

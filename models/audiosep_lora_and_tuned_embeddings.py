@@ -66,7 +66,8 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         self.epoch_losses = None
         config = LoraConfig(
             target_modules=target_modules,
-            *lora_params
+            *lora_params,
+            lora_dropout=0.1,
         )
 
         model = get_peft_model(pretrained_audiosep_model, config)
