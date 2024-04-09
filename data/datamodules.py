@@ -63,7 +63,8 @@ class DataModule(pl.LightningDataModule):
             num_workers=self.num_workers,
             pin_memory=True,
             persistent_workers=False,
-            shuffle=True
+            shuffle=True,
+            drop_last=True,
         )
 
         return train_loader
@@ -76,7 +77,8 @@ class DataModule(pl.LightningDataModule):
             num_workers=self.num_workers,
             pin_memory=True,
             persistent_workers=False,
-            shuffle=False
+            shuffle=False,
+            drop_last=True,
         )
 
         return validation_loader

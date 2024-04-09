@@ -18,6 +18,8 @@ from data.audiotext_dataset import AudioTextDataset
 from data.datamodules import DataModule
 
 from functools import reduce
+import weightwatcher as ww
+from matplotlib import pyplot as plt
 
 
 def flatmap(array: List[List]) -> List:
@@ -206,6 +208,7 @@ def calculate_sisdr(ref, est):
     Snn = (e_res ** 2).sum()
 
     sisdr = 10 * np.log10((eps + Sss) / (eps + Snn))
+    # print(e_true.dtype, e_true.sum(), 'sss', Sss, 'snn', Snn, 'sisdr', sisdr)
 
     return sisdr
 
@@ -466,3 +469,21 @@ def get_data_module(
     )
 
     return data_module
+
+
+def describe_weights(model):
+    watcher = ww.WeightWatcher()
+    details = watcher.analyze(model=model)
+    summary = watcher.get_summary(details)
+
+    return details, summary
+
+
+def plot_hist(details):
+    avg_alpha = details.alpha.mean()
+
+    title = f"WeightWatcher Alpha"
+    details.alpha.plot.hist(bins=100)
+    plt.title(title)
+    plt.axvline(x=avg_alpha, color='green', label=f"<alpha> = {avg_alpha:0.3f}")
+    plt.legend()

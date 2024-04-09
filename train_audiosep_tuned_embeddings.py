@@ -11,7 +11,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from callbacks.base import CheckpointEveryNSteps
 from data.datamodules import *
-from data.waveform_mixers import SegmentMixer
+from data.waveform_mixers import SegmentMixer, BalancedSegmentMixer
 from losses import get_loss_function
 from models.audiosep_tunned_embeddings import AudioSepTunedEmbeddings
 from models.clap_encoder import CLAP_Encoder
@@ -77,8 +77,6 @@ def train(args) -> NoReturn:
         workspace, filename, config_yaml, devices_num, checkpoint_filename_args, timestamp,
     )
 
-    logging.info(configs)
-
     # data module
     data_module = get_data_module(
         config_yaml=config_yaml,
@@ -91,14 +89,6 @@ def train(args) -> NoReturn:
         reduce_lr_steps=reduce_lr_steps,
     )
 
-    segment_mixer = SegmentMixer(
-        max_mix_num=max_mix_num,
-        lower_db=lower_db,
-        higher_db=higher_db
-    )
-
-    loss_function = get_loss_function(loss_type)
-
     device = torch.device('cuda')
     SS_CONFIG_PATH = './config/audiosep_base.yaml'
     CLAP_CKPT_PATH = './checkpoint/music_speech_audioset_epoch_15_esc_89.98.pt'
@@ -106,7 +96,7 @@ def train(args) -> NoReturn:
 
     loss_function = get_loss_function(loss_type)
 
-    segment_mixer = SegmentMixer(
+    segment_mixer = BalancedSegmentMixer(
         max_mix_num=max_mix_num,
         lower_db=lower_db,
         higher_db=higher_db

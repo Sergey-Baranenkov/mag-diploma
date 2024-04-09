@@ -67,7 +67,6 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         config = LoraConfig(
             target_modules=target_modules,
             *lora_params,
-            lora_dropout=0.1,
         )
 
         model = get_peft_model(pretrained_audiosep_model, config)
@@ -100,7 +99,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
     def batch_forward(self, batch, batch_idx):
         random.seed(batch_idx)
         text, waveform = batch['audio_text']['text'], batch['audio_text']['waveform']
-        mixtures, segments = self.waveform_mixer(waveform)
+        mixtures, segments = self.waveform_mixer(waveform, text)
         conditions = self.model.query_encoder.get_query_embed(
             'hybrid',
             text=text,

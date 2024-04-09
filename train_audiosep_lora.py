@@ -8,7 +8,7 @@ from pytorch_lightning.loggers import WandbLogger
 
 from callbacks.base import CheckpointEveryNSteps
 from data.datamodules import *
-from data.waveform_mixers import SegmentMixer
+from data.waveform_mixers import SegmentMixer, BalancedSegmentMixer
 from losses import get_loss_function
 from model_loaders import load_ss_model
 from models.audiosep_lora import AudioSepLora
@@ -84,7 +84,7 @@ def train(args) -> NoReturn:
         max_lr=1e-4
     )
 
-    segment_mixer = SegmentMixer(
+    segment_mixer = BalancedSegmentMixer(
         max_mix_num=max_mix_num,
         lower_db=lower_db,
         higher_db=higher_db

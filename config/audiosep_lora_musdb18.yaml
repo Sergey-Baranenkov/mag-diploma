@@ -12,7 +12,7 @@ data:
     loudness_norm:
         lower_db: -10
         higher_db: 10
-    max_mix_num: 4
+    max_mix_num: 3
 
 train:
     checkpoint_filename_args: 'logs_per_class=True'
@@ -24,8 +24,8 @@ train:
     optimizer:
         optimizer_type: AdamW
         learning_rate: 1e-3
-        warm_up_steps: 76
-        reduce_lr_steps: 380
+        warm_up_steps: 74
+        reduce_lr_steps: 370
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6
@@ -37,4 +37,4 @@ train:
     save_epoch_frequency: 10
     early_stop_steps: 1000001
     random_seed: 1234
-    log_every_n_steps: 38
+    log_every_n_steps: 37

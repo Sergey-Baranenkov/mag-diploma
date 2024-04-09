@@ -33,15 +33,16 @@ class MUSDB18Evaluator:
         with torch.no_grad():
             for eval_data in tqdm(self.eval_list, desc="Evaluating"):
                 idx, src, caption, mxtr = eval_data
+                print(mxtr, caption)
 
                 source_path = os.path.join(self.audio_dir, src)
                 mixture_path = os.path.join(self.audio_dir, mxtr)
 
-                source, _ = librosa.load(source_path, sr=self.sampling_rate, mono=True, duration=10, offset=1)
-                mixture, _ = librosa.load(mixture_path, sr=self.sampling_rate, mono=True, duration=10, offset=1)
+                source, _ = librosa.load(source_path, sr=self.sampling_rate, mono=True, duration=5, offset=1)
+                mixture, _ = librosa.load(mixture_path, sr=self.sampling_rate, mono=True, duration=5, offset=1)
 
                 # Подготовка данных для модели
-                mixture_tensor = torch.tensor(mixture).to(device)  # Добавляем размерности batch и канала
+                mixture_tensor = torch.tensor(mixture).to(device)
                 source_tensor = torch.tensor(source).float().to(device)
 
                 # Инференс модели
@@ -63,6 +64,7 @@ class MUSDB18Evaluator:
         for source_class in self.source_types:
             sisdr = np.mean(sisdrs_list[source_class])
             sdri = np.mean(sdris_list[source_class])
+            print(f"Class {source_class} Mean SI-SDR: {sisdr}, Mean SDRI: {sdri}")
             mean_sisdr_list.append(sisdr)
             mean_sdri_list.append(sdri)
 

@@ -91,7 +91,8 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         batch_audio = batch_audio_text_dict['waveform']
 
         mixtures, segments = self.waveform_mixer(
-            waveforms=batch_audio
+            waveforms=batch_audio,
+            names=batch_text
         )
 
         conditions = self.query_encoder.get_query_embed(
