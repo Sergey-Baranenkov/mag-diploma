@@ -15,6 +15,7 @@ wav_mimetypes = [
     "audio/x-wav",
 ]
 
+
 async def start(update: Update, context: CallbackContext) -> None:
     await update.message.reply_text('Привет! Пожалуйста, отправь мне текстовый промпт и аудиозапись в формате wav.')
 

@@ -492,3 +492,14 @@ def plot_hist(details):
     plt.title(title)
     plt.axvline(x=avg_alpha, color='green', label=f"<alpha> = {avg_alpha:0.3f}")
     plt.legend()
+
+
+def find_nearest_embedding(combined_classes: (str, str), query_embedding, index, threshold: float) -> (str, float):
+    D, I = index.search(query_embedding.reshape(1, -1), 1)
+
+    # Проверяем порог расстояния
+    if D[0][0] > threshold:
+        return None
+
+    # Возвращаем путь, соответствующий индексу найденного эмбеддинга
+    return combined_classes[I[0][0]][0], combined_classes[I[0][0]][1], D[0][0]
