@@ -11,7 +11,6 @@ from data.datamodules import *
 from data.waveform_mixers import SegmentMixer, BalancedSegmentMixer
 from losses import get_loss_function
 from model_loaders import load_ss_model
-from models.audiosep_lora import AudioSepLora
 from models.audiosep_lora_and_tuned_embeddings import AudioSepLoraAndTunedEmbeddings
 from models.clap_encoder import CLAP_Encoder
 from models.resunet import *

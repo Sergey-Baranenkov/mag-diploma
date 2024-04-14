@@ -38,8 +38,8 @@ class MUSDB18Evaluator:
                 source_path = os.path.join(self.audio_dir, src)
                 mixture_path = os.path.join(self.audio_dir, mxtr)
 
-                source, _ = librosa.load(source_path, sr=self.sampling_rate, mono=True, duration=5, offset=1)
-                mixture, _ = librosa.load(mixture_path, sr=self.sampling_rate, mono=True, duration=5, offset=1)
+                source, _ = librosa.load(source_path, sr=self.sampling_rate, mono=True, duration=30, offset=10)
+                mixture, _ = librosa.load(mixture_path, sr=self.sampling_rate, mono=True, duration=30, offset=10)
 
                 # Подготовка данных для модели
                 mixture_tensor = torch.tensor(mixture).to(device)

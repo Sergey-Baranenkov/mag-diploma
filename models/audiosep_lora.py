@@ -39,9 +39,9 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
 
         config = LoraConfig(
             target_modules=target_modules,
-            *lora_params,
+            **lora_params,
         )
-
+        print(config, lora_params)
         model = get_peft_model(pretrained_audiosep_model, config)
 
         self.model = model
@@ -107,10 +107,10 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
             for cls in sdr_values.keys():
                 res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'train', cls)
                 self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
-        else:
-            res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
-                                            flatmap(sisdr_values.values()), 'train')
-            self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
+
+        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
+                                        flatmap(sisdr_values.values()), 'train')
+        self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         loss = self.loss_function(output_dict, target_dict)
 
@@ -152,10 +152,10 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
             for cls in sdr_values.keys():
                 res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'val', cls)
                 self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
-        else:
-            res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
-                                            flatmap(sisdr_values.values()), 'val')
-            self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
+
+        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
+                                        flatmap(sisdr_values.values()), 'val')
+        self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         loss = self.loss_function(output_dict, target_dict)
 
@@ -169,7 +169,7 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
 
     def configure_optimizers(self):
         if self.hparams.optimizer_type == 'AdamW':
-            optimizer = optim.AdamW(self.model.parameters(), lr=self.hparams.learning_rate)
+            optimizer = optim.AdamW(self.model.parameters(), lr=self.hparams.learning_rate, amsgrad=True)
         else:
             raise NotImplementedError("Only AdamW optimizer is implemented")
 

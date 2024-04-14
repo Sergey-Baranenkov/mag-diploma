@@ -12,7 +12,7 @@ data:
     loudness_norm:
         lower_db: -10
         higher_db: 10
-    max_mix_num: 4
+    max_mix_num: 2
 
 train:
     checkpoint_filename_args: 'default'

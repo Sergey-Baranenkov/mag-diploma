@@ -12,7 +12,7 @@ data:
     loudness_norm:
         lower_db: -10
         higher_db: 10
-    max_mix_num: 4
+    max_mix_num: 2
 
 train:
     checkpoint_filename_args: 'default'
@@ -25,7 +25,7 @@ train:
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6
-    loss_type: l1_wav
+    loss_type: si_sdr
     sync_batchnorm: True
     batch_size_per_device: 8
     steps_per_epoch: 1000

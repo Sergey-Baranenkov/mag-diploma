@@ -3,8 +3,7 @@ import datetime
 import json
 import logging
 import pathlib
-import time
-
+import re
 import librosa
 import pickle
 from typing import Dict, List
@@ -208,7 +207,7 @@ def calculate_sisdr(ref, est):
     Snn = (e_res ** 2).sum()
 
     sisdr = 10 * np.log10((eps + Sss) / (eps + Snn))
-    # print(e_true.dtype, e_true.sum(), 'sss', Sss, 'snn', Snn, 'sisdr', sisdr)
+    # print(e_true.dtype, 'a', a, 'e_true.sum()', e_true.sum(), 'sss', Sss, 'snn', Snn, 'sisdr', sisdr)
 
     return sisdr
 
@@ -337,11 +336,17 @@ def loudness(data, input_loudness, target_loudness):
     return output
 
 
-def get_layers(model, filters):
+def get_layers(model, filters, filter_by_regex=None):
     layers = []
+    # Компилируем регулярное выражение заранее, если оно предоставлено
+    regex = re.compile(filter_by_regex) if filter_by_regex else None
+
     for name, module in model.named_modules():
+        # Проверяем соответствие модуля заданному фильтру типов
         if isinstance(module, filters):
-            layers.append(name)
+            # Если regex задан, проверяем соответствие имени модуля регулярному выражению
+            if regex is None or regex.search(name):
+                layers.append(name)
 
     return layers
 

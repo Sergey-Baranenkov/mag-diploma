@@ -15,8 +15,12 @@ data:
     max_mix_num: 2
 
 train:
-    checkpoint_filename_args: 'default'
+    checkpoint_filename_args: 'logs_per_class=True, dropout=0.1'
     logs_per_class: True
+    lora_params:
+        lora_dropout: 0.1
+        lora_alpha: 16
+        r: 16
     optimizer:
         optimizer_type: AdamW
         learning_rate: 1e-3
@@ -25,7 +29,7 @@ train:
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6
-    loss_type: l1_wav
+    loss_type: si_sdr
     sync_batchnorm: True
     batch_size_per_device: 8
     steps_per_epoch: 1000
