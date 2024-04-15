@@ -62,7 +62,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             'loss_function',
             'lr_lambda_func'
         ])
-
+        print('lora', lora_params)
         self.epoch_losses = None
         config = LoraConfig(
             target_modules=target_modules,

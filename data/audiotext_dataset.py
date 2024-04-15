@@ -25,6 +25,7 @@ def pad_with_repetition(audio, sr, target_length_sec):
 
     return padded_audio
 
+
 def pad_with_silence(audio, sr, target_length_sec):
     # Рассчитываем текущую длительность в секундах
     current_length_sec = audio.shape[1] / sr
@@ -43,6 +44,7 @@ def pad_with_silence(audio, sr, target_length_sec):
         padded_audio = audio
 
     return padded_audio
+
 
 class AudioTextDataset(Dataset):
     """Can sample data from audio-text databases
@@ -90,7 +92,7 @@ class AudioTextDataset(Dataset):
         try:
             audio_path = self.all_data_json[index]['wav']
             audio_data, audio_rate = torchaudio.load(audio_path, channels_first=True)
-            audio_data = pad_with_silence(audio_data, audio_rate, 5)
+            audio_data = pad_with_repetition(audio_data, audio_rate, 5)
             text = self.all_data_json[index]['caption']
 
             # drop short utterance
