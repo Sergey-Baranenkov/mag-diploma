@@ -84,8 +84,13 @@ class Separator:
 
     def separate(self, src_file: str, output_file: str, caption: str):
         cls = self.reset_model_by_caption(caption)
+
         # используем ближайший класс если кастомная модель иначе caption пользователя
-        separate_audio(self.model, src_file, cls if cls is not None else caption, output_file, self.device, use_chunk=True)
+        resulting_caption = cls if cls is not None else caption
+
+        separate_audio(self.model, src_file, resulting_caption, output_file, self.device, use_chunk=True)
+
+        return resulting_caption
 
     def reset_model_by_caption(self, caption: str) -> str:
         query_embedding = self.query_encoder.get_query_embed('text', text=[caption], device=self.device).cpu().numpy()

@@ -28,6 +28,9 @@
 Также расширен `benchmark.py`, в него добавлена evaluation для датасета musdb18 и есть возможность выбирать модель. 
 Запустить бенчмарк можно с помощью команды `python benchmark.py --model_name audiosep_lora_and_embeddings --datasets_to_test musdb18 --checkpoint_path "checkpoints/train_audiosep_lora_and_tuned_embeddings/audiosep_lora_and_tuned_embeddings_musdb18,args=logs_per_class=True, dropout=0.1,timestamp=1712871001.7698753/epoch=19.ckpt"`
 
+Аудиозаписи короче segment_seconds дополняются до segment_seconds с помощью повторения, однако это поведение можно изменить 
+на паддинг тишиной.
+
 Для сохранения своего faiss индекса необходимо заполнить мапу `constants/index_classes.py` и запустить `research/create_index.faiss.ipynb`
 
 Запустить телеграм бота можно командой `export TELEGRAM_BOT_TOKEN='' && python telegram_bot.py`.

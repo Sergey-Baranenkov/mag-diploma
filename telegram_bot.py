@@ -13,6 +13,7 @@ from constants.index_classes import class_checkpoint_combinations
 from separator import Separator
 
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+max_file_size_in_mb = 20
 
 wav_mimetypes = [
     "audio/vnd.wav",
@@ -24,7 +25,7 @@ wav_mimetypes = [
 ]
 
 index = faiss.read_index('research/musdb_desed.idx')
-separator_instance = Separator(index, class_checkpoint_combinations, 0.9)
+separator_instance = Separator(index, class_checkpoint_combinations, 0.85)
 
 
 async def start(update: Update, context: CallbackContext) -> None:
@@ -34,12 +35,17 @@ async def start(update: Update, context: CallbackContext) -> None:
 async def request(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     text = update.message.caption
     audio_file = update.message.document
+
     if text is None:
         await update.message.reply_text('Текстовый промпт отсутствует.')
         return 0
 
     if audio_file is None or audio_file.mime_type not in wav_mimetypes:
         await update.message.reply_text('Неправильный формат файла. Поддерживаются только wav файлы.')
+        return 0
+
+    if audio_file.file_size / 1024 / 1024 > max_file_size_in_mb:
+        await update.message.reply_text('Слишком большой файл, поддерживаются файлы до 20 мегабайт')
         return 0
 
     file_info = await audio_file.get_file()
@@ -68,9 +74,9 @@ async def request(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
     print(text, input_file_path, output_file_path, input_filename)
 
-    separator_instance.separate(input_file_path, output_file_path, text)
+    resulting_caption = separator_instance.separate(input_file_path, output_file_path, text)
 
-    await update.message.reply_document(output_file_path, f'Аудиозапись с отделенным {text}')
+    await update.message.reply_document(output_file_path, f'Аудиозапись была отделена как {resulting_caption}.')
 
 
 app = ApplicationBuilder().token(TOKEN).build()
