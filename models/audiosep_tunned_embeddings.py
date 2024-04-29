@@ -71,7 +71,7 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             modality='text',
             text=text,
             device=device
-        )
+        ).to(self.dtype)
 
         input_dict = {
             "mixture": torch.Tensor(mixture)[None, None, :].to(device),
@@ -89,10 +89,12 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         batch_audio_text_dict = batch['audio_text']
         batch_text = batch_audio_text_dict['text']
         batch_audio = batch_audio_text_dict['waveform']
+        batch_mixture = batch_audio_text_dict['mixture']
 
         mixtures, segments = self.waveform_mixer(
             waveforms=batch_audio,
-            names=batch_text
+            names=batch_text,
+            mixtures=batch_mixture
         )
 
         conditions = self.query_encoder.get_query_embed(
@@ -196,7 +198,7 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         loss = self.loss_function(output_dict, target_dict)
 
         res_dict = {
-            "train_loss": loss,
+            "val_loss": loss,
         }
 
         self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)

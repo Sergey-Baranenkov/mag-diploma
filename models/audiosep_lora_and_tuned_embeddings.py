@@ -62,10 +62,11 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
             'loss_function',
             'lr_lambda_func'
         ])
-        print('lora', lora_params)
+
         self.epoch_losses = None
         config = LoraConfig(
             target_modules=target_modules,
+            bias='all',
             **lora_params,
         )
 
@@ -98,14 +99,18 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
 
     def batch_forward(self, batch, batch_idx):
         random.seed(batch_idx)
-        text, waveform = batch['audio_text']['text'], batch['audio_text']['waveform']
-        mixtures, segments = self.waveform_mixer(waveform, text)
+        text, waveform, mixture = \
+            batch['audio_text']['text'], \
+                batch['audio_text']['waveform'], \
+                batch['audio_text']['mixture']
+
+        mixtures, segments = self.waveform_mixer(waveform, text, mixture)
         conditions = self.model.query_encoder.get_query_embed(
             'hybrid',
             text=text,
             audio=segments.squeeze(1),
             use_text_ratio=1.0
-        )
+        ).to(self.dtype)
 
         input_dict = {'mixture': mixtures[:, None, :].squeeze(1), 'condition': conditions}
         sep_segment = self.model.ss_model(input_dict)['waveform'].squeeze()
@@ -198,7 +203,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         loss = self.loss_function(output_dict, target_dict)
 
         res_dict = {
-            "train_loss": loss,
+            "val_loss": loss,
         }
 
         self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)

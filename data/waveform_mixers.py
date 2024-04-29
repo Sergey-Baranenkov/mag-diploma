@@ -20,7 +20,7 @@ class SegmentMixer(nn.Module):
             'higher_db': higher_db,
         }
 
-    def __call__(self, waveforms, names=None):
+    def __call__(self, waveforms, names=None, mixtures=None):
 
         batch_size = waveforms.shape[0]
 
@@ -76,7 +76,7 @@ class BalancedSegmentMixer(nn.Module):
             'higher_db': higher_db,
         }
 
-    def __call__(self, waveforms, names):
+    def __call__(self, waveforms, names, mixtures=None):
         unique_names_length = len(set(names))
         is_one_class_batch = unique_names_length < 2
         # print('unique_names_length:', unique_names_length, names)
@@ -141,6 +141,43 @@ class BalancedSegmentMixer(nn.Module):
 
         # return data_dict
         return data_dict['mixture'], data_dict['segment']
+
+
+class PassThroughSegmentMixer(nn.Module):
+    def __init__(self, **kwargs):
+        super(PassThroughSegmentMixer, self).__init__()
+
+    def __call__(self, waveforms, names, mixtures):
+        batch_size = waveforms.shape[0]
+
+        data_dict = {
+            'segment': [],
+            'mixture': [],
+        }
+
+        for n in range(0, batch_size):
+            segment = waveforms[n].clone()
+            mixture = mixtures[n].clone()
+
+            data_dict['segment'].append(segment)
+            data_dict['mixture'].append(mixture)
+
+        for key in data_dict.keys():
+            data_dict[key] = torch.stack(data_dict[key], dim=0)
+
+        # return data_dict
+        return data_dict['mixture'], data_dict['segment']
+
+
+def get_segment_mixer(mixer_type: str):
+    if mixer_type == 'default':
+        return SegmentMixer
+    if mixer_type == 'balanced':
+        return BalancedSegmentMixer
+    if mixer_type == 'passthrough':
+        return PassThroughSegmentMixer
+
+    raise Exception(f'no segment mixer found for type {mixer_type}')
 
 
 def rescale_to_match_energy(segment1, segment2):

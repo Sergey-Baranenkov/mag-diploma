@@ -425,27 +425,6 @@ def get_data_module(
         num_workers: int,
         batch_size: int,
 ) -> DataModule:
-    r"""Create data_module. Mini-batch data can be obtained by:
-
-    code-block:: python
-
-        data_module.setup()
-
-        for batch_data_dict in data_module.train_dataloader():
-            print(batch_data_dict.keys())
-            break
-
-    Args:
-        workspace: str
-        config_yaml: str
-        num_workers: int, e.g., 0 for non-parallel and 8 for using cpu cores
-            for preparing data in parallel
-        distributed: bool
-
-    Returns:
-        data_module: DataModule
-    """
-
     # read configurations
     configs = parse_yaml(config_yaml)
     sampling_rate = configs['data']['sampling_rate']
@@ -454,16 +433,20 @@ def get_data_module(
     train_datafiles = configs['data']['train_datafiles']
     validation_datafiles = configs['data']['validation_datafiles']
 
+    with_mixture = configs['data']['with_mixture']
+
     train_dataset = AudioTextDataset(
         datafiles=train_datafiles,
         sampling_rate=sampling_rate,
         max_clip_len=segment_seconds,
+        with_mixture = with_mixture,
     )
 
     validation_dataset = AudioTextDataset(
         datafiles=validation_datafiles,
         sampling_rate=sampling_rate,
         max_clip_len=segment_seconds,
+        with_mixture = with_mixture,
     )
 
     data_module = DataModule(

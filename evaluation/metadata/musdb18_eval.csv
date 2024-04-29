@@ -1,151 +1,201 @@
 idx,source,caption,mixture
 1,PR - Oh No/vocals.wav,vocals,PR - Oh No/mixture.wav
-2,PR - Oh No/bass.wav,bass,PR - Oh No/mixture.wav
-3,PR - Oh No/drums.wav,drums,PR - Oh No/mixture.wav
-4,Side Effects Project - Sing With Me/vocals.wav,vocals,Side Effects Project - Sing With Me/mixture.wav
-5,Side Effects Project - Sing With Me/bass.wav,bass,Side Effects Project - Sing With Me/mixture.wav
-6,Side Effects Project - Sing With Me/drums.wav,drums,Side Effects Project - Sing With Me/mixture.wav
-7,Carlos Gonzalez - A Place For Us/vocals.wav,vocals,Carlos Gonzalez - A Place For Us/mixture.wav
-8,Carlos Gonzalez - A Place For Us/bass.wav,bass,Carlos Gonzalez - A Place For Us/mixture.wav
-9,Carlos Gonzalez - A Place For Us/drums.wav,drums,Carlos Gonzalez - A Place For Us/mixture.wav
-10,The Doppler Shift - Atrophy/vocals.wav,vocals,The Doppler Shift - Atrophy/mixture.wav
-11,The Doppler Shift - Atrophy/bass.wav,bass,The Doppler Shift - Atrophy/mixture.wav
-12,The Doppler Shift - Atrophy/drums.wav,drums,The Doppler Shift - Atrophy/mixture.wav
-13,Signe Jakobsen - What Have You Done To Me/vocals.wav,vocals,Signe Jakobsen - What Have You Done To Me/mixture.wav
-14,Signe Jakobsen - What Have You Done To Me/bass.wav,bass,Signe Jakobsen - What Have You Done To Me/mixture.wav
-15,Signe Jakobsen - What Have You Done To Me/drums.wav,drums,Signe Jakobsen - What Have You Done To Me/mixture.wav
-16,The Long Wait - Dark Horses/vocals.wav,vocals,The Long Wait - Dark Horses/mixture.wav
-17,The Long Wait - Dark Horses/bass.wav,bass,The Long Wait - Dark Horses/mixture.wav
-18,The Long Wait - Dark Horses/drums.wav,drums,The Long Wait - Dark Horses/mixture.wav
-19,The Sunshine Garcia Band - For I Am The Moon/vocals.wav,vocals,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
-20,The Sunshine Garcia Band - For I Am The Moon/bass.wav,bass,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
-21,The Sunshine Garcia Band - For I Am The Moon/drums.wav,drums,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
-22,Raft Monk - Tiring/vocals.wav,vocals,Raft Monk - Tiring/mixture.wav
-23,Raft Monk - Tiring/bass.wav,bass,Raft Monk - Tiring/mixture.wav
-24,Raft Monk - Tiring/drums.wav,drums,Raft Monk - Tiring/mixture.wav
-25,Punkdisco - Oral Hygiene/vocals.wav,vocals,Punkdisco - Oral Hygiene/mixture.wav
-26,Punkdisco - Oral Hygiene/bass.wav,bass,Punkdisco - Oral Hygiene/mixture.wav
-27,Punkdisco - Oral Hygiene/drums.wav,drums,Punkdisco - Oral Hygiene/mixture.wav
-28,BKS - Too Much/vocals.wav,vocals,BKS - Too Much/mixture.wav
-29,BKS - Too Much/bass.wav,bass,BKS - Too Much/mixture.wav
-30,BKS - Too Much/drums.wav,drums,BKS - Too Much/mixture.wav
-31,Detsky Sad - Walkie Talkie/vocals.wav,vocals,Detsky Sad - Walkie Talkie/mixture.wav
-32,Detsky Sad - Walkie Talkie/bass.wav,bass,Detsky Sad - Walkie Talkie/mixture.wav
-33,Detsky Sad - Walkie Talkie/drums.wav,drums,Detsky Sad - Walkie Talkie/mixture.wav
-34,BKS - Bulldozer/vocals.wav,vocals,BKS - Bulldozer/mixture.wav
-35,BKS - Bulldozer/bass.wav,bass,BKS - Bulldozer/mixture.wav
-36,BKS - Bulldozer/drums.wav,drums,BKS - Bulldozer/mixture.wav
-37,Forkupines - Semantics/vocals.wav,vocals,Forkupines - Semantics/mixture.wav
-38,Forkupines - Semantics/bass.wav,bass,Forkupines - Semantics/mixture.wav
-39,Forkupines - Semantics/drums.wav,drums,Forkupines - Semantics/mixture.wav
-40,The Mountaineering Club - Mallory/vocals.wav,vocals,The Mountaineering Club - Mallory/mixture.wav
-41,The Mountaineering Club - Mallory/bass.wav,bass,The Mountaineering Club - Mallory/mixture.wav
-42,The Mountaineering Club - Mallory/drums.wav,drums,The Mountaineering Club - Mallory/mixture.wav
-43,Girls Under Glass - We Feel Alright/vocals.wav,vocals,Girls Under Glass - We Feel Alright/mixture.wav
-44,Girls Under Glass - We Feel Alright/bass.wav,bass,Girls Under Glass - We Feel Alright/mixture.wav
-45,Girls Under Glass - We Feel Alright/drums.wav,drums,Girls Under Glass - We Feel Alright/mixture.wav
-46,Louis Cressy Band - Good Time/vocals.wav,vocals,Louis Cressy Band - Good Time/mixture.wav
-47,Louis Cressy Band - Good Time/bass.wav,bass,Louis Cressy Band - Good Time/mixture.wav
-48,Louis Cressy Band - Good Time/drums.wav,drums,Louis Cressy Band - Good Time/mixture.wav
-49,The Easton Ellises - Falcon 69/vocals.wav,vocals,The Easton Ellises - Falcon 69/mixture.wav
-50,The Easton Ellises - Falcon 69/bass.wav,bass,The Easton Ellises - Falcon 69/mixture.wav
-51,The Easton Ellises - Falcon 69/drums.wav,drums,The Easton Ellises - Falcon 69/mixture.wav
-52,AM Contra - Heart Peripheral/vocals.wav,vocals,AM Contra - Heart Peripheral/mixture.wav
-53,AM Contra - Heart Peripheral/bass.wav,bass,AM Contra - Heart Peripheral/mixture.wav
-54,AM Contra - Heart Peripheral/drums.wav,drums,AM Contra - Heart Peripheral/mixture.wav
-55,Sambasevam Shanmugam - Kaathaadi/vocals.wav,vocals,Sambasevam Shanmugam - Kaathaadi/mixture.wav
-56,Sambasevam Shanmugam - Kaathaadi/bass.wav,bass,Sambasevam Shanmugam - Kaathaadi/mixture.wav
-57,Sambasevam Shanmugam - Kaathaadi/drums.wav,drums,Sambasevam Shanmugam - Kaathaadi/mixture.wav
-58,Motor Tapes - Shore/vocals.wav,vocals,Motor Tapes - Shore/mixture.wav
-59,Motor Tapes - Shore/bass.wav,bass,Motor Tapes - Shore/mixture.wav
-60,Motor Tapes - Shore/drums.wav,drums,Motor Tapes - Shore/mixture.wav
-61,Timboz - Pony/vocals.wav,vocals,Timboz - Pony/mixture.wav
-62,Timboz - Pony/bass.wav,bass,Timboz - Pony/mixture.wav
-63,Timboz - Pony/drums.wav,drums,Timboz - Pony/mixture.wav
-64,Mu - Too Bright/vocals.wav,vocals,Mu - Too Bright/mixture.wav
-65,Mu - Too Bright/bass.wav,bass,Mu - Too Bright/mixture.wav
-66,Mu - Too Bright/drums.wav,drums,Mu - Too Bright/mixture.wav
-67,Enda Reilly - Cur An Long Ag Seol/vocals.wav,vocals,Enda Reilly - Cur An Long Ag Seol/mixture.wav
-68,Enda Reilly - Cur An Long Ag Seol/bass.wav,bass,Enda Reilly - Cur An Long Ag Seol/mixture.wav
-69,Enda Reilly - Cur An Long Ag Seol/drums.wav,drums,Enda Reilly - Cur An Long Ag Seol/mixture.wav
-70,We Fell From The Sky - Not You/vocals.wav,vocals,We Fell From The Sky - Not You/mixture.wav
-71,We Fell From The Sky - Not You/bass.wav,bass,We Fell From The Sky - Not You/mixture.wav
-72,We Fell From The Sky - Not You/drums.wav,drums,We Fell From The Sky - Not You/mixture.wav
-73,Bobby Nobody - Stitch Up/vocals.wav,vocals,Bobby Nobody - Stitch Up/mixture.wav
-74,Bobby Nobody - Stitch Up/bass.wav,bass,Bobby Nobody - Stitch Up/mixture.wav
-75,Bobby Nobody - Stitch Up/drums.wav,drums,Bobby Nobody - Stitch Up/mixture.wav
-76,Cristina Vane - So Easy/vocals.wav,vocals,Cristina Vane - So Easy/mixture.wav
-77,Cristina Vane - So Easy/bass.wav,bass,Cristina Vane - So Easy/mixture.wav
-78,Cristina Vane - So Easy/drums.wav,drums,Cristina Vane - So Easy/mixture.wav
-79,M.E.R.C. Music - Knockout/vocals.wav,vocals,M.E.R.C. Music - Knockout/mixture.wav
-80,M.E.R.C. Music - Knockout/bass.wav,bass,M.E.R.C. Music - Knockout/mixture.wav
-81,M.E.R.C. Music - Knockout/drums.wav,drums,M.E.R.C. Music - Knockout/mixture.wav
-82,Tom McKenzie - Directions/vocals.wav,vocals,Tom McKenzie - Directions/mixture.wav
-83,Tom McKenzie - Directions/bass.wav,bass,Tom McKenzie - Directions/mixture.wav
-84,Tom McKenzie - Directions/drums.wav,drums,Tom McKenzie - Directions/mixture.wav
-85,Skelpolu - Resurrection/vocals.wav,vocals,Skelpolu - Resurrection/mixture.wav
-86,Skelpolu - Resurrection/bass.wav,bass,Skelpolu - Resurrection/mixture.wav
-87,Skelpolu - Resurrection/drums.wav,drums,Skelpolu - Resurrection/mixture.wav
-88,Al James - Schoolboy Facination/vocals.wav,vocals,Al James - Schoolboy Facination/mixture.wav
-89,Al James - Schoolboy Facination/bass.wav,bass,Al James - Schoolboy Facination/mixture.wav
-90,Al James - Schoolboy Facination/drums.wav,drums,Al James - Schoolboy Facination/mixture.wav
-91,Secretariat - Over The Top/vocals.wav,vocals,Secretariat - Over The Top/mixture.wav
-92,Secretariat - Over The Top/bass.wav,bass,Secretariat - Over The Top/mixture.wav
-93,Secretariat - Over The Top/drums.wav,drums,Secretariat - Over The Top/mixture.wav
-94,Nerve 9 - Pray For The Rain/vocals.wav,vocals,Nerve 9 - Pray For The Rain/mixture.wav
-95,Nerve 9 - Pray For The Rain/bass.wav,bass,Nerve 9 - Pray For The Rain/mixture.wav
-96,Nerve 9 - Pray For The Rain/drums.wav,drums,Nerve 9 - Pray For The Rain/mixture.wav
-97,Hollow Ground - Ill Fate/vocals.wav,vocals,Hollow Ground - Ill Fate/mixture.wav
-98,Hollow Ground - Ill Fate/bass.wav,bass,Hollow Ground - Ill Fate/mixture.wav
-99,Hollow Ground - Ill Fate/drums.wav,drums,Hollow Ground - Ill Fate/mixture.wav
-100,Speak Softly - Like Horses/vocals.wav,vocals,Speak Softly - Like Horses/mixture.wav
-101,Speak Softly - Like Horses/bass.wav,bass,Speak Softly - Like Horses/mixture.wav
-102,Speak Softly - Like Horses/drums.wav,drums,Speak Softly - Like Horses/mixture.wav
-103,Lyndsey Ollard - Catching Up/vocals.wav,vocals,Lyndsey Ollard - Catching Up/mixture.wav
-104,Lyndsey Ollard - Catching Up/bass.wav,bass,Lyndsey Ollard - Catching Up/mixture.wav
-105,Lyndsey Ollard - Catching Up/drums.wav,drums,Lyndsey Ollard - Catching Up/mixture.wav
-106,Angels In Amplifiers - I'm Alright/vocals.wav,vocals,Angels In Amplifiers - I'm Alright/mixture.wav
-107,Angels In Amplifiers - I'm Alright/bass.wav,bass,Angels In Amplifiers - I'm Alright/mixture.wav
-108,Angels In Amplifiers - I'm Alright/drums.wav,drums,Angels In Amplifiers - I'm Alright/mixture.wav
-109,The Easton Ellises (Baumi) - SDRNR/vocals.wav,vocals,The Easton Ellises (Baumi) - SDRNR/mixture.wav
-110,The Easton Ellises (Baumi) - SDRNR/bass.wav,bass,The Easton Ellises (Baumi) - SDRNR/mixture.wav
-111,The Easton Ellises (Baumi) - SDRNR/drums.wav,drums,The Easton Ellises (Baumi) - SDRNR/mixture.wav
-112,Little Chicago's Finest - My Own/vocals.wav,vocals,Little Chicago's Finest - My Own/mixture.wav
-113,Little Chicago's Finest - My Own/bass.wav,bass,Little Chicago's Finest - My Own/mixture.wav
-114,Little Chicago's Finest - My Own/drums.wav,drums,Little Chicago's Finest - My Own/mixture.wav
-115,Triviul feat. The Fiend - Widow/vocals.wav,vocals,Triviul feat. The Fiend - Widow/mixture.wav
-116,Triviul feat. The Fiend - Widow/bass.wav,bass,Triviul feat. The Fiend - Widow/mixture.wav
-117,Triviul feat. The Fiend - Widow/drums.wav,drums,Triviul feat. The Fiend - Widow/mixture.wav
-118,Buitraker - Revo X/vocals.wav,vocals,Buitraker - Revo X/mixture.wav
-119,Buitraker - Revo X/bass.wav,bass,Buitraker - Revo X/mixture.wav
-120,Buitraker - Revo X/drums.wav,drums,Buitraker - Revo X/mixture.wav
-121,Secretariat - Borderline/vocals.wav,vocals,Secretariat - Borderline/mixture.wav
-122,Secretariat - Borderline/bass.wav,bass,Secretariat - Borderline/mixture.wav
-123,Secretariat - Borderline/drums.wav,drums,Secretariat - Borderline/mixture.wav
-124,Ben Carrigan - We'll Talk About It All Tonight/vocals.wav,vocals,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
-125,Ben Carrigan - We'll Talk About It All Tonight/bass.wav,bass,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
-126,Ben Carrigan - We'll Talk About It All Tonight/drums.wav,drums,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
-127,James Elder & Mark M Thompson - The English Actor/vocals.wav,vocals,James Elder & Mark M Thompson - The English Actor/mixture.wav
-128,James Elder & Mark M Thompson - The English Actor/bass.wav,bass,James Elder & Mark M Thompson - The English Actor/mixture.wav
-129,James Elder & Mark M Thompson - The English Actor/drums.wav,drums,James Elder & Mark M Thompson - The English Actor/mixture.wav
-130,Zeno - Signs/vocals.wav,vocals,Zeno - Signs/mixture.wav
-131,Zeno - Signs/bass.wav,bass,Zeno - Signs/mixture.wav
-132,Zeno - Signs/drums.wav,drums,Zeno - Signs/mixture.wav
-133,Moosmusic - Big Dummy Shake/vocals.wav,vocals,Moosmusic - Big Dummy Shake/mixture.wav
-134,Moosmusic - Big Dummy Shake/bass.wav,bass,Moosmusic - Big Dummy Shake/mixture.wav
-135,Moosmusic - Big Dummy Shake/drums.wav,drums,Moosmusic - Big Dummy Shake/mixture.wav
-136,Juliet's Rescue - Heartbeats/vocals.wav,vocals,Juliet's Rescue - Heartbeats/mixture.wav
-137,Juliet's Rescue - Heartbeats/bass.wav,bass,Juliet's Rescue - Heartbeats/mixture.wav
-138,Juliet's Rescue - Heartbeats/drums.wav,drums,Juliet's Rescue - Heartbeats/mixture.wav
-139,Georgia Wonder - Siren/vocals.wav,vocals,Georgia Wonder - Siren/mixture.wav
-140,Georgia Wonder - Siren/bass.wav,bass,Georgia Wonder - Siren/mixture.wav
-141,Georgia Wonder - Siren/drums.wav,drums,Georgia Wonder - Siren/mixture.wav
-142,Speak Softly - Broken Man/vocals.wav,vocals,Speak Softly - Broken Man/mixture.wav
-143,Speak Softly - Broken Man/bass.wav,bass,Speak Softly - Broken Man/mixture.wav
-144,Speak Softly - Broken Man/drums.wav,drums,Speak Softly - Broken Man/mixture.wav
-145,Arise - Run Run Run/vocals.wav,vocals,Arise - Run Run Run/mixture.wav
-146,Arise - Run Run Run/bass.wav,bass,Arise - Run Run Run/mixture.wav
-147,Arise - Run Run Run/drums.wav,drums,Arise - Run Run Run/mixture.wav
-148,PR - Happy Daze/vocals.wav,vocals,PR - Happy Daze/mixture.wav
-149,PR - Happy Daze/bass.wav,bass,PR - Happy Daze/mixture.wav
-150,PR - Happy Daze/drums.wav,drums,PR - Happy Daze/mixture.wav
+2,PR - Oh No/other.wav,other musical instruments,PR - Oh No/mixture.wav
+3,PR - Oh No/bass.wav,bass,PR - Oh No/mixture.wav
+4,PR - Oh No/drums.wav,drums,PR - Oh No/mixture.wav
+5,Side Effects Project - Sing With Me/vocals.wav,vocals,Side Effects Project - Sing With Me/mixture.wav
+6,Side Effects Project - Sing With Me/other.wav,other musical instruments,Side Effects Project - Sing With Me/mixture.wav
+7,Side Effects Project - Sing With Me/bass.wav,bass,Side Effects Project - Sing With Me/mixture.wav
+8,Side Effects Project - Sing With Me/drums.wav,drums,Side Effects Project - Sing With Me/mixture.wav
+9,Carlos Gonzalez - A Place For Us/vocals.wav,vocals,Carlos Gonzalez - A Place For Us/mixture.wav
+10,Carlos Gonzalez - A Place For Us/other.wav,other musical instruments,Carlos Gonzalez - A Place For Us/mixture.wav
+11,Carlos Gonzalez - A Place For Us/bass.wav,bass,Carlos Gonzalez - A Place For Us/mixture.wav
+12,Carlos Gonzalez - A Place For Us/drums.wav,drums,Carlos Gonzalez - A Place For Us/mixture.wav
+13,The Doppler Shift - Atrophy/vocals.wav,vocals,The Doppler Shift - Atrophy/mixture.wav
+14,The Doppler Shift - Atrophy/other.wav,other musical instruments,The Doppler Shift - Atrophy/mixture.wav
+15,The Doppler Shift - Atrophy/bass.wav,bass,The Doppler Shift - Atrophy/mixture.wav
+16,The Doppler Shift - Atrophy/drums.wav,drums,The Doppler Shift - Atrophy/mixture.wav
+17,Signe Jakobsen - What Have You Done To Me/vocals.wav,vocals,Signe Jakobsen - What Have You Done To Me/mixture.wav
+18,Signe Jakobsen - What Have You Done To Me/other.wav,other musical instruments,Signe Jakobsen - What Have You Done To Me/mixture.wav
+19,Signe Jakobsen - What Have You Done To Me/bass.wav,bass,Signe Jakobsen - What Have You Done To Me/mixture.wav
+20,Signe Jakobsen - What Have You Done To Me/drums.wav,drums,Signe Jakobsen - What Have You Done To Me/mixture.wav
+21,The Long Wait - Dark Horses/vocals.wav,vocals,The Long Wait - Dark Horses/mixture.wav
+22,The Long Wait - Dark Horses/other.wav,other musical instruments,The Long Wait - Dark Horses/mixture.wav
+23,The Long Wait - Dark Horses/bass.wav,bass,The Long Wait - Dark Horses/mixture.wav
+24,The Long Wait - Dark Horses/drums.wav,drums,The Long Wait - Dark Horses/mixture.wav
+25,The Sunshine Garcia Band - For I Am The Moon/vocals.wav,vocals,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
+26,The Sunshine Garcia Band - For I Am The Moon/other.wav,other musical instruments,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
+27,The Sunshine Garcia Band - For I Am The Moon/bass.wav,bass,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
+28,The Sunshine Garcia Band - For I Am The Moon/drums.wav,drums,The Sunshine Garcia Band - For I Am The Moon/mixture.wav
+29,Raft Monk - Tiring/vocals.wav,vocals,Raft Monk - Tiring/mixture.wav
+30,Raft Monk - Tiring/other.wav,other musical instruments,Raft Monk - Tiring/mixture.wav
+31,Raft Monk - Tiring/bass.wav,bass,Raft Monk - Tiring/mixture.wav
+32,Raft Monk - Tiring/drums.wav,drums,Raft Monk - Tiring/mixture.wav
+33,Punkdisco - Oral Hygiene/vocals.wav,vocals,Punkdisco - Oral Hygiene/mixture.wav
+34,Punkdisco - Oral Hygiene/other.wav,other musical instruments,Punkdisco - Oral Hygiene/mixture.wav
+35,Punkdisco - Oral Hygiene/bass.wav,bass,Punkdisco - Oral Hygiene/mixture.wav
+36,Punkdisco - Oral Hygiene/drums.wav,drums,Punkdisco - Oral Hygiene/mixture.wav
+37,BKS - Too Much/vocals.wav,vocals,BKS - Too Much/mixture.wav
+38,BKS - Too Much/other.wav,other musical instruments,BKS - Too Much/mixture.wav
+39,BKS - Too Much/bass.wav,bass,BKS - Too Much/mixture.wav
+40,BKS - Too Much/drums.wav,drums,BKS - Too Much/mixture.wav
+41,Detsky Sad - Walkie Talkie/vocals.wav,vocals,Detsky Sad - Walkie Talkie/mixture.wav
+42,Detsky Sad - Walkie Talkie/other.wav,other musical instruments,Detsky Sad - Walkie Talkie/mixture.wav
+43,Detsky Sad - Walkie Talkie/bass.wav,bass,Detsky Sad - Walkie Talkie/mixture.wav
+44,Detsky Sad - Walkie Talkie/drums.wav,drums,Detsky Sad - Walkie Talkie/mixture.wav
+45,BKS - Bulldozer/vocals.wav,vocals,BKS - Bulldozer/mixture.wav
+46,BKS - Bulldozer/other.wav,other musical instruments,BKS - Bulldozer/mixture.wav
+47,BKS - Bulldozer/bass.wav,bass,BKS - Bulldozer/mixture.wav
+48,BKS - Bulldozer/drums.wav,drums,BKS - Bulldozer/mixture.wav
+49,Forkupines - Semantics/vocals.wav,vocals,Forkupines - Semantics/mixture.wav
+50,Forkupines - Semantics/other.wav,other musical instruments,Forkupines - Semantics/mixture.wav
+51,Forkupines - Semantics/bass.wav,bass,Forkupines - Semantics/mixture.wav
+52,Forkupines - Semantics/drums.wav,drums,Forkupines - Semantics/mixture.wav
+53,The Mountaineering Club - Mallory/vocals.wav,vocals,The Mountaineering Club - Mallory/mixture.wav
+54,The Mountaineering Club - Mallory/other.wav,other musical instruments,The Mountaineering Club - Mallory/mixture.wav
+55,The Mountaineering Club - Mallory/bass.wav,bass,The Mountaineering Club - Mallory/mixture.wav
+56,The Mountaineering Club - Mallory/drums.wav,drums,The Mountaineering Club - Mallory/mixture.wav
+57,Girls Under Glass - We Feel Alright/vocals.wav,vocals,Girls Under Glass - We Feel Alright/mixture.wav
+58,Girls Under Glass - We Feel Alright/other.wav,other musical instruments,Girls Under Glass - We Feel Alright/mixture.wav
+59,Girls Under Glass - We Feel Alright/bass.wav,bass,Girls Under Glass - We Feel Alright/mixture.wav
+60,Girls Under Glass - We Feel Alright/drums.wav,drums,Girls Under Glass - We Feel Alright/mixture.wav
+61,Louis Cressy Band - Good Time/vocals.wav,vocals,Louis Cressy Band - Good Time/mixture.wav
+62,Louis Cressy Band - Good Time/other.wav,other musical instruments,Louis Cressy Band - Good Time/mixture.wav
+63,Louis Cressy Band - Good Time/bass.wav,bass,Louis Cressy Band - Good Time/mixture.wav
+64,Louis Cressy Band - Good Time/drums.wav,drums,Louis Cressy Band - Good Time/mixture.wav
+65,The Easton Ellises - Falcon 69/vocals.wav,vocals,The Easton Ellises - Falcon 69/mixture.wav
+66,The Easton Ellises - Falcon 69/other.wav,other musical instruments,The Easton Ellises - Falcon 69/mixture.wav
+67,The Easton Ellises - Falcon 69/bass.wav,bass,The Easton Ellises - Falcon 69/mixture.wav
+68,The Easton Ellises - Falcon 69/drums.wav,drums,The Easton Ellises - Falcon 69/mixture.wav
+69,AM Contra - Heart Peripheral/vocals.wav,vocals,AM Contra - Heart Peripheral/mixture.wav
+70,AM Contra - Heart Peripheral/other.wav,other musical instruments,AM Contra - Heart Peripheral/mixture.wav
+71,AM Contra - Heart Peripheral/bass.wav,bass,AM Contra - Heart Peripheral/mixture.wav
+72,AM Contra - Heart Peripheral/drums.wav,drums,AM Contra - Heart Peripheral/mixture.wav
+73,Sambasevam Shanmugam - Kaathaadi/vocals.wav,vocals,Sambasevam Shanmugam - Kaathaadi/mixture.wav
+74,Sambasevam Shanmugam - Kaathaadi/other.wav,other musical instruments,Sambasevam Shanmugam - Kaathaadi/mixture.wav
+75,Sambasevam Shanmugam - Kaathaadi/bass.wav,bass,Sambasevam Shanmugam - Kaathaadi/mixture.wav
+76,Sambasevam Shanmugam - Kaathaadi/drums.wav,drums,Sambasevam Shanmugam - Kaathaadi/mixture.wav
+77,Motor Tapes - Shore/vocals.wav,vocals,Motor Tapes - Shore/mixture.wav
+78,Motor Tapes - Shore/other.wav,other musical instruments,Motor Tapes - Shore/mixture.wav
+79,Motor Tapes - Shore/bass.wav,bass,Motor Tapes - Shore/mixture.wav
+80,Motor Tapes - Shore/drums.wav,drums,Motor Tapes - Shore/mixture.wav
+81,Timboz - Pony/vocals.wav,vocals,Timboz - Pony/mixture.wav
+82,Timboz - Pony/other.wav,other musical instruments,Timboz - Pony/mixture.wav
+83,Timboz - Pony/bass.wav,bass,Timboz - Pony/mixture.wav
+84,Timboz - Pony/drums.wav,drums,Timboz - Pony/mixture.wav
+85,Mu - Too Bright/vocals.wav,vocals,Mu - Too Bright/mixture.wav
+86,Mu - Too Bright/other.wav,other musical instruments,Mu - Too Bright/mixture.wav
+87,Mu - Too Bright/bass.wav,bass,Mu - Too Bright/mixture.wav
+88,Mu - Too Bright/drums.wav,drums,Mu - Too Bright/mixture.wav
+89,Enda Reilly - Cur An Long Ag Seol/vocals.wav,vocals,Enda Reilly - Cur An Long Ag Seol/mixture.wav
+90,Enda Reilly - Cur An Long Ag Seol/other.wav,other musical instruments,Enda Reilly - Cur An Long Ag Seol/mixture.wav
+91,Enda Reilly - Cur An Long Ag Seol/bass.wav,bass,Enda Reilly - Cur An Long Ag Seol/mixture.wav
+92,Enda Reilly - Cur An Long Ag Seol/drums.wav,drums,Enda Reilly - Cur An Long Ag Seol/mixture.wav
+93,We Fell From The Sky - Not You/vocals.wav,vocals,We Fell From The Sky - Not You/mixture.wav
+94,We Fell From The Sky - Not You/other.wav,other musical instruments,We Fell From The Sky - Not You/mixture.wav
+95,We Fell From The Sky - Not You/bass.wav,bass,We Fell From The Sky - Not You/mixture.wav
+96,We Fell From The Sky - Not You/drums.wav,drums,We Fell From The Sky - Not You/mixture.wav
+97,Bobby Nobody - Stitch Up/vocals.wav,vocals,Bobby Nobody - Stitch Up/mixture.wav
+98,Bobby Nobody - Stitch Up/other.wav,other musical instruments,Bobby Nobody - Stitch Up/mixture.wav
+99,Bobby Nobody - Stitch Up/bass.wav,bass,Bobby Nobody - Stitch Up/mixture.wav
+100,Bobby Nobody - Stitch Up/drums.wav,drums,Bobby Nobody - Stitch Up/mixture.wav
+101,Cristina Vane - So Easy/vocals.wav,vocals,Cristina Vane - So Easy/mixture.wav
+102,Cristina Vane - So Easy/other.wav,other musical instruments,Cristina Vane - So Easy/mixture.wav
+103,Cristina Vane - So Easy/bass.wav,bass,Cristina Vane - So Easy/mixture.wav
+104,Cristina Vane - So Easy/drums.wav,drums,Cristina Vane - So Easy/mixture.wav
+105,M.E.R.C. Music - Knockout/vocals.wav,vocals,M.E.R.C. Music - Knockout/mixture.wav
+106,M.E.R.C. Music - Knockout/other.wav,other musical instruments,M.E.R.C. Music - Knockout/mixture.wav
+107,M.E.R.C. Music - Knockout/bass.wav,bass,M.E.R.C. Music - Knockout/mixture.wav
+108,M.E.R.C. Music - Knockout/drums.wav,drums,M.E.R.C. Music - Knockout/mixture.wav
+109,Tom McKenzie - Directions/vocals.wav,vocals,Tom McKenzie - Directions/mixture.wav
+110,Tom McKenzie - Directions/other.wav,other musical instruments,Tom McKenzie - Directions/mixture.wav
+111,Tom McKenzie - Directions/bass.wav,bass,Tom McKenzie - Directions/mixture.wav
+112,Tom McKenzie - Directions/drums.wav,drums,Tom McKenzie - Directions/mixture.wav
+113,Skelpolu - Resurrection/vocals.wav,vocals,Skelpolu - Resurrection/mixture.wav
+114,Skelpolu - Resurrection/other.wav,other musical instruments,Skelpolu - Resurrection/mixture.wav
+115,Skelpolu - Resurrection/bass.wav,bass,Skelpolu - Resurrection/mixture.wav
+116,Skelpolu - Resurrection/drums.wav,drums,Skelpolu - Resurrection/mixture.wav
+117,Al James - Schoolboy Facination/vocals.wav,vocals,Al James - Schoolboy Facination/mixture.wav
+118,Al James - Schoolboy Facination/other.wav,other musical instruments,Al James - Schoolboy Facination/mixture.wav
+119,Al James - Schoolboy Facination/bass.wav,bass,Al James - Schoolboy Facination/mixture.wav
+120,Al James - Schoolboy Facination/drums.wav,drums,Al James - Schoolboy Facination/mixture.wav
+121,Secretariat - Over The Top/vocals.wav,vocals,Secretariat - Over The Top/mixture.wav
+122,Secretariat - Over The Top/other.wav,other musical instruments,Secretariat - Over The Top/mixture.wav
+123,Secretariat - Over The Top/bass.wav,bass,Secretariat - Over The Top/mixture.wav
+124,Secretariat - Over The Top/drums.wav,drums,Secretariat - Over The Top/mixture.wav
+125,Nerve 9 - Pray For The Rain/vocals.wav,vocals,Nerve 9 - Pray For The Rain/mixture.wav
+126,Nerve 9 - Pray For The Rain/other.wav,other musical instruments,Nerve 9 - Pray For The Rain/mixture.wav
+127,Nerve 9 - Pray For The Rain/bass.wav,bass,Nerve 9 - Pray For The Rain/mixture.wav
+128,Nerve 9 - Pray For The Rain/drums.wav,drums,Nerve 9 - Pray For The Rain/mixture.wav
+129,Hollow Ground - Ill Fate/vocals.wav,vocals,Hollow Ground - Ill Fate/mixture.wav
+130,Hollow Ground - Ill Fate/other.wav,other musical instruments,Hollow Ground - Ill Fate/mixture.wav
+131,Hollow Ground - Ill Fate/bass.wav,bass,Hollow Ground - Ill Fate/mixture.wav
+132,Hollow Ground - Ill Fate/drums.wav,drums,Hollow Ground - Ill Fate/mixture.wav
+133,Speak Softly - Like Horses/vocals.wav,vocals,Speak Softly - Like Horses/mixture.wav
+134,Speak Softly - Like Horses/other.wav,other musical instruments,Speak Softly - Like Horses/mixture.wav
+135,Speak Softly - Like Horses/bass.wav,bass,Speak Softly - Like Horses/mixture.wav
+136,Speak Softly - Like Horses/drums.wav,drums,Speak Softly - Like Horses/mixture.wav
+137,Lyndsey Ollard - Catching Up/vocals.wav,vocals,Lyndsey Ollard - Catching Up/mixture.wav
+138,Lyndsey Ollard - Catching Up/other.wav,other musical instruments,Lyndsey Ollard - Catching Up/mixture.wav
+139,Lyndsey Ollard - Catching Up/bass.wav,bass,Lyndsey Ollard - Catching Up/mixture.wav
+140,Lyndsey Ollard - Catching Up/drums.wav,drums,Lyndsey Ollard - Catching Up/mixture.wav
+141,Angels In Amplifiers - I'm Alright/vocals.wav,vocals,Angels In Amplifiers - I'm Alright/mixture.wav
+142,Angels In Amplifiers - I'm Alright/other.wav,other musical instruments,Angels In Amplifiers - I'm Alright/mixture.wav
+143,Angels In Amplifiers - I'm Alright/bass.wav,bass,Angels In Amplifiers - I'm Alright/mixture.wav
+144,Angels In Amplifiers - I'm Alright/drums.wav,drums,Angels In Amplifiers - I'm Alright/mixture.wav
+145,The Easton Ellises (Baumi) - SDRNR/vocals.wav,vocals,The Easton Ellises (Baumi) - SDRNR/mixture.wav
+146,The Easton Ellises (Baumi) - SDRNR/other.wav,other musical instruments,The Easton Ellises (Baumi) - SDRNR/mixture.wav
+147,The Easton Ellises (Baumi) - SDRNR/bass.wav,bass,The Easton Ellises (Baumi) - SDRNR/mixture.wav
+148,The Easton Ellises (Baumi) - SDRNR/drums.wav,drums,The Easton Ellises (Baumi) - SDRNR/mixture.wav
+149,Little Chicago's Finest - My Own/vocals.wav,vocals,Little Chicago's Finest - My Own/mixture.wav
+150,Little Chicago's Finest - My Own/other.wav,other musical instruments,Little Chicago's Finest - My Own/mixture.wav
+151,Little Chicago's Finest - My Own/bass.wav,bass,Little Chicago's Finest - My Own/mixture.wav
+152,Little Chicago's Finest - My Own/drums.wav,drums,Little Chicago's Finest - My Own/mixture.wav
+153,Triviul feat. The Fiend - Widow/vocals.wav,vocals,Triviul feat. The Fiend - Widow/mixture.wav
+154,Triviul feat. The Fiend - Widow/other.wav,other musical instruments,Triviul feat. The Fiend - Widow/mixture.wav
+155,Triviul feat. The Fiend - Widow/bass.wav,bass,Triviul feat. The Fiend - Widow/mixture.wav
+156,Triviul feat. The Fiend - Widow/drums.wav,drums,Triviul feat. The Fiend - Widow/mixture.wav
+157,Buitraker - Revo X/vocals.wav,vocals,Buitraker - Revo X/mixture.wav
+158,Buitraker - Revo X/other.wav,other musical instruments,Buitraker - Revo X/mixture.wav
+159,Buitraker - Revo X/bass.wav,bass,Buitraker - Revo X/mixture.wav
+160,Buitraker - Revo X/drums.wav,drums,Buitraker - Revo X/mixture.wav
+161,Secretariat - Borderline/vocals.wav,vocals,Secretariat - Borderline/mixture.wav
+162,Secretariat - Borderline/other.wav,other musical instruments,Secretariat - Borderline/mixture.wav
+163,Secretariat - Borderline/bass.wav,bass,Secretariat - Borderline/mixture.wav
+164,Secretariat - Borderline/drums.wav,drums,Secretariat - Borderline/mixture.wav
+165,Ben Carrigan - We'll Talk About It All Tonight/vocals.wav,vocals,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
+166,Ben Carrigan - We'll Talk About It All Tonight/other.wav,other musical instruments,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
+167,Ben Carrigan - We'll Talk About It All Tonight/bass.wav,bass,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
+168,Ben Carrigan - We'll Talk About It All Tonight/drums.wav,drums,Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
+169,James Elder & Mark M Thompson - The English Actor/vocals.wav,vocals,James Elder & Mark M Thompson - The English Actor/mixture.wav
+170,James Elder & Mark M Thompson - The English Actor/other.wav,other musical instruments,James Elder & Mark M Thompson - The English Actor/mixture.wav
+171,James Elder & Mark M Thompson - The English Actor/bass.wav,bass,James Elder & Mark M Thompson - The English Actor/mixture.wav
+172,James Elder & Mark M Thompson - The English Actor/drums.wav,drums,James Elder & Mark M Thompson - The English Actor/mixture.wav
+173,Zeno - Signs/vocals.wav,vocals,Zeno - Signs/mixture.wav
+174,Zeno - Signs/other.wav,other musical instruments,Zeno - Signs/mixture.wav
+175,Zeno - Signs/bass.wav,bass,Zeno - Signs/mixture.wav
+176,Zeno - Signs/drums.wav,drums,Zeno - Signs/mixture.wav
+177,Moosmusic - Big Dummy Shake/vocals.wav,vocals,Moosmusic - Big Dummy Shake/mixture.wav
+178,Moosmusic - Big Dummy Shake/other.wav,other musical instruments,Moosmusic - Big Dummy Shake/mixture.wav
+179,Moosmusic - Big Dummy Shake/bass.wav,bass,Moosmusic - Big Dummy Shake/mixture.wav
+180,Moosmusic - Big Dummy Shake/drums.wav,drums,Moosmusic - Big Dummy Shake/mixture.wav
+181,Juliet's Rescue - Heartbeats/vocals.wav,vocals,Juliet's Rescue - Heartbeats/mixture.wav
+182,Juliet's Rescue - Heartbeats/other.wav,other musical instruments,Juliet's Rescue - Heartbeats/mixture.wav
+183,Juliet's Rescue - Heartbeats/bass.wav,bass,Juliet's Rescue - Heartbeats/mixture.wav
+184,Juliet's Rescue - Heartbeats/drums.wav,drums,Juliet's Rescue - Heartbeats/mixture.wav
+185,Georgia Wonder - Siren/vocals.wav,vocals,Georgia Wonder - Siren/mixture.wav
+186,Georgia Wonder - Siren/other.wav,other musical instruments,Georgia Wonder - Siren/mixture.wav
+187,Georgia Wonder - Siren/bass.wav,bass,Georgia Wonder - Siren/mixture.wav
+188,Georgia Wonder - Siren/drums.wav,drums,Georgia Wonder - Siren/mixture.wav
+189,Speak Softly - Broken Man/vocals.wav,vocals,Speak Softly - Broken Man/mixture.wav
+190,Speak Softly - Broken Man/other.wav,other musical instruments,Speak Softly - Broken Man/mixture.wav
+191,Speak Softly - Broken Man/bass.wav,bass,Speak Softly - Broken Man/mixture.wav
+192,Speak Softly - Broken Man/drums.wav,drums,Speak Softly - Broken Man/mixture.wav
+193,Arise - Run Run Run/vocals.wav,vocals,Arise - Run Run Run/mixture.wav
+194,Arise - Run Run Run/other.wav,other musical instruments,Arise - Run Run Run/mixture.wav
+195,Arise - Run Run Run/bass.wav,bass,Arise - Run Run Run/mixture.wav
+196,Arise - Run Run Run/drums.wav,drums,Arise - Run Run Run/mixture.wav
+197,PR - Happy Daze/vocals.wav,vocals,PR - Happy Daze/mixture.wav
+198,PR - Happy Daze/other.wav,other musical instruments,PR - Happy Daze/mixture.wav
+199,PR - Happy Daze/bass.wav,bass,PR - Happy Daze/mixture.wav
+200,PR - Happy Daze/drums.wav,drums,PR - Happy Daze/mixture.wav

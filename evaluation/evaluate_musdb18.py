@@ -21,7 +21,7 @@ class MUSDB18Evaluator:
             csv_reader = csv.reader(csv_file, delimiter=',')
             self.eval_list = [row for row in csv_reader][1:]
 
-        self.source_types = ["bass", "drums", "vocals"]
+        self.source_types = ["bass", "drums", "vocals", "other musical instruments"]
 
     def __call__(self, model):
         model.eval()

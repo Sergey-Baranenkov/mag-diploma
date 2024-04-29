@@ -11,7 +11,7 @@ class DataModule(pl.LightningDataModule):
         train_dataset: object,
         validation_dataset: object,
         batch_size: int,
-        num_workers: int
+        num_workers: int,
     ):
         r"""Data module. To get one batch of data:
 
@@ -88,7 +88,7 @@ class DataModule(pl.LightningDataModule):
         # return DataLoader(test_split)
         pass
 
-    def teardown(self):
+    def teardown(self, stage: Optional[str] = None):
         # clean up after fit or test
         # called on every process in DDP
         pass
@@ -121,7 +121,7 @@ def collate_fn(list_data_dict):
     if len(at_list_data_dict) > 0:
         for key in at_list_data_dict[0].keys():
             at_data_dict[key] = [at_data_dict[key] for at_data_dict in at_list_data_dict]
-            if key == 'waveform':
+            if key == 'waveform' or key == 'mixture':
                 at_data_dict[key] = torch.stack(at_data_dict[key])
             elif key == 'text':
                 at_data_dict[key] = [text for text in at_data_dict[key]]

@@ -5,6 +5,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/PR - Oh No/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/PR - Oh No/bass.wav",
             "caption": "bass"
         },
@@ -15,6 +19,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Side Effects Project - Sing With Me/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Side Effects Project - Sing With Me/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Side Effects Project - Sing With Me/bass.wav",
@@ -29,6 +37,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Carlos Gonzalez - A Place For Us/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Carlos Gonzalez - A Place For Us/bass.wav",
             "caption": "bass"
         },
@@ -39,6 +51,10 @@
         {
             "wav": "evaluation/data/musdb18/test/The Doppler Shift - Atrophy/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Doppler Shift - Atrophy/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/The Doppler Shift - Atrophy/bass.wav",
@@ -53,6 +69,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Signe Jakobsen - What Have You Done To Me/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Signe Jakobsen - What Have You Done To Me/bass.wav",
             "caption": "bass"
         },
@@ -63,6 +83,10 @@
         {
             "wav": "evaluation/data/musdb18/test/The Long Wait - Dark Horses/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Long Wait - Dark Horses/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/The Long Wait - Dark Horses/bass.wav",
@@ -77,6 +101,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/The Sunshine Garcia Band - For I Am The Moon/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/The Sunshine Garcia Band - For I Am The Moon/bass.wav",
             "caption": "bass"
         },
@@ -87,6 +115,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Raft Monk - Tiring/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Raft Monk - Tiring/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Raft Monk - Tiring/bass.wav",
@@ -101,6 +133,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Punkdisco - Oral Hygiene/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Punkdisco - Oral Hygiene/bass.wav",
             "caption": "bass"
         },
@@ -111,6 +147,10 @@
         {
             "wav": "evaluation/data/musdb18/test/BKS - Too Much/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Too Much/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/BKS - Too Much/bass.wav",
@@ -125,6 +165,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Detsky Sad - Walkie Talkie/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Detsky Sad - Walkie Talkie/bass.wav",
             "caption": "bass"
         },
@@ -135,6 +179,10 @@
         {
             "wav": "evaluation/data/musdb18/test/BKS - Bulldozer/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/BKS - Bulldozer/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/BKS - Bulldozer/bass.wav",
@@ -149,6 +197,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Forkupines - Semantics/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Forkupines - Semantics/bass.wav",
             "caption": "bass"
         },
@@ -159,6 +211,10 @@
         {
             "wav": "evaluation/data/musdb18/test/The Mountaineering Club - Mallory/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/The Mountaineering Club - Mallory/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/The Mountaineering Club - Mallory/bass.wav",
@@ -173,6 +229,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Girls Under Glass - We Feel Alright/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Girls Under Glass - We Feel Alright/bass.wav",
             "caption": "bass"
         },
@@ -183,6 +243,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Louis Cressy Band - Good Time/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Louis Cressy Band - Good Time/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Louis Cressy Band - Good Time/bass.wav",
@@ -197,6 +261,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises - Falcon 69/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/The Easton Ellises - Falcon 69/bass.wav",
             "caption": "bass"
         },
@@ -207,6 +275,10 @@
         {
             "wav": "evaluation/data/musdb18/test/AM Contra - Heart Peripheral/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/AM Contra - Heart Peripheral/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/AM Contra - Heart Peripheral/bass.wav",
@@ -221,6 +293,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Sambasevam Shanmugam - Kaathaadi/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Sambasevam Shanmugam - Kaathaadi/bass.wav",
             "caption": "bass"
         },
@@ -231,6 +307,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Motor Tapes - Shore/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Motor Tapes - Shore/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Motor Tapes - Shore/bass.wav",
@@ -245,6 +325,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Timboz - Pony/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Timboz - Pony/bass.wav",
             "caption": "bass"
         },
@@ -255,6 +339,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Mu - Too Bright/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Mu - Too Bright/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Mu - Too Bright/bass.wav",
@@ -269,6 +357,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Enda Reilly - Cur An Long Ag Seol/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Enda Reilly - Cur An Long Ag Seol/bass.wav",
             "caption": "bass"
         },
@@ -279,6 +371,10 @@
         {
             "wav": "evaluation/data/musdb18/test/We Fell From The Sky - Not You/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/We Fell From The Sky - Not You/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/We Fell From The Sky - Not You/bass.wav",
@@ -293,6 +389,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Bobby Nobody - Stitch Up/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Bobby Nobody - Stitch Up/bass.wav",
             "caption": "bass"
         },
@@ -303,6 +403,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Cristina Vane - So Easy/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Cristina Vane - So Easy/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Cristina Vane - So Easy/bass.wav",
@@ -317,6 +421,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/M.E.R.C. Music - Knockout/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/M.E.R.C. Music - Knockout/bass.wav",
             "caption": "bass"
         },
@@ -327,6 +435,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Tom McKenzie - Directions/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Tom McKenzie - Directions/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Tom McKenzie - Directions/bass.wav",
@@ -341,6 +453,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Skelpolu - Resurrection/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Skelpolu - Resurrection/bass.wav",
             "caption": "bass"
         },
@@ -351,6 +467,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Al James - Schoolboy Facination/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Al James - Schoolboy Facination/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Al James - Schoolboy Facination/bass.wav",
@@ -365,6 +485,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Over The Top/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Secretariat - Over The Top/bass.wav",
             "caption": "bass"
         },
@@ -375,6 +499,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Nerve 9 - Pray For The Rain/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Nerve 9 - Pray For The Rain/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Nerve 9 - Pray For The Rain/bass.wav",
@@ -389,6 +517,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Hollow Ground - Ill Fate/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Hollow Ground - Ill Fate/bass.wav",
             "caption": "bass"
         },
@@ -399,6 +531,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Speak Softly - Like Horses/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Like Horses/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Speak Softly - Like Horses/bass.wav",
@@ -413,6 +549,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Lyndsey Ollard - Catching Up/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Lyndsey Ollard - Catching Up/bass.wav",
             "caption": "bass"
         },
@@ -423,6 +563,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Angels In Amplifiers - I'm Alright/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Angels In Amplifiers - I'm Alright/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Angels In Amplifiers - I'm Alright/bass.wav",
@@ -437,6 +581,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/The Easton Ellises (Baumi) - SDRNR/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/The Easton Ellises (Baumi) - SDRNR/bass.wav",
             "caption": "bass"
         },
@@ -447,6 +595,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Little Chicago's Finest - My Own/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Little Chicago's Finest - My Own/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Little Chicago's Finest - My Own/bass.wav",
@@ -461,6 +613,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Triviul feat. The Fiend - Widow/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Triviul feat. The Fiend - Widow/bass.wav",
             "caption": "bass"
         },
@@ -471,6 +627,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Buitraker - Revo X/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Buitraker - Revo X/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Buitraker - Revo X/bass.wav",
@@ -485,6 +645,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Secretariat - Borderline/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Secretariat - Borderline/bass.wav",
             "caption": "bass"
         },
@@ -495,6 +659,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Ben Carrigan - We'll Talk About It All Tonight/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Ben Carrigan - We'll Talk About It All Tonight/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Ben Carrigan - We'll Talk About It All Tonight/bass.wav",
@@ -509,6 +677,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/James Elder & Mark M Thompson - The English Actor/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/James Elder & Mark M Thompson - The English Actor/bass.wav",
             "caption": "bass"
         },
@@ -519,6 +691,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Zeno - Signs/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Zeno - Signs/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Zeno - Signs/bass.wav",
@@ -533,6 +709,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Moosmusic - Big Dummy Shake/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Moosmusic - Big Dummy Shake/bass.wav",
             "caption": "bass"
         },
@@ -543,6 +723,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Juliet's Rescue - Heartbeats/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Juliet's Rescue - Heartbeats/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Juliet's Rescue - Heartbeats/bass.wav",
@@ -557,6 +741,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Georgia Wonder - Siren/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Georgia Wonder - Siren/bass.wav",
             "caption": "bass"
         },
@@ -567,6 +755,10 @@
         {
             "wav": "evaluation/data/musdb18/test/Speak Softly - Broken Man/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/Speak Softly - Broken Man/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/Speak Softly - Broken Man/bass.wav",
@@ -581,6 +773,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/test/Arise - Run Run Run/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/test/Arise - Run Run Run/bass.wav",
             "caption": "bass"
         },
@@ -591,6 +787,10 @@
         {
             "wav": "evaluation/data/musdb18/test/PR - Happy Daze/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/test/PR - Happy Daze/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/test/PR - Happy Daze/bass.wav",

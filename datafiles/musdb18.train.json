@@ -5,6 +5,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Beatles/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Music Delta - Beatles/bass.wav",
             "caption": "bass"
         },
@@ -15,6 +19,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Alexander Ross - Goodbye Bolero/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Alexander Ross - Goodbye Bolero/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Alexander Ross - Goodbye Bolero/bass.wav",
@@ -29,6 +37,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/North To Alaska - All The Same/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/North To Alaska - All The Same/bass.wav",
             "caption": "bass"
         },
@@ -39,6 +51,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Tim Taler - Stalker/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Tim Taler - Stalker/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Tim Taler - Stalker/bass.wav",
@@ -53,6 +69,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Sweet Lights - You Let Me Down/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Sweet Lights - You Let Me Down/bass.wav",
             "caption": "bass"
         },
@@ -63,6 +83,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Patrick Talbot - Set Me Free/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Patrick Talbot - Set Me Free/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Patrick Talbot - Set Me Free/bass.wav",
@@ -77,6 +101,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Remember December - C U Next Time/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Remember December - C U Next Time/bass.wav",
             "caption": "bass"
         },
@@ -87,6 +115,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Voelund - Comfort Lives In Belief/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Voelund - Comfort Lives In Belief/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Voelund - Comfort Lives In Belief/bass.wav",
@@ -101,6 +133,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/BigTroubles - Phantom/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/BigTroubles - Phantom/bass.wav",
             "caption": "bass"
         },
@@ -111,6 +147,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Bill Chudziak - Children Of No-one/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Bill Chudziak - Children Of No-one/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Bill Chudziak - Children Of No-one/bass.wav",
@@ -125,6 +165,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Fergessen - The Wind/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Fergessen - The Wind/bass.wav",
             "caption": "bass"
         },
@@ -135,6 +179,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Phre The Eon - Everybody's Falling Apart/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Phre The Eon - Everybody's Falling Apart/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Phre The Eon - Everybody's Falling Apart/bass.wav",
@@ -149,6 +197,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Strand Of Oaks - Spacestation/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Strand Of Oaks - Spacestation/bass.wav",
             "caption": "bass"
         },
@@ -159,6 +211,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Chris Durban - Celebrate/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Chris Durban - Celebrate/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Chris Durban - Celebrate/bass.wav",
@@ -173,6 +229,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Air Traffic/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Air Traffic/bass.wav",
             "caption": "bass"
         },
@@ -183,6 +243,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Black Bloc - If You Want Success/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Black Bloc - If You Want Success/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Black Bloc - If You Want Success/bass.wav",
@@ -197,6 +261,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Aimee Norwich - Child/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Aimee Norwich - Child/bass.wav",
             "caption": "bass"
         },
@@ -207,6 +275,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Hezekiah Jones - Borrowed Heart/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Hezekiah Jones - Borrowed Heart/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Hezekiah Jones - Borrowed Heart/bass.wav",
@@ -221,6 +293,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Johnny Lokke - Promises & Lies/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Johnny Lokke - Promises & Lies/bass.wav",
             "caption": "bass"
         },
@@ -231,6 +307,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Snowmine - Curfews/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Snowmine - Curfews/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Snowmine - Curfews/bass.wav",
@@ -245,6 +325,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Rock/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Music Delta - Rock/bass.wav",
             "caption": "bass"
         },
@@ -255,6 +339,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Actions - One Minute Smile/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Actions - One Minute Smile/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Actions - One Minute Smile/bass.wav",
@@ -269,6 +357,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/The Scarlet Brand - Les Fleurs Du Mal/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/The Scarlet Brand - Les Fleurs Du Mal/bass.wav",
             "caption": "bass"
         },
@@ -279,6 +371,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Leaf - Come Around/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Leaf - Come Around/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Leaf - Come Around/bass.wav",
@@ -293,6 +389,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Disco/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Music Delta - Disco/bass.wav",
             "caption": "bass"
         },
@@ -303,6 +403,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Titanium - Haunted Age/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Titanium - Haunted Age/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Titanium - Haunted Age/bass.wav",
@@ -317,6 +421,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Giselle - Moss/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Giselle - Moss/bass.wav",
             "caption": "bass"
         },
@@ -327,6 +435,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Punk/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Punk/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Punk/bass.wav",
@@ -341,6 +453,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Port St Willow - Stay Even/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Port St Willow - Stay Even/bass.wav",
             "caption": "bass"
         },
@@ -351,6 +467,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Drumtracks - Ghost Bitch/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Drumtracks - Ghost Bitch/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Drumtracks - Ghost Bitch/bass.wav",
@@ -365,6 +485,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/The Long Wait - Back Home To Blue/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/The Long Wait - Back Home To Blue/bass.wav",
             "caption": "bass"
         },
@@ -375,6 +499,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Night Panther - Fire/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Night Panther - Fire/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Night Panther - Fire/bass.wav",
@@ -389,6 +517,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/ANiMAL - Easy Tiger/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/ANiMAL - Easy Tiger/bass.wav",
             "caption": "bass"
         },
@@ -399,6 +531,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Young Griffo - Blood To Bone/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Young Griffo - Blood To Bone/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Young Griffo - Blood To Bone/bass.wav",
@@ -413,6 +549,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Traffic Experiment - Sirens/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Traffic Experiment - Sirens/bass.wav",
             "caption": "bass"
         },
@@ -423,6 +563,10 @@
         {
             "wav": "evaluation/data/musdb18/train/ANiMAL - Clinic A/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/ANiMAL - Clinic A/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/ANiMAL - Clinic A/bass.wav",
@@ -437,6 +581,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Music Delta - 80s Rock/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Music Delta - 80s Rock/bass.wav",
             "caption": "bass"
         },
@@ -447,6 +595,10 @@
         {
             "wav": "evaluation/data/musdb18/train/The So So Glos - Emergency/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/The So So Glos - Emergency/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/The So So Glos - Emergency/bass.wav",
@@ -461,6 +613,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Stella/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Stella/bass.wav",
             "caption": "bass"
         },
@@ -471,6 +627,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Country2/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Country2/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Country2/bass.wav",
@@ -485,6 +645,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Matthew Entwistle - Dont You Ever/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Matthew Entwistle - Dont You Ever/bass.wav",
             "caption": "bass"
         },
@@ -495,6 +659,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Waltz For My Victims/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Waltz For My Victims/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Clara Berry And Wooldog - Waltz For My Victims/bass.wav",
@@ -509,6 +677,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Alexander Ross - Velvet Curtain/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Alexander Ross - Velvet Curtain/bass.wav",
             "caption": "bass"
         },
@@ -519,6 +691,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Helado Negro - Mitad Del Mundo/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Helado Negro - Mitad Del Mundo/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Helado Negro - Mitad Del Mundo/bass.wav",
@@ -533,6 +709,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/St Vitus - Word Gets Around/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/St Vitus - Word Gets Around/bass.wav",
             "caption": "bass"
         },
@@ -543,6 +723,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Faces On Film - Waiting For Ga/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Faces On Film - Waiting For Ga/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Faces On Film - Waiting For Ga/bass.wav",
@@ -557,6 +741,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/James May - If You Say/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/James May - If You Say/bass.wav",
             "caption": "bass"
         },
@@ -567,6 +755,10 @@
         {
             "wav": "evaluation/data/musdb18/train/A Classic Education - NightOwl/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/A Classic Education - NightOwl/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/A Classic Education - NightOwl/bass.wav",
@@ -581,6 +773,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Dreamers Of The Ghetto - Heavy Love/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Dreamers Of The Ghetto - Heavy Love/bass.wav",
             "caption": "bass"
         },
@@ -591,6 +787,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Hollow Ground - Left Blind/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Hollow Ground - Left Blind/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Hollow Ground - Left Blind/bass.wav",
@@ -605,6 +805,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Angela Thomas Wade - Milk Cow Blues/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Angela Thomas Wade - Milk Cow Blues/bass.wav",
             "caption": "bass"
         },
@@ -615,6 +819,10 @@
         {
             "wav": "evaluation/data/musdb18/train/James May - All Souls Moon/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/James May - All Souls Moon/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/James May - All Souls Moon/bass.wav",
@@ -629,6 +837,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Johnny Lokke - Whisper To A Scream/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Johnny Lokke - Whisper To A Scream/bass.wav",
             "caption": "bass"
         },
@@ -639,6 +851,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Triviul - Dorothy/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Triviul - Dorothy/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Triviul - Dorothy/bass.wav",
@@ -653,6 +869,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Fergessen - Back From The Start/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Fergessen - Back From The Start/bass.wav",
             "caption": "bass"
         },
@@ -663,6 +883,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Dark Ride - Burning Bridges/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Dark Ride - Burning Bridges/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Dark Ride - Burning Bridges/bass.wav",
@@ -677,6 +901,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Actions - Devil's Words/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Actions - Devil's Words/bass.wav",
             "caption": "bass"
         },
@@ -687,6 +915,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Britpop/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Britpop/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Britpop/bass.wav",
@@ -701,6 +933,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Leaf - Summerghost/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Leaf - Summerghost/bass.wav",
             "caption": "bass"
         },
@@ -711,6 +947,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Creepoid - OldTree/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Creepoid - OldTree/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Creepoid - OldTree/bass.wav",
@@ -725,6 +965,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Cnoc An Tursa - Bannockburn/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Cnoc An Tursa - Bannockburn/bass.wav",
             "caption": "bass"
         },
@@ -735,6 +979,10 @@
         {
             "wav": "evaluation/data/musdb18/train/The Wrong'Uns - Rothko/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/The Wrong'Uns - Rothko/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/The Wrong'Uns - Rothko/bass.wav",
@@ -749,6 +997,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Actions - South Of The Water/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Actions - South Of The Water/bass.wav",
             "caption": "bass"
         },
@@ -759,6 +1011,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Leaf - Wicked/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Leaf - Wicked/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Leaf - Wicked/bass.wav",
@@ -773,6 +1029,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Meaxic - Take A Step/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Meaxic - Take A Step/bass.wav",
             "caption": "bass"
         },
@@ -783,6 +1043,10 @@
         {
             "wav": "evaluation/data/musdb18/train/James May - On The Line/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/James May - On The Line/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/James May - On The Line/bass.wav",
@@ -797,6 +1061,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Hop Along - Sister Cities/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Hop Along - Sister Cities/bass.wav",
             "caption": "bass"
         },
@@ -807,6 +1075,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Spike Mullings - Mike's Sulking/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Spike Mullings - Mike's Sulking/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Spike Mullings - Mike's Sulking/bass.wav",
@@ -821,6 +1093,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Country1/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Music Delta - Country1/bass.wav",
             "caption": "bass"
         },
@@ -831,6 +1107,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Hendrix/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Hendrix/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Hendrix/bass.wav",
@@ -845,6 +1125,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Invisible Familiars - Disturbing Wildlife/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Invisible Familiars - Disturbing Wildlife/bass.wav",
             "caption": "bass"
         },
@@ -855,6 +1139,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Atlantis Bound - It Was My Fault For Waiting/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Atlantis Bound - It Was My Fault For Waiting/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Atlantis Bound - It Was My Fault For Waiting/bass.wav",
@@ -869,6 +1157,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Traffic Experiment - Once More (With Feeling)/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Traffic Experiment - Once More (With Feeling)/bass.wav",
             "caption": "bass"
         },
@@ -879,6 +1171,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Auctioneer - Our Future Faces/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Auctioneer - Our Future Faces/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Auctioneer - Our Future Faces/bass.wav",
@@ -893,6 +1189,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/AvaLuna - Waterduct/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/AvaLuna - Waterduct/bass.wav",
             "caption": "bass"
         },
@@ -903,6 +1203,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Grunge/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Grunge/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Grunge/bass.wav",
@@ -917,6 +1221,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Skelpolu - Together Alone/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Skelpolu - Together Alone/bass.wav",
             "caption": "bass"
         },
@@ -927,6 +1235,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Swinging Steaks - Lost My Way/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Swinging Steaks - Lost My Way/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Swinging Steaks - Lost My Way/bass.wav",
@@ -941,6 +1253,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/The Districts - Vermont/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/The Districts - Vermont/bass.wav",
             "caption": "bass"
         },
@@ -951,6 +1267,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Triviul - Angelsaint/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Triviul - Angelsaint/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Triviul - Angelsaint/bass.wav",
@@ -965,6 +1285,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Young Griffo - Facade/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Young Griffo - Facade/bass.wav",
             "caption": "bass"
         },
@@ -975,6 +1299,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Young Griffo - Pennies/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Young Griffo - Pennies/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Young Griffo - Pennies/bass.wav",
@@ -989,6 +1317,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Jokers, Jacks & Kings - Sea Of Leaves/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Jokers, Jacks & Kings - Sea Of Leaves/bass.wav",
             "caption": "bass"
         },
@@ -999,6 +1331,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Patrick Talbot - A Reason To Leave/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Patrick Talbot - A Reason To Leave/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Patrick Talbot - A Reason To Leave/bass.wav",
@@ -1013,6 +1349,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Wall Of Death - Femme/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Wall Of Death - Femme/bass.wav",
             "caption": "bass"
         },
@@ -1023,6 +1363,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Lushlife - Toynbee Suite/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Lushlife - Toynbee Suite/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Lushlife - Toynbee Suite/bass.wav",
@@ -1037,6 +1381,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Steven Clark - Bounty/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Steven Clark - Bounty/bass.wav",
             "caption": "bass"
         },
@@ -1047,6 +1395,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Secret Mountains - High Horse/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Secret Mountains - High Horse/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Secret Mountains - High Horse/bass.wav",
@@ -1061,6 +1413,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Fergessen - Nos Palpitants/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Fergessen - Nos Palpitants/bass.wav",
             "caption": "bass"
         },
@@ -1071,6 +1427,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Celestial Shore - Die For Us/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Celestial Shore - Die For Us/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Celestial Shore - Die For Us/bass.wav",
@@ -1085,6 +1445,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Gospel/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Music Delta - Gospel/bass.wav",
             "caption": "bass"
         },
@@ -1095,6 +1459,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Grants - PunchDrunk/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Grants - PunchDrunk/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Grants - PunchDrunk/bass.wav",
@@ -1109,6 +1477,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/ANiMAL - Rockshow/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/ANiMAL - Rockshow/bass.wav",
             "caption": "bass"
         },
@@ -1119,6 +1491,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Flags - 54/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Flags - 54/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Flags - 54/bass.wav",
@@ -1133,6 +1509,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Skelpolu - Human Mistakes/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Skelpolu - Human Mistakes/bass.wav",
             "caption": "bass"
         },
@@ -1143,6 +1523,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Jay Menon - Through My Eyes/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Jay Menon - Through My Eyes/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Jay Menon - Through My Eyes/bass.wav",
@@ -1157,6 +1541,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/James May - Dont Let Go/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/James May - Dont Let Go/bass.wav",
             "caption": "bass"
         },
@@ -1167,6 +1555,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Reggae/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Reggae/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Reggae/bass.wav",
@@ -1181,6 +1573,10 @@
             "caption": "vocals"
         },
         {
+            "wav": "evaluation/data/musdb18/train/Meaxic - You Listen/other.wav",
+            "caption": "other musical instruments"
+        },
+        {
             "wav": "evaluation/data/musdb18/train/Meaxic - You Listen/bass.wav",
             "caption": "bass"
         },
@@ -1191,6 +1587,10 @@
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Rockabilly/vocals.wav",
             "caption": "vocals"
+        },
+        {
+            "wav": "evaluation/data/musdb18/train/Music Delta - Rockabilly/other.wav",
+            "caption": "other musical instruments"
         },
         {
             "wav": "evaluation/data/musdb18/train/Music Delta - Rockabilly/bass.wav",

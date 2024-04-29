@@ -13,3 +13,4 @@ eval_logs
 checkpoints
 wandb
 research/ww-img
+research/ontology.json
