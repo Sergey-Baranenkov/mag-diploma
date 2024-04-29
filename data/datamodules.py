@@ -7,11 +7,11 @@ from data.audiotext_dataset import AudioTextDataset
 
 class DataModule(pl.LightningDataModule):
     def __init__(
-        self,
-        train_dataset: object,
-        validation_dataset: object,
-        batch_size: int,
-        num_workers: int,
+            self,
+            train_dataset: object,
+            validation_dataset: object,
+            batch_size: int,
+            num_workers: int,
     ):
         r"""Data module. To get one batch of data:
 
@@ -36,7 +36,6 @@ class DataModule(pl.LightningDataModule):
         self.batch_size = batch_size
         self.collate_fn = collate_fn
 
-
     def prepare_data(self):
         # download, split, etc...
         # only called on 1 GPU/TPU in distributed
@@ -52,8 +51,7 @@ class DataModule(pl.LightningDataModule):
         # On multiple devices, each SegmentSampler samples a part of mini-batch
         # data.
         self.train_dataset = self._train_dataset
-        
-        
+
     def train_dataloader(self) -> torch.utils.data.DataLoader:
         r"""Get train loader."""
         train_loader = DataLoader(
@@ -103,6 +101,7 @@ def collate_fn(list_data_dict):
                 'text': 'a sound of dog',
                 'waveform': (1, samples),
                 'modality': 'audio_text'
+                'mixture': (1, samples or None)
             }
             ...
             ]
@@ -111,24 +110,29 @@ def collate_fn(list_data_dict):
             'audio_text': {
                 'text': ['a sound of dog', ...]
                 'waveform': (batch_size, 1, samples)
+                'mixture': (batch_size, 1, samples) or None
         }
     """
-    
-    at_list_data_dict = [data_dict for data_dict in list_data_dict if data_dict['modality']=='audio_text']
+
+    at_list_data_dict = [data_dict for data_dict in list_data_dict if data_dict['modality'] == 'audio_text']
 
     at_data_dict = {}
-    
+
     if len(at_list_data_dict) > 0:
         for key in at_list_data_dict[0].keys():
             at_data_dict[key] = [at_data_dict[key] for at_data_dict in at_list_data_dict]
-            if key == 'waveform' or key == 'mixture':
+            if key == 'waveform':
                 at_data_dict[key] = torch.stack(at_data_dict[key])
+            if key == 'mixture':
+                if at_data_dict[key][0] is None:
+                    at_data_dict[key] = None
+                else:
+                    at_data_dict[key] = torch.stack(at_data_dict[key])
             elif key == 'text':
                 at_data_dict[key] = [text for text in at_data_dict[key]]
 
-    
     data_dict = {
         'audio_text': at_data_dict
     }
-    
+
     return data_dict

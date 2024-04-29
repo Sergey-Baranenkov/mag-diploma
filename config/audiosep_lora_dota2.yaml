@@ -1,0 +1,43 @@
+---
+task_name: AudioSepLoraDota2
+
+data:
+    train_datafiles:
+        - 'datafiles/dota2.train.json'
+    validation_datafiles:
+        - 'datafiles/dota2.val.json'
+
+    sampling_rate: 32000
+    segment_seconds: 2
+    loudness_norm:
+        lower_db: -10
+        higher_db: 10
+    max_mix_num:  3
+    with_mixture: False
+
+train:
+    precision: 32
+    checkpoint_filename_args: 'base'
+    logs_per_class: False
+    lora_params:
+        lora_dropout: 0.05
+        lora_alpha: 16
+        r: 8
+    optimizer:
+        optimizer_type: AdamW
+        learning_rate: 1e-3
+        warm_up_steps: 1
+        reduce_lr_steps: 1540
+        lr_lambda_type: linear_warm_up
+    num_nodes: 1
+    num_workers: 6
+    loss_type: si_sdr
+    sync_batchnorm: True
+    batch_size_per_device: 12
+    steps_per_epoch: 1000
+    check_val_every_n_epoch: 1
+    save_epoch_frequency: 10
+    early_stop_steps: 1000001
+    random_seed: 1234
+    log_every_n_steps: 154
+    segment_mixer_type: 'balanced'

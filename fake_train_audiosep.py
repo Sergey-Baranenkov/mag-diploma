@@ -7,7 +7,7 @@ import torch
 from pytorch_lightning.loggers import WandbLogger
 
 from data.datamodules import *
-from data.waveform_mixers import BalancedSegmentMixer
+from data.waveform_mixers import BalancedSegmentMixer, get_segment_mixer
 from losses import get_loss_function
 from model_loaders import load_ss_model
 from models.audiosep import AudioSep
@@ -60,6 +60,7 @@ def train(args, optuna_args={}) -> NoReturn:
     max_mix_num = configs['data']['max_mix_num']
     loss_type = configs['train']['loss_type']
     learning_rate = float(configs['train']["optimizer"]['learning_rate'])
+    segment_mixer_type = configs["train"]['segment_mixer_type']
 
     # data module
     data_module = get_data_module(
@@ -80,7 +81,7 @@ def train(args, optuna_args={}) -> NoReturn:
 
     loss_function = get_loss_function(loss_type)
 
-    segment_mixer = BalancedSegmentMixer(
+    segment_mixer = get_segment_mixer(segment_mixer_type)(
         max_mix_num=max_mix_num,
         lower_db=lower_db,
         higher_db=higher_db
@@ -112,7 +113,7 @@ def train(args, optuna_args={}) -> NoReturn:
         optimizer_type='fake',
     )
 
-    wandb_logger = WandbLogger(name=f'fake_audiosep_training_{timestamp}', project='diploma')
+    wandb_logger = WandbLogger(name=f'{task_name}_{timestamp}', project='diploma')
     trainer = pl.Trainer(
         accelerator='auto',
         devices='auto',
