@@ -9,10 +9,11 @@ lightning_logs
 tf_logs
 statistics
 research/separated
-!checkpoints/final
 logs
 eval_logs
 checkpoints
+!checkpoints/final
 wandb
 research/ww-img
 research/ontology.json
+research/dota2_mixtures

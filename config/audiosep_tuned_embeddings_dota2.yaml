@@ -27,7 +27,7 @@ train:
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6
-    loss_type: si_sdr
+    loss_type: l1_wav
     sync_batchnorm: True
     batch_size_per_device: 12
     steps_per_epoch: 1000
