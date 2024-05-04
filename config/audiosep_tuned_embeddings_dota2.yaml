@@ -23,7 +23,7 @@ train:
         optimizer_type: AdamW
         learning_rate: 1e-3
         warm_up_steps: 1
-        reduce_lr_steps: 1540
+        reduce_lr_steps: 1848
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6

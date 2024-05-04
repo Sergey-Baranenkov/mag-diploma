@@ -27,7 +27,7 @@ lora_combinations = [(rank, rank) for rank in lora_ranks] + [(rank, rank * 2) fo
 
 
 def objective(trial: optuna.trial.Trial, args):
-    # Suggest hyperparameters
+    # # Suggest hyperparameters
     learning_rate = trial.suggest_categorical("learning_rate", [1e-3, 1e-4, 1e-5])
     loss_type = trial.suggest_categorical("loss_type", ["si_sdr", "l1_wav"])
     max_mix_num = trial.suggest_categorical("max_mix_num", [2, 3, 4])
@@ -143,7 +143,7 @@ def train(args, optuna_args={}) -> NoReturn:
 
     target_modules = get_layers(model.ss_model, (nn.Conv2d,))
 
-    lora_params['modules_to_save'] = get_layers(model.ss_model, nn.ConvTranspose2d)
+    lora_params['modules_to_save'] = get_layers(model.ss_model, (nn.ConvTranspose2d,))
 
     # pytorch-lightning model
     pl_model = AudioSepLora(
@@ -183,7 +183,7 @@ def train(args, optuna_args={}) -> NoReturn:
         logger=wandb_logger,
         callbacks=callbacks,
         fast_dev_run=False,
-        max_epochs=optuna_args.get('max_epochs') or -1,
+        max_epochs=optuna_args.get('max_epochs') or 50,
         log_every_n_steps=log_every_n_steps,
         use_distributed_sampler=True,
         sync_batchnorm=sync_batchnorm,
@@ -234,7 +234,7 @@ if __name__ == "__main__":
     # storage_name = "sqlite:///optuna.db"
     #
     # study = optuna.create_study(direction='maximize', storage=storage_name, study_name=study_name)
-    # study.optimize(lambda trial: objective(trial, args), n_trials=100)  # fixme
+    # study.optimize(lambda trial: objective(trial, args), n_trials=30)
     # print("Best trial:", study.best_trial.params)
 
     train(args)

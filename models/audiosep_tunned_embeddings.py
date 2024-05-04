@@ -148,7 +148,8 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
                 res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'train', cls)
                 self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
-        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()), flatmap(sisdr_values.values()), 'train')
+        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
+                                        flatmap(sisdr_values.values()), 'train')
         self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         loss = self.loss_function(output_dict, target_dict)
@@ -192,7 +193,8 @@ class AudioSepTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
                 res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'val', cls)
                 self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
-        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()), flatmap(sisdr_values.values()), 'val')
+        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
+                                        flatmap(sisdr_values.values()), 'val')
         self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         loss = self.loss_function(output_dict, target_dict)

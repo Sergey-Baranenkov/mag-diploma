@@ -145,7 +145,7 @@ def train(args, optuna_args={}):
 
     target_modules = get_layers(model.ss_model, (nn.Conv2d, ))
 
-    lora_params['modules_to_save'] = get_layers(model.ss_model, nn.ConvTranspose2d)
+    lora_params['modules_to_save'] = get_layers(model.ss_model, (nn.ConvTranspose2d,))
     # pytorch-lightning model
     pl_model = AudioSepLoraAndTunedEmbeddings(
         pretrained_audiosep_model=model,
@@ -183,7 +183,7 @@ def train(args, optuna_args={}):
         logger=wandb_logger,
         callbacks=callbacks,
         fast_dev_run=False,
-        max_epochs=optuna_args.get('max_epochs') or -1,
+        max_epochs=optuna_args.get('max_epochs') or 50,
         log_every_n_steps=log_every_n_steps,
         use_distributed_sampler=True,
         sync_batchnorm=sync_batchnorm,

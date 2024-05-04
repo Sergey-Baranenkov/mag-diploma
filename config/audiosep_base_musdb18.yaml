@@ -8,12 +8,12 @@ data:
         - 'datafiles/musdb18.val.json'
 
     sampling_rate: 32000
-    segment_seconds: 5
+    segment_seconds: 1
     loudness_norm:
         lower_db: -10
         higher_db: 10
     max_mix_num:  4
-    with_mixture: True
+    with_mixture: False
 
 train:
     precision: 32

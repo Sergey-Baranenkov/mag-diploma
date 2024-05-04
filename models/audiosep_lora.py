@@ -39,7 +39,6 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
 
         config = LoraConfig(
             target_modules=target_modules,
-            bias='all',
             **lora_params,
         )
 
@@ -60,8 +59,8 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
         random.seed(batch_idx)
         text, waveform, mixture = \
             batch['audio_text']['text'], \
-            batch['audio_text']['waveform'], \
-            batch['audio_text']['mixture']
+                batch['audio_text']['waveform'], \
+                batch['audio_text']['mixture']
 
         mixtures, segments = self.waveform_mixer(waveform, text, mixture)
         conditions = self.model.query_encoder.get_query_embed(
@@ -182,9 +181,18 @@ class AudioSepLora(pl.LightningModule, PyTorchModelHubMixin):
         return {'optimizer': optimizer, 'lr_scheduler': {'scheduler': scheduler, 'interval': 'step', 'frequency': 1}}
 
     def on_save_checkpoint(self, checkpoint: dict) -> dict:
-        lora_params = {k: v for k, v in self.state_dict().items() if 'lora' in k.lower()}
-        checkpoint['state_dict'] = lora_params
+        trained_params = self._get_trained_params()
+        checkpoint_params = {k: v for k, v in self.state_dict().items() if k in trained_params}
+        checkpoint['state_dict'] = checkpoint_params
         return checkpoint
 
     def print_parameters(self):
         self.model.print_trainable_parameters()
+
+    def _get_trained_params(self):
+        trained = []
+        for name, param in self.named_parameters():
+            if param.requires_grad:
+                trained.append(name)
+
+        return trained

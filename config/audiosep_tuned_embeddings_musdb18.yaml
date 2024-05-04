@@ -17,13 +17,13 @@ data:
 
 train:
     precision: 32
-    checkpoint_filename_args: 'optuna'
+    checkpoint_filename_args: 'final'
     logs_per_class: True
     optimizer:
         optimizer_type: AdamW
         learning_rate: 1e-3
         warm_up_steps: 1
-        reduce_lr_steps: 180
+        reduce_lr_steps: 300
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6

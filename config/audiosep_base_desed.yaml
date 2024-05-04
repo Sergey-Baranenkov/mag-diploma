@@ -12,7 +12,7 @@ data:
     loudness_norm:
         lower_db: -10
         higher_db: 10
-    max_mix_num:  2
+    max_mix_num:  3
     with_mixture: False
 
 train:
@@ -23,7 +23,7 @@ train:
         optimizer_type: AdamW
         learning_rate: 1e-3
         warm_up_steps: 1
-        reduce_lr_steps: 630
+        reduce_lr_steps: 756
         lr_lambda_type: linear_warm_up
     num_nodes: 1
     num_workers: 6

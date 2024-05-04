@@ -66,18 +66,26 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         self.epoch_losses = None
         config = LoraConfig(
             target_modules=target_modules,
-            bias='all',
             **lora_params,
         )
 
         model = get_peft_model(pretrained_audiosep_model, config)
         model.query_encoder = TunedQueryEncoder(model.query_encoder)
+
         self.model = model
         self.waveform_mixer = waveform_mixer
         self.loss_function = loss_function
         self.lr_lambda_func = lr_lambda_func
         self.strict_loading = False
         self.logs_per_class = logs_per_class
+
+    def _get_trained_params(self):
+        trained = []
+        for name, param in self.named_parameters():
+            if param.requires_grad:
+                trained.append(name)
+
+        return trained
 
     def forward(self, prompt: str, mixture, device: torch.device = None):
         text = [prompt]
@@ -98,6 +106,7 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         return sep_segment
 
     def batch_forward(self, batch, batch_idx):
+        self._get_trained_params()
         random.seed(batch_idx)
         text, waveform, mixture = \
             batch['audio_text']['text'], \
@@ -153,7 +162,8 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
                 res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'train', cls)
                 self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
-        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()), flatmap(sisdr_values.values()), 'train')
+        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
+                                        flatmap(sisdr_values.values()), 'train')
         self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         loss = self.loss_function(output_dict, target_dict)
@@ -197,7 +207,8 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
                 res_dict = get_averaged_metrics(sdr_values[cls], sdr_i_values[cls], sisdr_values[cls], 'val', cls)
                 self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
-        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()), flatmap(sisdr_values.values()), 'val')
+        res_dict = get_averaged_metrics(flatmap(sdr_values.values()), flatmap(sdr_i_values.values()),
+                                        flatmap(sisdr_values.values()), 'val')
         self.log_dict(res_dict, on_step=False, on_epoch=True, batch_size=batch_size)
 
         loss = self.loss_function(output_dict, target_dict)
@@ -221,9 +232,8 @@ class AudioSepLoraAndTunedEmbeddings(pl.LightningModule, PyTorchModelHubMixin):
         return {'optimizer': optimizer, 'lr_scheduler': {'scheduler': scheduler, 'interval': 'step', 'frequency': 1}}
 
     def on_save_checkpoint(self, checkpoint: dict) -> dict:
-        lora_params = {k: v for k, v in self.state_dict().items() if 'lora' in k.lower()}
-        embedding_params = {k: v for k, v in self.state_dict().items() if 'tuned_embedding_layer' in k.lower()}
-        checkpoint_params = {**lora_params, **embedding_params}
+        trained_params = self._get_trained_params()
+        checkpoint_params = {k: v for k, v in self.state_dict().items() if k in trained_params}
         checkpoint['state_dict'] = checkpoint_params
         return checkpoint
 

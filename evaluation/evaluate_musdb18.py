@@ -33,7 +33,6 @@ class MUSDB18Evaluator:
         with torch.no_grad():
             for eval_data in tqdm(self.eval_list, desc="Evaluating"):
                 idx, src, caption, mxtr = eval_data
-                print(mxtr, caption)
 
                 source_path = os.path.join(self.audio_dir, src)
                 mixture_path = os.path.join(self.audio_dir, mxtr)

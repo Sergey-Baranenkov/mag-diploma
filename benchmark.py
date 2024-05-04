@@ -74,7 +74,9 @@ def get_model(name: str, checkpoint_path: str, device=torch.device('cuda')):
                 .eval() \
                 .to(device)
 
-            return model.model.merge_and_unload()
+            merged_model = model.model.merge_and_unload()
+            merged_model.query_encoder = model.model.query_encoder
+            return merged_model
 
         case 'audiosep_lora_and_embeddings':
             base_model = get_model('audiosep', '')
@@ -89,7 +91,10 @@ def get_model(name: str, checkpoint_path: str, device=torch.device('cuda')):
                 .eval() \
                 .to(device)
 
-            return model.model.merge_and_unload()
+            merged_model = model.model.merge_and_unload()
+            merged_model.query_encoder = model.model.query_encoder
+            return merged_model
+
     raise Exception('unknown model')
 
 

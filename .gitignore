@@ -8,6 +8,8 @@ evaluation/data
 lightning_logs
 tf_logs
 statistics
+research/separated
+!checkpoints/final
 logs
 eval_logs
 checkpoints

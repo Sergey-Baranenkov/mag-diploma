@@ -8,11 +8,12 @@ import librosa
 import pickle
 from typing import Dict, List
 import numpy as np
+import pandas as pd
 import torch
 import torch.nn as nn
 import yaml
 from panns_inference.models import Cnn14_DecisionLevelMax, Cnn14
-
+import ipywidgets as widgets
 from data.audiotext_dataset import AudioTextDataset
 from data.datamodules import DataModule
 
@@ -439,14 +440,14 @@ def get_data_module(
         datafiles=train_datafiles,
         sampling_rate=sampling_rate,
         max_clip_len=segment_seconds,
-        with_mixture = with_mixture,
+        with_mixture=with_mixture,
     )
 
     validation_dataset = AudioTextDataset(
         datafiles=validation_datafiles,
         sampling_rate=sampling_rate,
         max_clip_len=segment_seconds,
-        with_mixture = with_mixture,
+        with_mixture=with_mixture,
     )
 
     data_module = DataModule(
@@ -475,3 +476,66 @@ def plot_hist(details):
     plt.title(title)
     plt.axvline(x=avg_alpha, color='green', label=f"<alpha> = {avg_alpha:0.3f}")
     plt.legend()
+
+
+def plot_separation_result(audio_widgets: dict[dict[widgets.Audio]]):
+    classes = list(audio_widgets.keys())
+    if len(audio_widgets) == 0:
+        raise Exception('No classes found')
+
+    filenames = list(audio_widgets[classes[0]].keys())
+    if len(audio_widgets) == 0:
+        raise Exception('No filenames found')
+
+    header_labels = [widgets.Label(value='')] + [widgets.Label(value=cls, layout=widgets.Layout(margin='0 10px 0 10px'))
+                                                 for cls in classes]
+    header = widgets.HBox(header_labels, layout=widgets.Layout(justify_content='space-between', align_items='center'))
+    header.add_class('header')
+
+    rows = [header]
+
+    for file in filenames:
+        filename = file.split(os.sep)[-1]
+        file_label = widgets.Label(value=filename, layout=widgets.Layout(margin='5px 10px 5px 10px'))
+        row_widgets = [file_label] + [audio_widgets[cls][filename] for cls in classes]
+        row = widgets.HBox(row_widgets, layout=widgets.Layout(justify_content='space-between', align_items='center'))
+        rows.append(row)
+
+    # Стиль для заголовков
+    header_style = "<style>.widget-label { font-size: 16px; font-weight: bold; }</style>"
+
+    display(widgets.HTML(value=header_style))
+    table = widgets.VBox(rows)
+    display(table)
+
+
+def calculate_ranks_of_conv_layers(model):
+    metrics_df = pd.DataFrame(columns=['layer_name', 'lower_dim_size', 'rank'])
+
+    # Функция для рекурсивного обхода всех сверточных слоёв
+    def recursive_layer_visit(module, ancestor_names):
+        nonlocal metrics_df
+        for name, sub_module in module.named_children():
+            # Сформируем уникальное имя для слоя, учитывая иерархию
+            module_full_name = "->".join(ancestor_names + [name])
+
+            # Проверяем, является ли слой сверточным
+            if isinstance(sub_module, nn.Conv2d):
+                # Получаем веса как numpy массив
+                weights = sub_module.weight.data.cpu().numpy()
+
+                num_filters, num_channels, h, w = weights.shape
+                matrix = weights.reshape(num_filters, num_channels * h * w)
+
+                rank = np.linalg.matrix_rank(matrix)
+                metrics_df = metrics_df.append(
+                    {'layer_name': module_full_name, 'lower_dim_size': min(matrix.shape), 'rank': rank},
+                    ignore_index=True)
+
+            # Рекурсивно обходим дочерние модули
+            recursive_layer_visit(sub_module, ancestor_names + [name])
+
+    # Начинаем обход с корневого модуля
+    recursive_layer_visit(model, [])
+
+    return metrics_df
