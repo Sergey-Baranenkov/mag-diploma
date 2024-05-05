@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+from pydub import AudioSegment
 
 from model_loaders import load_ss_model
 from models.audiosep_lora_and_tuned_embeddings import AudioSepLoraAndTunedEmbeddings
@@ -10,7 +11,8 @@ from utils import parse_yaml
 import gc
 
 
-def find_nearest_embedding(class_checkpoint_combinations: (str, str), query_embedding: np.ndarray, index, threshold: float):
+def find_nearest_embedding(class_checkpoint_combinations: (str, str), query_embedding: np.ndarray, index,
+                           threshold: float):
     D, I = index.search(query_embedding, 1)
 
     if D[0][0] > threshold:
@@ -50,7 +52,11 @@ def get_model(name: str, query_encoder: QueryEncoder, checkpoint_path: str, devi
                 .eval() \
                 .to(device)
 
-            return model.model.merge_and_unload()
+            merged_lora_model = model.model.merge_and_unload()
+            merged_lora_model.query_encoder = model.model.query_encoder
+
+            return merged_lora_model
+
     raise Exception('unknown model')
 
 
@@ -88,7 +94,10 @@ class Separator:
         # используем ближайший класс если кастомная модель иначе caption пользователя
         resulting_caption = cls if cls is not None else caption
 
-        separate_audio(self.model, src_file, resulting_caption, output_file, self.device, use_chunk=True)
+        audio_duration_in_sec = self.get_audio_duration(src_file)
+
+        use_chunk = audio_duration_in_sec > 5
+        separate_audio(self.model, src_file, resulting_caption, output_file, self.device, use_chunk=use_chunk)
 
         return resulting_caption
 
@@ -116,3 +125,10 @@ class Separator:
             print(f'reset current model ckpt to', self.current_ckpt)
 
         return cls
+
+    def get_audio_duration(self, file_path: str):
+        audio = AudioSegment.from_file(file_path)
+        duration_ms = len(audio)
+        duration_seconds = duration_ms / 1000.0
+
+        return duration_seconds

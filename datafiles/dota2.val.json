@@ -2,2475 +2,2475 @@
     "data": [
         {
             "wav": "evaluation/data/dota2/Sniper/8.wav",
-            "caption": "Sniper"
+            "caption": "sniper"
         },
         {
             "wav": "evaluation/data/dota2/Kunkka/15.wav",
-            "caption": "Kunkka"
+            "caption": "kunkka"
         },
         {
             "wav": "evaluation/data/dota2/Keeper of the Light/18.wav",
-            "caption": "Keeper of the Light"
+            "caption": "keeper of the light"
         },
         {
             "wav": "evaluation/data/dota2/Pudge/0.wav",
-            "caption": "Pudge"
+            "caption": "pudge"
         },
         {
             "wav": "evaluation/data/dota2/Slark/0.wav",
-            "caption": "Slark"
+            "caption": "slark"
         },
         {
             "wav": "evaluation/data/dota2/Sand King/7.wav",
-            "caption": "Sand King"
+            "caption": "sand king"
         },
         {
             "wav": "evaluation/data/dota2/Beastmaster/18.wav",
-            "caption": "Beastmaster"
+            "caption": "beastmaster"
         },
         {
             "wav": "evaluation/data/dota2/Techies/6.wav",
-            "caption": "Techies"
+            "caption": "techies"
         },
         {
             "wav": "evaluation/data/dota2/Lifestealer/9.wav",
-            "caption": "Lifestealer"
+            "caption": "lifestealer"
         },
         {
             "wav": "evaluation/data/dota2/Tusk/2.wav",
-            "caption": "Tusk"
+            "caption": "tusk"
         },
         {
             "wav": "evaluation/data/dota2/Weaver/4.wav",
-            "caption": "Weaver"
+            "caption": "weaver"
         },
         {
             "wav": "evaluation/data/dota2/Earth Spirit/14.wav",
-            "caption": "Earth Spirit"
+            "caption": "earth spirit"
         },
         {
             "wav": "evaluation/data/dota2/Dark Seer/16.wav",
-            "caption": "Dark Seer"
+            "caption": "dark seer"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Lancer/19.wav",
-            "caption": "Phantom Lancer"
+            "caption": "phantom lancer"
         },
         {
             "wav": "evaluation/data/dota2/Grimstroke/2.wav",
-            "caption": "Grimstroke"
+            "caption": "grimstroke"
         },
         {
             "wav": "evaluation/data/dota2/Axe/14.wav",
-            "caption": "Axe"
+            "caption": "axe"
         },
         {
             "wav": "evaluation/data/dota2/Medusa/11.wav",
-            "caption": "Medusa"
+            "caption": "medusa"
         },
         {
             "wav": "evaluation/data/dota2/Winter Wyvern/11.wav",
-            "caption": "Winter Wyvern"
+            "caption": "winter wyvern"
         },
         {
             "wav": "evaluation/data/dota2/Vengeful Spirit/3.wav",
-            "caption": "Vengeful Spirit"
+            "caption": "vengeful spirit"
         },
         {
             "wav": "evaluation/data/dota2/Clockwerk/0.wav",
-            "caption": "Clockwerk"
+            "caption": "clockwerk"
         },
         {
             "wav": "evaluation/data/dota2/Queen of Pain/13.wav",
-            "caption": "Queen of Pain"
+            "caption": "queen of pain"
         },
         {
             "wav": "evaluation/data/dota2/Huskar/12.wav",
-            "caption": "Huskar"
+            "caption": "huskar"
         },
         {
             "wav": "evaluation/data/dota2/Drow Ranger/18.wav",
-            "caption": "Drow Ranger"
+            "caption": "drow ranger"
         },
         {
             "wav": "evaluation/data/dota2/Warlock/2.wav",
-            "caption": "Warlock"
+            "caption": "warlock"
         },
         {
             "wav": "evaluation/data/dota2/Venomancer/11.wav",
-            "caption": "Venomancer"
+            "caption": "venomancer"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Shaman/13.wav",
-            "caption": "Shadow Shaman"
+            "caption": "shadow shaman"
         },
         {
             "wav": "evaluation/data/dota2/Outworld Destroyer/18.wav",
-            "caption": "Outworld Destroyer"
+            "caption": "outworld destroyer"
         },
         {
             "wav": "evaluation/data/dota2/Leshrac/11.wav",
-            "caption": "Leshrac"
+            "caption": "leshrac"
         },
         {
             "wav": "evaluation/data/dota2/Bane/2.wav",
-            "caption": "Bane"
+            "caption": "bane"
         },
         {
             "wav": "evaluation/data/dota2/Visage/13.wav",
-            "caption": "Visage"
+            "caption": "visage"
         },
         {
             "wav": "evaluation/data/dota2/Sven/11.wav",
-            "caption": "Sven"
+            "caption": "sven"
         },
         {
             "wav": "evaluation/data/dota2/Tinker/5.wav",
-            "caption": "Tinker"
+            "caption": "tinker"
         },
         {
             "wav": "evaluation/data/dota2/Storm Spirit/0.wav",
-            "caption": "Storm Spirit"
+            "caption": "storm spirit"
         },
         {
             "wav": "evaluation/data/dota2/Necrophos/2.wav",
-            "caption": "Necrophos"
+            "caption": "necrophos"
         },
         {
             "wav": "evaluation/data/dota2/Troll Warlord/10.wav",
-            "caption": "Troll Warlord"
+            "caption": "troll warlord"
         },
         {
             "wav": "evaluation/data/dota2/Silencer/4.wav",
-            "caption": "Silencer"
+            "caption": "silencer"
         },
         {
             "wav": "evaluation/data/dota2/Medusa/19.wav",
-            "caption": "Medusa"
+            "caption": "medusa"
         },
         {
             "wav": "evaluation/data/dota2/Alchemist/6.wav",
-            "caption": "Alchemist"
+            "caption": "alchemist"
         },
         {
             "wav": "evaluation/data/dota2/Lion/2.wav",
-            "caption": "Lion"
+            "caption": "lion"
         },
         {
             "wav": "evaluation/data/dota2/Spectre/8.wav",
-            "caption": "Spectre"
+            "caption": "spectre"
         },
         {
             "wav": "evaluation/data/dota2/Storm Spirit/8.wav",
-            "caption": "Storm Spirit"
+            "caption": "storm spirit"
         },
         {
             "wav": "evaluation/data/dota2/Jakiro/10.wav",
-            "caption": "Jakiro"
+            "caption": "jakiro"
         },
         {
             "wav": "evaluation/data/dota2/Tusk/15.wav",
-            "caption": "Tusk"
+            "caption": "tusk"
         },
         {
             "wav": "evaluation/data/dota2/Timbersaw/15.wav",
-            "caption": "Timbersaw"
+            "caption": "timbersaw"
         },
         {
             "wav": "evaluation/data/dota2/Treant Protector/15.wav",
-            "caption": "Treant Protector"
+            "caption": "treant protector"
         },
         {
             "wav": "evaluation/data/dota2/Necrophos/12.wav",
-            "caption": "Necrophos"
+            "caption": "necrophos"
         },
         {
             "wav": "evaluation/data/dota2/Gyrocopter/12.wav",
-            "caption": "Gyrocopter"
+            "caption": "gyrocopter"
         },
         {
             "wav": "evaluation/data/dota2/Outworld Destroyer/13.wav",
-            "caption": "Outworld Destroyer"
+            "caption": "outworld destroyer"
         },
         {
             "wav": "evaluation/data/dota2/Arc Warden/9.wav",
-            "caption": "Arc Warden"
+            "caption": "arc warden"
         },
         {
             "wav": "evaluation/data/dota2/Ancient Apparition/10.wav",
-            "caption": "Ancient Apparition"
+            "caption": "ancient apparition"
         },
         {
             "wav": "evaluation/data/dota2/Spectre/10.wav",
-            "caption": "Spectre"
+            "caption": "spectre"
         },
         {
             "wav": "evaluation/data/dota2/Omniknight/6.wav",
-            "caption": "Omniknight"
+            "caption": "omniknight"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Shaman/6.wav",
-            "caption": "Shadow Shaman"
+            "caption": "shadow shaman"
         },
         {
             "wav": "evaluation/data/dota2/Tusk/13.wav",
-            "caption": "Tusk"
+            "caption": "tusk"
         },
         {
             "wav": "evaluation/data/dota2/Nyx Assassin/15.wav",
-            "caption": "Nyx Assassin"
+            "caption": "nyx assassin"
         },
         {
             "wav": "evaluation/data/dota2/Chaos Knight/14.wav",
-            "caption": "Chaos Knight"
+            "caption": "chaos knight"
         },
         {
             "wav": "evaluation/data/dota2/Lich/5.wav",
-            "caption": "Lich"
+            "caption": "lich"
         },
         {
             "wav": "evaluation/data/dota2/Winter Wyvern/17.wav",
-            "caption": "Winter Wyvern"
+            "caption": "winter wyvern"
         },
         {
             "wav": "evaluation/data/dota2/Drow Ranger/12.wav",
-            "caption": "Drow Ranger"
+            "caption": "drow ranger"
         },
         {
             "wav": "evaluation/data/dota2/Bounty Hunter/5.wav",
-            "caption": "Bounty Hunter"
+            "caption": "bounty hunter"
         },
         {
             "wav": "evaluation/data/dota2/Death Prophet/10.wav",
-            "caption": "Death Prophet"
+            "caption": "death prophet"
         },
         {
             "wav": "evaluation/data/dota2/Templar Assassin/12.wav",
-            "caption": "Templar Assassin"
+            "caption": "templar assassin"
         },
         {
             "wav": "evaluation/data/dota2/Earthshaker/0.wav",
-            "caption": "Earthshaker"
+            "caption": "earthshaker"
         },
         {
             "wav": "evaluation/data/dota2/Pangolier/6.wav",
-            "caption": "Pangolier"
+            "caption": "pangolier"
         },
         {
             "wav": "evaluation/data/dota2/Techies/18.wav",
-            "caption": "Techies"
+            "caption": "techies"
         },
         {
             "wav": "evaluation/data/dota2/Rubick/2.wav",
-            "caption": "Rubick"
+            "caption": "rubick"
         },
         {
             "wav": "evaluation/data/dota2/Rubick/7.wav",
-            "caption": "Rubick"
+            "caption": "rubick"
         },
         {
             "wav": "evaluation/data/dota2/Templar Assassin/13.wav",
-            "caption": "Templar Assassin"
+            "caption": "templar assassin"
         },
         {
             "wav": "evaluation/data/dota2/Weaver/3.wav",
-            "caption": "Weaver"
+            "caption": "weaver"
         },
         {
             "wav": "evaluation/data/dota2/Omniknight/4.wav",
-            "caption": "Omniknight"
+            "caption": "omniknight"
         },
         {
             "wav": "evaluation/data/dota2/Tinker/3.wav",
-            "caption": "Tinker"
+            "caption": "tinker"
         },
         {
             "wav": "evaluation/data/dota2/Bane/11.wav",
-            "caption": "Bane"
+            "caption": "bane"
         },
         {
             "wav": "evaluation/data/dota2/Ember Spirit/16.wav",
-            "caption": "Ember Spirit"
+            "caption": "ember spirit"
         },
         {
             "wav": "evaluation/data/dota2/Techies/1.wav",
-            "caption": "Techies"
+            "caption": "techies"
         },
         {
             "wav": "evaluation/data/dota2/Ancient Apparition/15.wav",
-            "caption": "Ancient Apparition"
+            "caption": "ancient apparition"
         },
         {
             "wav": "evaluation/data/dota2/Juggernaut/2.wav",
-            "caption": "Juggernaut"
+            "caption": "juggernaut"
         },
         {
             "wav": "evaluation/data/dota2/Troll Warlord/14.wav",
-            "caption": "Troll Warlord"
+            "caption": "troll warlord"
         },
         {
             "wav": "evaluation/data/dota2/Techies/3.wav",
-            "caption": "Techies"
+            "caption": "techies"
         },
         {
             "wav": "evaluation/data/dota2/Void Spirit/17.wav",
-            "caption": "Void Spirit"
+            "caption": "void spirit"
         },
         {
             "wav": "evaluation/data/dota2/Tusk/11.wav",
-            "caption": "Tusk"
+            "caption": "tusk"
         },
         {
             "wav": "evaluation/data/dota2/Huskar/16.wav",
-            "caption": "Huskar"
+            "caption": "huskar"
         },
         {
             "wav": "evaluation/data/dota2/Dark Willow/19.wav",
-            "caption": "Dark Willow"
+            "caption": "dark willow"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Lancer/13.wav",
-            "caption": "Phantom Lancer"
+            "caption": "phantom lancer"
         },
         {
             "wav": "evaluation/data/dota2/Wraith King/6.wav",
-            "caption": "Wraith King"
+            "caption": "wraith king"
         },
         {
             "wav": "evaluation/data/dota2/Venomancer/12.wav",
-            "caption": "Venomancer"
+            "caption": "venomancer"
         },
         {
             "wav": "evaluation/data/dota2/Lycan/19.wav",
-            "caption": "Lycan"
+            "caption": "lycan"
         },
         {
             "wav": "evaluation/data/dota2/Mars/18.wav",
-            "caption": "Mars"
+            "caption": "mars"
         },
         {
             "wav": "evaluation/data/dota2/Storm Spirit/5.wav",
-            "caption": "Storm Spirit"
+            "caption": "storm spirit"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Demon/15.wav",
-            "caption": "Shadow Demon"
+            "caption": "shadow demon"
         },
         {
             "wav": "evaluation/data/dota2/Clinkz/11.wav",
-            "caption": "Clinkz"
+            "caption": "clinkz"
         },
         {
             "wav": "evaluation/data/dota2/Slardar/0.wav",
-            "caption": "Slardar"
+            "caption": "slardar"
         },
         {
             "wav": "evaluation/data/dota2/Tidehunter/2.wav",
-            "caption": "Tidehunter"
+            "caption": "tidehunter"
         },
         {
             "wav": "evaluation/data/dota2/Zeus/8.wav",
-            "caption": "Zeus"
+            "caption": "zeus"
         },
         {
             "wav": "evaluation/data/dota2/Necrophos/4.wav",
-            "caption": "Necrophos"
+            "caption": "necrophos"
         },
         {
             "wav": "evaluation/data/dota2/Primal Beast/1.wav",
-            "caption": "Primal Beast"
+            "caption": "primal beast"
         },
         {
             "wav": "evaluation/data/dota2/Abaddon/0.wav",
-            "caption": "Abaddon"
+            "caption": "abaddon"
         },
         {
             "wav": "evaluation/data/dota2/Sand King/19.wav",
-            "caption": "Sand King"
+            "caption": "sand king"
         },
         {
             "wav": "evaluation/data/dota2/Pangolier/17.wav",
-            "caption": "Pangolier"
+            "caption": "pangolier"
         },
         {
             "wav": "evaluation/data/dota2/Ursa/8.wav",
-            "caption": "Ursa"
+            "caption": "ursa"
         },
         {
             "wav": "evaluation/data/dota2/Pugna/6.wav",
-            "caption": "Pugna"
+            "caption": "pugna"
         },
         {
             "wav": "evaluation/data/dota2/Rubick/18.wav",
-            "caption": "Rubick"
+            "caption": "rubick"
         },
         {
             "wav": "evaluation/data/dota2/Omniknight/17.wav",
-            "caption": "Omniknight"
+            "caption": "omniknight"
         },
         {
             "wav": "evaluation/data/dota2/Tidehunter/16.wav",
-            "caption": "Tidehunter"
+            "caption": "tidehunter"
         },
         {
             "wav": "evaluation/data/dota2/Riki/3.wav",
-            "caption": "Riki"
+            "caption": "riki"
         },
         {
             "wav": "evaluation/data/dota2/Abaddon/4.wav",
-            "caption": "Abaddon"
+            "caption": "abaddon"
         },
         {
             "wav": "evaluation/data/dota2/Meepo/11.wav",
-            "caption": "Meepo"
+            "caption": "meepo"
         },
         {
             "wav": "evaluation/data/dota2/Monkey King/6.wav",
-            "caption": "Monkey King"
+            "caption": "monkey king"
         },
         {
             "wav": "evaluation/data/dota2/Zeus/13.wav",
-            "caption": "Zeus"
+            "caption": "zeus"
         },
         {
             "wav": "evaluation/data/dota2/Warlock/0.wav",
-            "caption": "Warlock"
+            "caption": "warlock"
         },
         {
             "wav": "evaluation/data/dota2/Faceless Void/13.wav",
-            "caption": "Faceless Void"
+            "caption": "faceless void"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Assassin/13.wav",
-            "caption": "Phantom Assassin"
+            "caption": "phantom assassin"
         },
         {
             "wav": "evaluation/data/dota2/Phoenix/3.wav",
-            "caption": "Phoenix"
+            "caption": "phoenix"
         },
         {
             "wav": "evaluation/data/dota2/Pugna/2.wav",
-            "caption": "Pugna"
+            "caption": "pugna"
         },
         {
             "wav": "evaluation/data/dota2/Broodmother/13.wav",
-            "caption": "Broodmother"
+            "caption": "broodmother"
         },
         {
             "wav": "evaluation/data/dota2/Hoodwink/11.wav",
-            "caption": "Hoodwink"
+            "caption": "hoodwink"
         },
         {
             "wav": "evaluation/data/dota2/Wraith King/4.wav",
-            "caption": "Wraith King"
+            "caption": "wraith king"
         },
         {
             "wav": "evaluation/data/dota2/Abaddon/18.wav",
-            "caption": "Abaddon"
+            "caption": "abaddon"
         },
         {
             "wav": "evaluation/data/dota2/Dazzle/8.wav",
-            "caption": "Dazzle"
+            "caption": "dazzle"
         },
         {
             "wav": "evaluation/data/dota2/Juggernaut/16.wav",
-            "caption": "Juggernaut"
+            "caption": "juggernaut"
         },
         {
             "wav": "evaluation/data/dota2/Bounty Hunter/3.wav",
-            "caption": "Bounty Hunter"
+            "caption": "bounty hunter"
         },
         {
             "wav": "evaluation/data/dota2/Pangolier/11.wav",
-            "caption": "Pangolier"
+            "caption": "pangolier"
         },
         {
             "wav": "evaluation/data/dota2/Centaur Warrunner/19.wav",
-            "caption": "Centaur Warrunner"
+            "caption": "centaur warrunner"
         },
         {
             "wav": "evaluation/data/dota2/Lion/16.wav",
-            "caption": "Lion"
+            "caption": "lion"
         },
         {
             "wav": "evaluation/data/dota2/Magnus/11.wav",
-            "caption": "Magnus"
+            "caption": "magnus"
         },
         {
             "wav": "evaluation/data/dota2/Underlord/5.wav",
-            "caption": "Underlord"
+            "caption": "underlord"
         },
         {
             "wav": "evaluation/data/dota2/Axe/16.wav",
-            "caption": "Axe"
+            "caption": "axe"
         },
         {
             "wav": "evaluation/data/dota2/Lone Druid/11.wav",
-            "caption": "Lone Druid"
+            "caption": "lone druid"
         },
         {
             "wav": "evaluation/data/dota2/Oracle/17.wav",
-            "caption": "Oracle"
+            "caption": "oracle"
         },
         {
             "wav": "evaluation/data/dota2/Windranger/12.wav",
-            "caption": "Windranger"
+            "caption": "windranger"
         },
         {
             "wav": "evaluation/data/dota2/Treant Protector/17.wav",
-            "caption": "Treant Protector"
+            "caption": "treant protector"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Demon/5.wav",
-            "caption": "Shadow Demon"
+            "caption": "shadow demon"
         },
         {
             "wav": "evaluation/data/dota2/Puck/10.wav",
-            "caption": "Puck"
+            "caption": "puck"
         },
         {
             "wav": "evaluation/data/dota2/Riki/8.wav",
-            "caption": "Riki"
+            "caption": "riki"
         },
         {
             "wav": "evaluation/data/dota2/Silencer/13.wav",
-            "caption": "Silencer"
+            "caption": "silencer"
         },
         {
             "wav": "evaluation/data/dota2/Dawnbreaker/3.wav",
-            "caption": "Dawnbreaker"
+            "caption": "dawnbreaker"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Lancer/18.wav",
-            "caption": "Phantom Lancer"
+            "caption": "phantom lancer"
         },
         {
             "wav": "evaluation/data/dota2/Timbersaw/18.wav",
-            "caption": "Timbersaw"
+            "caption": "timbersaw"
         },
         {
             "wav": "evaluation/data/dota2/Necrophos/5.wav",
-            "caption": "Necrophos"
+            "caption": "necrophos"
         },
         {
             "wav": "evaluation/data/dota2/Weaver/13.wav",
-            "caption": "Weaver"
+            "caption": "weaver"
         },
         {
             "wav": "evaluation/data/dota2/Abaddon/11.wav",
-            "caption": "Abaddon"
+            "caption": "abaddon"
         },
         {
             "wav": "evaluation/data/dota2/Chen/3.wav",
-            "caption": "Chen"
+            "caption": "chen"
         },
         {
             "wav": "evaluation/data/dota2/Chaos Knight/8.wav",
-            "caption": "Chaos Knight"
+            "caption": "chaos knight"
         },
         {
             "wav": "evaluation/data/dota2/Mars/15.wav",
-            "caption": "Mars"
+            "caption": "mars"
         },
         {
             "wav": "evaluation/data/dota2/Lich/0.wav",
-            "caption": "Lich"
+            "caption": "lich"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Assassin/12.wav",
-            "caption": "Phantom Assassin"
+            "caption": "phantom assassin"
         },
         {
             "wav": "evaluation/data/dota2/Naga Siren/1.wav",
-            "caption": "Naga Siren"
+            "caption": "naga siren"
         },
         {
             "wav": "evaluation/data/dota2/Leshrac/0.wav",
-            "caption": "Leshrac"
+            "caption": "leshrac"
         },
         {
             "wav": "evaluation/data/dota2/Luna/11.wav",
-            "caption": "Luna"
+            "caption": "luna"
         },
         {
             "wav": "evaluation/data/dota2/Storm Spirit/7.wav",
-            "caption": "Storm Spirit"
+            "caption": "storm spirit"
         },
         {
             "wav": "evaluation/data/dota2/Enigma/19.wav",
-            "caption": "Enigma"
+            "caption": "enigma"
         },
         {
             "wav": "evaluation/data/dota2/Kunkka/2.wav",
-            "caption": "Kunkka"
+            "caption": "kunkka"
         },
         {
             "wav": "evaluation/data/dota2/Alchemist/13.wav",
-            "caption": "Alchemist"
+            "caption": "alchemist"
         },
         {
             "wav": "evaluation/data/dota2/Snapfire/0.wav",
-            "caption": "Snapfire"
+            "caption": "snapfire"
         },
         {
             "wav": "evaluation/data/dota2/Timbersaw/6.wav",
-            "caption": "Timbersaw"
+            "caption": "timbersaw"
         },
         {
             "wav": "evaluation/data/dota2/Monkey King/16.wav",
-            "caption": "Monkey King"
+            "caption": "monkey king"
         },
         {
             "wav": "evaluation/data/dota2/Ancient Apparition/6.wav",
-            "caption": "Ancient Apparition"
+            "caption": "ancient apparition"
         },
         {
             "wav": "evaluation/data/dota2/Windranger/7.wav",
-            "caption": "Windranger"
+            "caption": "windranger"
         },
         {
             "wav": "evaluation/data/dota2/Faceless Void/4.wav",
-            "caption": "Faceless Void"
+            "caption": "faceless void"
         },
         {
             "wav": "evaluation/data/dota2/Kunkka/5.wav",
-            "caption": "Kunkka"
+            "caption": "kunkka"
         },
         {
             "wav": "evaluation/data/dota2/Clinkz/13.wav",
-            "caption": "Clinkz"
+            "caption": "clinkz"
         },
         {
             "wav": "evaluation/data/dota2/Viper/12.wav",
-            "caption": "Viper"
+            "caption": "viper"
         },
         {
             "wav": "evaluation/data/dota2/Primal Beast/15.wav",
-            "caption": "Primal Beast"
+            "caption": "primal beast"
         },
         {
             "wav": "evaluation/data/dota2/Phoenix/16.wav",
-            "caption": "Phoenix"
+            "caption": "phoenix"
         },
         {
             "wav": "evaluation/data/dota2/Lone Druid/10.wav",
-            "caption": "Lone Druid"
+            "caption": "lone druid"
         },
         {
             "wav": "evaluation/data/dota2/Drow Ranger/9.wav",
-            "caption": "Drow Ranger"
+            "caption": "drow ranger"
         },
         {
             "wav": "evaluation/data/dota2/Lina/5.wav",
-            "caption": "Lina"
+            "caption": "lina"
         },
         {
             "wav": "evaluation/data/dota2/Naga Siren/4.wav",
-            "caption": "Naga Siren"
+            "caption": "naga siren"
         },
         {
             "wav": "evaluation/data/dota2/Mirana/3.wav",
-            "caption": "Mirana"
+            "caption": "mirana"
         },
         {
             "wav": "evaluation/data/dota2/Alchemist/1.wav",
-            "caption": "Alchemist"
+            "caption": "alchemist"
         },
         {
             "wav": "evaluation/data/dota2/Gyrocopter/8.wav",
-            "caption": "Gyrocopter"
+            "caption": "gyrocopter"
         },
         {
             "wav": "evaluation/data/dota2/Magnus/8.wav",
-            "caption": "Magnus"
+            "caption": "magnus"
         },
         {
             "wav": "evaluation/data/dota2/Muerta/12.wav",
-            "caption": "Muerta"
+            "caption": "muerta"
         },
         {
             "wav": "evaluation/data/dota2/Luna/2.wav",
-            "caption": "Luna"
+            "caption": "luna"
         },
         {
             "wav": "evaluation/data/dota2/Beastmaster/12.wav",
-            "caption": "Beastmaster"
+            "caption": "beastmaster"
         },
         {
             "wav": "evaluation/data/dota2/Crystal Maiden/9.wav",
-            "caption": "Crystal Maiden"
+            "caption": "crystal maiden"
         },
         {
             "wav": "evaluation/data/dota2/Io/13.wav",
-            "caption": "Io"
+            "caption": "io"
         },
         {
             "wav": "evaluation/data/dota2/Nyx Assassin/8.wav",
-            "caption": "Nyx Assassin"
+            "caption": "nyx assassin"
         },
         {
             "wav": "evaluation/data/dota2/Magnus/16.wav",
-            "caption": "Magnus"
+            "caption": "magnus"
         },
         {
             "wav": "evaluation/data/dota2/Keeper of the Light/0.wav",
-            "caption": "Keeper of the Light"
+            "caption": "keeper of the light"
         },
         {
             "wav": "evaluation/data/dota2/Nature's Prophet/10.wav",
-            "caption": "Nature's Prophet"
+            "caption": "nature's prophet"
         },
         {
             "wav": "evaluation/data/dota2/Dark Seer/19.wav",
-            "caption": "Dark Seer"
+            "caption": "dark seer"
         },
         {
             "wav": "evaluation/data/dota2/Sand King/12.wav",
-            "caption": "Sand King"
+            "caption": "sand king"
         },
         {
             "wav": "evaluation/data/dota2/Monkey King/11.wav",
-            "caption": "Monkey King"
+            "caption": "monkey king"
         },
         {
             "wav": "evaluation/data/dota2/Slardar/19.wav",
-            "caption": "Slardar"
+            "caption": "slardar"
         },
         {
             "wav": "evaluation/data/dota2/Pugna/5.wav",
-            "caption": "Pugna"
+            "caption": "pugna"
         },
         {
             "wav": "evaluation/data/dota2/Outworld Destroyer/11.wav",
-            "caption": "Outworld Destroyer"
+            "caption": "outworld destroyer"
         },
         {
             "wav": "evaluation/data/dota2/Tidehunter/19.wav",
-            "caption": "Tidehunter"
+            "caption": "tidehunter"
         },
         {
             "wav": "evaluation/data/dota2/Death Prophet/13.wav",
-            "caption": "Death Prophet"
+            "caption": "death prophet"
         },
         {
             "wav": "evaluation/data/dota2/Elder Titan/11.wav",
-            "caption": "Elder Titan"
+            "caption": "elder titan"
         },
         {
             "wav": "evaluation/data/dota2/Riki/5.wav",
-            "caption": "Riki"
+            "caption": "riki"
         },
         {
             "wav": "evaluation/data/dota2/Oracle/0.wav",
-            "caption": "Oracle"
+            "caption": "oracle"
         },
         {
             "wav": "evaluation/data/dota2/Keeper of the Light/15.wav",
-            "caption": "Keeper of the Light"
+            "caption": "keeper of the light"
         },
         {
             "wav": "evaluation/data/dota2/Legion Commander/16.wav",
-            "caption": "Legion Commander"
+            "caption": "legion commander"
         },
         {
             "wav": "evaluation/data/dota2/Disruptor/1.wav",
-            "caption": "Disruptor"
+            "caption": "disruptor"
         },
         {
             "wav": "evaluation/data/dota2/Elder Titan/3.wav",
-            "caption": "Elder Titan"
+            "caption": "elder titan"
         },
         {
             "wav": "evaluation/data/dota2/Silencer/18.wav",
-            "caption": "Silencer"
+            "caption": "silencer"
         },
         {
             "wav": "evaluation/data/dota2/Crystal Maiden/4.wav",
-            "caption": "Crystal Maiden"
+            "caption": "crystal maiden"
         },
         {
             "wav": "evaluation/data/dota2/Riki/18.wav",
-            "caption": "Riki"
+            "caption": "riki"
         },
         {
             "wav": "evaluation/data/dota2/Night Stalker/9.wav",
-            "caption": "Night Stalker"
+            "caption": "night stalker"
         },
         {
             "wav": "evaluation/data/dota2/Centaur Warrunner/5.wav",
-            "caption": "Centaur Warrunner"
+            "caption": "centaur warrunner"
         },
         {
             "wav": "evaluation/data/dota2/Undying/8.wav",
-            "caption": "Undying"
+            "caption": "undying"
         },
         {
             "wav": "evaluation/data/dota2/Brewmaster/19.wav",
-            "caption": "Brewmaster"
+            "caption": "brewmaster"
         },
         {
             "wav": "evaluation/data/dota2/Viper/3.wav",
-            "caption": "Viper"
+            "caption": "viper"
         },
         {
             "wav": "evaluation/data/dota2/Lycan/11.wav",
-            "caption": "Lycan"
+            "caption": "lycan"
         },
         {
             "wav": "evaluation/data/dota2/Grimstroke/3.wav",
-            "caption": "Grimstroke"
+            "caption": "grimstroke"
         },
         {
             "wav": "evaluation/data/dota2/Underlord/7.wav",
-            "caption": "Underlord"
+            "caption": "underlord"
         },
         {
             "wav": "evaluation/data/dota2/Batrider/7.wav",
-            "caption": "Batrider"
+            "caption": "batrider"
         },
         {
             "wav": "evaluation/data/dota2/Bristleback/14.wav",
-            "caption": "Bristleback"
+            "caption": "bristleback"
         },
         {
             "wav": "evaluation/data/dota2/Lina/6.wav",
-            "caption": "Lina"
+            "caption": "lina"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Fiend/19.wav",
-            "caption": "Shadow Fiend"
+            "caption": "shadow fiend"
         },
         {
             "wav": "evaluation/data/dota2/Pudge/5.wav",
-            "caption": "Pudge"
+            "caption": "pudge"
         },
         {
             "wav": "evaluation/data/dota2/Magnus/14.wav",
-            "caption": "Magnus"
+            "caption": "magnus"
         },
         {
             "wav": "evaluation/data/dota2/Broodmother/17.wav",
-            "caption": "Broodmother"
+            "caption": "broodmother"
         },
         {
             "wav": "evaluation/data/dota2/Visage/18.wav",
-            "caption": "Visage"
+            "caption": "visage"
         },
         {
             "wav": "evaluation/data/dota2/Hoodwink/9.wav",
-            "caption": "Hoodwink"
+            "caption": "hoodwink"
         },
         {
             "wav": "evaluation/data/dota2/Vengeful Spirit/19.wav",
-            "caption": "Vengeful Spirit"
+            "caption": "vengeful spirit"
         },
         {
             "wav": "evaluation/data/dota2/Kunkka/6.wav",
-            "caption": "Kunkka"
+            "caption": "kunkka"
         },
         {
             "wav": "evaluation/data/dota2/Nature's Prophet/5.wav",
-            "caption": "Nature's Prophet"
+            "caption": "nature's prophet"
         },
         {
             "wav": "evaluation/data/dota2/Slardar/7.wav",
-            "caption": "Slardar"
+            "caption": "slardar"
         },
         {
             "wav": "evaluation/data/dota2/Broodmother/7.wav",
-            "caption": "Broodmother"
+            "caption": "broodmother"
         },
         {
             "wav": "evaluation/data/dota2/Void Spirit/15.wav",
-            "caption": "Void Spirit"
+            "caption": "void spirit"
         },
         {
             "wav": "evaluation/data/dota2/Lifestealer/1.wav",
-            "caption": "Lifestealer"
+            "caption": "lifestealer"
         },
         {
             "wav": "evaluation/data/dota2/Bloodseeker/17.wav",
-            "caption": "Bloodseeker"
+            "caption": "bloodseeker"
         },
         {
             "wav": "evaluation/data/dota2/Phoenix/8.wav",
-            "caption": "Phoenix"
+            "caption": "phoenix"
         },
         {
             "wav": "evaluation/data/dota2/Dazzle/16.wav",
-            "caption": "Dazzle"
+            "caption": "dazzle"
         },
         {
             "wav": "evaluation/data/dota2/Juggernaut/9.wav",
-            "caption": "Juggernaut"
+            "caption": "juggernaut"
         },
         {
             "wav": "evaluation/data/dota2/Troll Warlord/15.wav",
-            "caption": "Troll Warlord"
+            "caption": "troll warlord"
         },
         {
             "wav": "evaluation/data/dota2/Oracle/10.wav",
-            "caption": "Oracle"
+            "caption": "oracle"
         },
         {
             "wav": "evaluation/data/dota2/Void Spirit/18.wav",
-            "caption": "Void Spirit"
+            "caption": "void spirit"
         },
         {
             "wav": "evaluation/data/dota2/Queen of Pain/11.wav",
-            "caption": "Queen of Pain"
+            "caption": "queen of pain"
         },
         {
             "wav": "evaluation/data/dota2/Visage/15.wav",
-            "caption": "Visage"
+            "caption": "visage"
         },
         {
             "wav": "evaluation/data/dota2/Ogre Magi/12.wav",
-            "caption": "Ogre Magi"
+            "caption": "ogre magi"
         },
         {
             "wav": "evaluation/data/dota2/Weaver/2.wav",
-            "caption": "Weaver"
+            "caption": "weaver"
         },
         {
             "wav": "evaluation/data/dota2/Dragon Knight/2.wav",
-            "caption": "Dragon Knight"
+            "caption": "dragon knight"
         },
         {
             "wav": "evaluation/data/dota2/Keeper of the Light/8.wav",
-            "caption": "Keeper of the Light"
+            "caption": "keeper of the light"
         },
         {
             "wav": "evaluation/data/dota2/Luna/15.wav",
-            "caption": "Luna"
+            "caption": "luna"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Fiend/15.wav",
-            "caption": "Shadow Fiend"
+            "caption": "shadow fiend"
         },
         {
             "wav": "evaluation/data/dota2/Marci/10.wav",
-            "caption": "Marci"
+            "caption": "marci"
         },
         {
             "wav": "evaluation/data/dota2/Silencer/9.wav",
-            "caption": "Silencer"
+            "caption": "silencer"
         },
         {
             "wav": "evaluation/data/dota2/Earth Spirit/12.wav",
-            "caption": "Earth Spirit"
+            "caption": "earth spirit"
         },
         {
             "wav": "evaluation/data/dota2/Legion Commander/2.wav",
-            "caption": "Legion Commander"
+            "caption": "legion commander"
         },
         {
             "wav": "evaluation/data/dota2/Brewmaster/4.wav",
-            "caption": "Brewmaster"
+            "caption": "brewmaster"
         },
         {
             "wav": "evaluation/data/dota2/Axe/5.wav",
-            "caption": "Axe"
+            "caption": "axe"
         },
         {
             "wav": "evaluation/data/dota2/Skywrath Mage/11.wav",
-            "caption": "Skywrath Mage"
+            "caption": "skywrath mage"
         },
         {
             "wav": "evaluation/data/dota2/Grimstroke/19.wav",
-            "caption": "Grimstroke"
+            "caption": "grimstroke"
         },
         {
             "wav": "evaluation/data/dota2/Templar Assassin/15.wav",
-            "caption": "Templar Assassin"
+            "caption": "templar assassin"
         },
         {
             "wav": "evaluation/data/dota2/Doom/17.wav",
-            "caption": "Doom"
+            "caption": "doom"
         },
         {
             "wav": "evaluation/data/dota2/Ancient Apparition/18.wav",
-            "caption": "Ancient Apparition"
+            "caption": "ancient apparition"
         },
         {
             "wav": "evaluation/data/dota2/Enigma/9.wav",
-            "caption": "Enigma"
+            "caption": "enigma"
         },
         {
             "wav": "evaluation/data/dota2/Enchantress/19.wav",
-            "caption": "Enchantress"
+            "caption": "enchantress"
         },
         {
             "wav": "evaluation/data/dota2/Hoodwink/7.wav",
-            "caption": "Hoodwink"
+            "caption": "hoodwink"
         },
         {
             "wav": "evaluation/data/dota2/Spectre/9.wav",
-            "caption": "Spectre"
+            "caption": "spectre"
         },
         {
             "wav": "evaluation/data/dota2/Terrorblade/9.wav",
-            "caption": "Terrorblade"
+            "caption": "terrorblade"
         },
         {
             "wav": "evaluation/data/dota2/Elder Titan/16.wav",
-            "caption": "Elder Titan"
+            "caption": "elder titan"
         },
         {
             "wav": "evaluation/data/dota2/Monkey King/13.wav",
-            "caption": "Monkey King"
+            "caption": "monkey king"
         },
         {
             "wav": "evaluation/data/dota2/Huskar/3.wav",
-            "caption": "Huskar"
+            "caption": "huskar"
         },
         {
             "wav": "evaluation/data/dota2/Legion Commander/1.wav",
-            "caption": "Legion Commander"
+            "caption": "legion commander"
         },
         {
             "wav": "evaluation/data/dota2/Meepo/7.wav",
-            "caption": "Meepo"
+            "caption": "meepo"
         },
         {
             "wav": "evaluation/data/dota2/Clinkz/5.wav",
-            "caption": "Clinkz"
+            "caption": "clinkz"
         },
         {
             "wav": "evaluation/data/dota2/Mars/4.wav",
-            "caption": "Mars"
+            "caption": "mars"
         },
         {
             "wav": "evaluation/data/dota2/Dazzle/15.wav",
-            "caption": "Dazzle"
+            "caption": "dazzle"
         },
         {
             "wav": "evaluation/data/dota2/Slardar/4.wav",
-            "caption": "Slardar"
+            "caption": "slardar"
         },
         {
             "wav": "evaluation/data/dota2/Elder Titan/0.wav",
-            "caption": "Elder Titan"
+            "caption": "elder titan"
         },
         {
             "wav": "evaluation/data/dota2/Underlord/9.wav",
-            "caption": "Underlord"
+            "caption": "underlord"
         },
         {
             "wav": "evaluation/data/dota2/Drow Ranger/4.wav",
-            "caption": "Drow Ranger"
+            "caption": "drow ranger"
         },
         {
             "wav": "evaluation/data/dota2/Dazzle/12.wav",
-            "caption": "Dazzle"
+            "caption": "dazzle"
         },
         {
             "wav": "evaluation/data/dota2/Windranger/9.wav",
-            "caption": "Windranger"
+            "caption": "windranger"
         },
         {
             "wav": "evaluation/data/dota2/Pudge/8.wav",
-            "caption": "Pudge"
+            "caption": "pudge"
         },
         {
             "wav": "evaluation/data/dota2/Lina/1.wav",
-            "caption": "Lina"
+            "caption": "lina"
         },
         {
             "wav": "evaluation/data/dota2/Lina/19.wav",
-            "caption": "Lina"
+            "caption": "lina"
         },
         {
             "wav": "evaluation/data/dota2/Treant Protector/10.wav",
-            "caption": "Treant Protector"
+            "caption": "treant protector"
         },
         {
             "wav": "evaluation/data/dota2/Enigma/17.wav",
-            "caption": "Enigma"
+            "caption": "enigma"
         },
         {
             "wav": "evaluation/data/dota2/Marci/8.wav",
-            "caption": "Marci"
+            "caption": "marci"
         },
         {
             "wav": "evaluation/data/dota2/Bristleback/7.wav",
-            "caption": "Bristleback"
+            "caption": "bristleback"
         },
         {
             "wav": "evaluation/data/dota2/Lich/13.wav",
-            "caption": "Lich"
+            "caption": "lich"
         },
         {
             "wav": "evaluation/data/dota2/Hoodwink/15.wav",
-            "caption": "Hoodwink"
+            "caption": "hoodwink"
         },
         {
             "wav": "evaluation/data/dota2/Dark Seer/5.wav",
-            "caption": "Dark Seer"
+            "caption": "dark seer"
         },
         {
             "wav": "evaluation/data/dota2/Tiny/1.wav",
-            "caption": "Tiny"
+            "caption": "tiny"
         },
         {
             "wav": "evaluation/data/dota2/Luna/12.wav",
-            "caption": "Luna"
+            "caption": "luna"
         },
         {
             "wav": "evaluation/data/dota2/Centaur Warrunner/0.wav",
-            "caption": "Centaur Warrunner"
+            "caption": "centaur warrunner"
         },
         {
             "wav": "evaluation/data/dota2/Warlock/14.wav",
-            "caption": "Warlock"
+            "caption": "warlock"
         },
         {
             "wav": "evaluation/data/dota2/Windranger/6.wav",
-            "caption": "Windranger"
+            "caption": "windranger"
         },
         {
             "wav": "evaluation/data/dota2/Storm Spirit/9.wav",
-            "caption": "Storm Spirit"
+            "caption": "storm spirit"
         },
         {
             "wav": "evaluation/data/dota2/Bloodseeker/13.wav",
-            "caption": "Bloodseeker"
+            "caption": "bloodseeker"
         },
         {
             "wav": "evaluation/data/dota2/Queen of Pain/10.wav",
-            "caption": "Queen of Pain"
+            "caption": "queen of pain"
         },
         {
             "wav": "evaluation/data/dota2/Night Stalker/11.wav",
-            "caption": "Night Stalker"
+            "caption": "night stalker"
         },
         {
             "wav": "evaluation/data/dota2/Terrorblade/6.wav",
-            "caption": "Terrorblade"
+            "caption": "terrorblade"
         },
         {
             "wav": "evaluation/data/dota2/Treant Protector/9.wav",
-            "caption": "Treant Protector"
+            "caption": "treant protector"
         },
         {
             "wav": "evaluation/data/dota2/Snapfire/2.wav",
-            "caption": "Snapfire"
+            "caption": "snapfire"
         },
         {
             "wav": "evaluation/data/dota2/Meepo/1.wav",
-            "caption": "Meepo"
+            "caption": "meepo"
         },
         {
             "wav": "evaluation/data/dota2/Hoodwink/6.wav",
-            "caption": "Hoodwink"
+            "caption": "hoodwink"
         },
         {
             "wav": "evaluation/data/dota2/Wraith King/12.wav",
-            "caption": "Wraith King"
+            "caption": "wraith king"
         },
         {
             "wav": "evaluation/data/dota2/Witch Doctor/13.wav",
-            "caption": "Witch Doctor"
+            "caption": "witch doctor"
         },
         {
             "wav": "evaluation/data/dota2/Enigma/16.wav",
-            "caption": "Enigma"
+            "caption": "enigma"
         },
         {
             "wav": "evaluation/data/dota2/Ogre Magi/11.wav",
-            "caption": "Ogre Magi"
+            "caption": "ogre magi"
         },
         {
             "wav": "evaluation/data/dota2/Centaur Warrunner/14.wav",
-            "caption": "Centaur Warrunner"
+            "caption": "centaur warrunner"
         },
         {
             "wav": "evaluation/data/dota2/Earthshaker/6.wav",
-            "caption": "Earthshaker"
+            "caption": "earthshaker"
         },
         {
             "wav": "evaluation/data/dota2/Primal Beast/9.wav",
-            "caption": "Primal Beast"
+            "caption": "primal beast"
         },
         {
             "wav": "evaluation/data/dota2/Earth Spirit/3.wav",
-            "caption": "Earth Spirit"
+            "caption": "earth spirit"
         },
         {
             "wav": "evaluation/data/dota2/Slark/8.wav",
-            "caption": "Slark"
+            "caption": "slark"
         },
         {
             "wav": "evaluation/data/dota2/Sniper/2.wav",
-            "caption": "Sniper"
+            "caption": "sniper"
         },
         {
             "wav": "evaluation/data/dota2/Ursa/11.wav",
-            "caption": "Ursa"
+            "caption": "ursa"
         },
         {
             "wav": "evaluation/data/dota2/Underlord/4.wav",
-            "caption": "Underlord"
+            "caption": "underlord"
         },
         {
             "wav": "evaluation/data/dota2/Enchantress/14.wav",
-            "caption": "Enchantress"
+            "caption": "enchantress"
         },
         {
             "wav": "evaluation/data/dota2/Io/9.wav",
-            "caption": "Io"
+            "caption": "io"
         },
         {
             "wav": "evaluation/data/dota2/Ancient Apparition/9.wav",
-            "caption": "Ancient Apparition"
+            "caption": "ancient apparition"
         },
         {
             "wav": "evaluation/data/dota2/Axe/19.wav",
-            "caption": "Axe"
+            "caption": "axe"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Assassin/5.wav",
-            "caption": "Phantom Assassin"
+            "caption": "phantom assassin"
         },
         {
             "wav": "evaluation/data/dota2/Invoker/13.wav",
-            "caption": "Invoker"
+            "caption": "invoker"
         },
         {
             "wav": "evaluation/data/dota2/Ember Spirit/6.wav",
-            "caption": "Ember Spirit"
+            "caption": "ember spirit"
         },
         {
             "wav": "evaluation/data/dota2/Dawnbreaker/1.wav",
-            "caption": "Dawnbreaker"
+            "caption": "dawnbreaker"
         },
         {
             "wav": "evaluation/data/dota2/Slark/10.wav",
-            "caption": "Slark"
+            "caption": "slark"
         },
         {
             "wav": "evaluation/data/dota2/Death Prophet/19.wav",
-            "caption": "Death Prophet"
+            "caption": "death prophet"
         },
         {
             "wav": "evaluation/data/dota2/Legion Commander/6.wav",
-            "caption": "Legion Commander"
+            "caption": "legion commander"
         },
         {
             "wav": "evaluation/data/dota2/Disruptor/16.wav",
-            "caption": "Disruptor"
+            "caption": "disruptor"
         },
         {
             "wav": "evaluation/data/dota2/Silencer/8.wav",
-            "caption": "Silencer"
+            "caption": "silencer"
         },
         {
             "wav": "evaluation/data/dota2/Witch Doctor/0.wav",
-            "caption": "Witch Doctor"
+            "caption": "witch doctor"
         },
         {
             "wav": "evaluation/data/dota2/Lifestealer/12.wav",
-            "caption": "Lifestealer"
+            "caption": "lifestealer"
         },
         {
             "wav": "evaluation/data/dota2/Nyx Assassin/6.wav",
-            "caption": "Nyx Assassin"
+            "caption": "nyx assassin"
         },
         {
             "wav": "evaluation/data/dota2/Snapfire/3.wav",
-            "caption": "Snapfire"
+            "caption": "snapfire"
         },
         {
             "wav": "evaluation/data/dota2/Troll Warlord/0.wav",
-            "caption": "Troll Warlord"
+            "caption": "troll warlord"
         },
         {
             "wav": "evaluation/data/dota2/Wraith King/14.wav",
-            "caption": "Wraith King"
+            "caption": "wraith king"
         },
         {
             "wav": "evaluation/data/dota2/Vengeful Spirit/12.wav",
-            "caption": "Vengeful Spirit"
+            "caption": "vengeful spirit"
         },
         {
             "wav": "evaluation/data/dota2/Chen/19.wav",
-            "caption": "Chen"
+            "caption": "chen"
         },
         {
             "wav": "evaluation/data/dota2/Dark Seer/8.wav",
-            "caption": "Dark Seer"
+            "caption": "dark seer"
         },
         {
             "wav": "evaluation/data/dota2/Lifestealer/10.wav",
-            "caption": "Lifestealer"
+            "caption": "lifestealer"
         },
         {
             "wav": "evaluation/data/dota2/Beastmaster/3.wav",
-            "caption": "Beastmaster"
+            "caption": "beastmaster"
         },
         {
             "wav": "evaluation/data/dota2/Dawnbreaker/13.wav",
-            "caption": "Dawnbreaker"
+            "caption": "dawnbreaker"
         },
         {
             "wav": "evaluation/data/dota2/Tinker/6.wav",
-            "caption": "Tinker"
+            "caption": "tinker"
         },
         {
             "wav": "evaluation/data/dota2/Elder Titan/8.wav",
-            "caption": "Elder Titan"
+            "caption": "elder titan"
         },
         {
             "wav": "evaluation/data/dota2/Witch Doctor/14.wav",
-            "caption": "Witch Doctor"
+            "caption": "witch doctor"
         },
         {
             "wav": "evaluation/data/dota2/Nyx Assassin/14.wav",
-            "caption": "Nyx Assassin"
+            "caption": "nyx assassin"
         },
         {
             "wav": "evaluation/data/dota2/Ember Spirit/2.wav",
-            "caption": "Ember Spirit"
+            "caption": "ember spirit"
         },
         {
             "wav": "evaluation/data/dota2/Leshrac/5.wav",
-            "caption": "Leshrac"
+            "caption": "leshrac"
         },
         {
             "wav": "evaluation/data/dota2/Mars/2.wav",
-            "caption": "Mars"
+            "caption": "mars"
         },
         {
             "wav": "evaluation/data/dota2/Queen of Pain/17.wav",
-            "caption": "Queen of Pain"
+            "caption": "queen of pain"
         },
         {
             "wav": "evaluation/data/dota2/Morphling/1.wav",
-            "caption": "Morphling"
+            "caption": "morphling"
         },
         {
             "wav": "evaluation/data/dota2/Chaos Knight/7.wav",
-            "caption": "Chaos Knight"
+            "caption": "chaos knight"
         },
         {
             "wav": "evaluation/data/dota2/Clinkz/10.wav",
-            "caption": "Clinkz"
+            "caption": "clinkz"
         },
         {
             "wav": "evaluation/data/dota2/Lone Druid/17.wav",
-            "caption": "Lone Druid"
+            "caption": "lone druid"
         },
         {
             "wav": "evaluation/data/dota2/Zeus/5.wav",
-            "caption": "Zeus"
+            "caption": "zeus"
         },
         {
             "wav": "evaluation/data/dota2/Templar Assassin/6.wav",
-            "caption": "Templar Assassin"
+            "caption": "templar assassin"
         },
         {
             "wav": "evaluation/data/dota2/Sven/14.wav",
-            "caption": "Sven"
+            "caption": "sven"
         },
         {
             "wav": "evaluation/data/dota2/Bane/4.wav",
-            "caption": "Bane"
+            "caption": "bane"
         },
         {
             "wav": "evaluation/data/dota2/Phoenix/4.wav",
-            "caption": "Phoenix"
+            "caption": "phoenix"
         },
         {
             "wav": "evaluation/data/dota2/Alchemist/16.wav",
-            "caption": "Alchemist"
+            "caption": "alchemist"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Demon/6.wav",
-            "caption": "Shadow Demon"
+            "caption": "shadow demon"
         },
         {
             "wav": "evaluation/data/dota2/Muerta/15.wav",
-            "caption": "Muerta"
+            "caption": "muerta"
         },
         {
             "wav": "evaluation/data/dota2/Jakiro/4.wav",
-            "caption": "Jakiro"
+            "caption": "jakiro"
         },
         {
             "wav": "evaluation/data/dota2/Crystal Maiden/1.wav",
-            "caption": "Crystal Maiden"
+            "caption": "crystal maiden"
         },
         {
             "wav": "evaluation/data/dota2/Night Stalker/8.wav",
-            "caption": "Night Stalker"
+            "caption": "night stalker"
         },
         {
             "wav": "evaluation/data/dota2/Venomancer/17.wav",
-            "caption": "Venomancer"
+            "caption": "venomancer"
         },
         {
             "wav": "evaluation/data/dota2/Sniper/12.wav",
-            "caption": "Sniper"
+            "caption": "sniper"
         },
         {
             "wav": "evaluation/data/dota2/Faceless Void/14.wav",
-            "caption": "Faceless Void"
+            "caption": "faceless void"
         },
         {
             "wav": "evaluation/data/dota2/Dark Willow/4.wav",
-            "caption": "Dark Willow"
+            "caption": "dark willow"
         },
         {
             "wav": "evaluation/data/dota2/Batrider/6.wav",
-            "caption": "Batrider"
+            "caption": "batrider"
         },
         {
             "wav": "evaluation/data/dota2/Undying/15.wav",
-            "caption": "Undying"
+            "caption": "undying"
         },
         {
             "wav": "evaluation/data/dota2/Bounty Hunter/7.wav",
-            "caption": "Bounty Hunter"
+            "caption": "bounty hunter"
         },
         {
             "wav": "evaluation/data/dota2/Bane/15.wav",
-            "caption": "Bane"
+            "caption": "bane"
         },
         {
             "wav": "evaluation/data/dota2/Mirana/13.wav",
-            "caption": "Mirana"
+            "caption": "mirana"
         },
         {
             "wav": "evaluation/data/dota2/Pudge/16.wav",
-            "caption": "Pudge"
+            "caption": "pudge"
         },
         {
             "wav": "evaluation/data/dota2/Tinker/16.wav",
-            "caption": "Tinker"
+            "caption": "tinker"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Fiend/1.wav",
-            "caption": "Shadow Fiend"
+            "caption": "shadow fiend"
         },
         {
             "wav": "evaluation/data/dota2/Ogre Magi/13.wav",
-            "caption": "Ogre Magi"
+            "caption": "ogre magi"
         },
         {
             "wav": "evaluation/data/dota2/Bounty Hunter/1.wav",
-            "caption": "Bounty Hunter"
+            "caption": "bounty hunter"
         },
         {
             "wav": "evaluation/data/dota2/Slardar/1.wav",
-            "caption": "Slardar"
+            "caption": "slardar"
         },
         {
             "wav": "evaluation/data/dota2/Pugna/15.wav",
-            "caption": "Pugna"
+            "caption": "pugna"
         },
         {
             "wav": "evaluation/data/dota2/Magnus/6.wav",
-            "caption": "Magnus"
+            "caption": "magnus"
         },
         {
             "wav": "evaluation/data/dota2/Earthshaker/1.wav",
-            "caption": "Earthshaker"
+            "caption": "earthshaker"
         },
         {
             "wav": "evaluation/data/dota2/Arc Warden/12.wav",
-            "caption": "Arc Warden"
+            "caption": "arc warden"
         },
         {
             "wav": "evaluation/data/dota2/Legion Commander/14.wav",
-            "caption": "Legion Commander"
+            "caption": "legion commander"
         },
         {
             "wav": "evaluation/data/dota2/Morphling/7.wav",
-            "caption": "Morphling"
+            "caption": "morphling"
         },
         {
             "wav": "evaluation/data/dota2/Undying/6.wav",
-            "caption": "Undying"
+            "caption": "undying"
         },
         {
             "wav": "evaluation/data/dota2/Dragon Knight/3.wav",
-            "caption": "Dragon Knight"
+            "caption": "dragon knight"
         },
         {
             "wav": "evaluation/data/dota2/Huskar/14.wav",
-            "caption": "Huskar"
+            "caption": "huskar"
         },
         {
             "wav": "evaluation/data/dota2/Pudge/1.wav",
-            "caption": "Pudge"
+            "caption": "pudge"
         },
         {
             "wav": "evaluation/data/dota2/Spirit Breaker/14.wav",
-            "caption": "Spirit Breaker"
+            "caption": "spirit breaker"
         },
         {
             "wav": "evaluation/data/dota2/Medusa/18.wav",
-            "caption": "Medusa"
+            "caption": "medusa"
         },
         {
             "wav": "evaluation/data/dota2/Tiny/3.wav",
-            "caption": "Tiny"
+            "caption": "tiny"
         },
         {
             "wav": "evaluation/data/dota2/Witch Doctor/15.wav",
-            "caption": "Witch Doctor"
+            "caption": "witch doctor"
         },
         {
             "wav": "evaluation/data/dota2/Mirana/18.wav",
-            "caption": "Mirana"
+            "caption": "mirana"
         },
         {
             "wav": "evaluation/data/dota2/Dark Willow/3.wav",
-            "caption": "Dark Willow"
+            "caption": "dark willow"
         },
         {
             "wav": "evaluation/data/dota2/Puck/19.wav",
-            "caption": "Puck"
+            "caption": "puck"
         },
         {
             "wav": "evaluation/data/dota2/Arc Warden/11.wav",
-            "caption": "Arc Warden"
+            "caption": "arc warden"
         },
         {
             "wav": "evaluation/data/dota2/Templar Assassin/2.wav",
-            "caption": "Templar Assassin"
+            "caption": "templar assassin"
         },
         {
             "wav": "evaluation/data/dota2/Warlock/11.wav",
-            "caption": "Warlock"
+            "caption": "warlock"
         },
         {
             "wav": "evaluation/data/dota2/Doom/16.wav",
-            "caption": "Doom"
+            "caption": "doom"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Demon/1.wav",
-            "caption": "Shadow Demon"
+            "caption": "shadow demon"
         },
         {
             "wav": "evaluation/data/dota2/Slark/9.wav",
-            "caption": "Slark"
+            "caption": "slark"
         },
         {
             "wav": "evaluation/data/dota2/Dark Seer/12.wav",
-            "caption": "Dark Seer"
+            "caption": "dark seer"
         },
         {
             "wav": "evaluation/data/dota2/Primal Beast/12.wav",
-            "caption": "Primal Beast"
+            "caption": "primal beast"
         },
         {
             "wav": "evaluation/data/dota2/Death Prophet/14.wav",
-            "caption": "Death Prophet"
+            "caption": "death prophet"
         },
         {
             "wav": "evaluation/data/dota2/Lich/4.wav",
-            "caption": "Lich"
+            "caption": "lich"
         },
         {
             "wav": "evaluation/data/dota2/Abaddon/17.wav",
-            "caption": "Abaddon"
+            "caption": "abaddon"
         },
         {
             "wav": "evaluation/data/dota2/Morphling/3.wav",
-            "caption": "Morphling"
+            "caption": "morphling"
         },
         {
             "wav": "evaluation/data/dota2/Disruptor/9.wav",
-            "caption": "Disruptor"
+            "caption": "disruptor"
         },
         {
             "wav": "evaluation/data/dota2/Io/15.wav",
-            "caption": "Io"
+            "caption": "io"
         },
         {
             "wav": "evaluation/data/dota2/Nature's Prophet/2.wav",
-            "caption": "Nature's Prophet"
+            "caption": "nature's prophet"
         },
         {
             "wav": "evaluation/data/dota2/Clinkz/7.wav",
-            "caption": "Clinkz"
+            "caption": "clinkz"
         },
         {
             "wav": "evaluation/data/dota2/Morphling/18.wav",
-            "caption": "Morphling"
+            "caption": "morphling"
         },
         {
             "wav": "evaluation/data/dota2/Sand King/14.wav",
-            "caption": "Sand King"
+            "caption": "sand king"
         },
         {
             "wav": "evaluation/data/dota2/Sniper/17.wav",
-            "caption": "Sniper"
+            "caption": "sniper"
         },
         {
             "wav": "evaluation/data/dota2/Doom/18.wav",
-            "caption": "Doom"
+            "caption": "doom"
         },
         {
             "wav": "evaluation/data/dota2/Lion/15.wav",
-            "caption": "Lion"
+            "caption": "lion"
         },
         {
             "wav": "evaluation/data/dota2/Jakiro/18.wav",
-            "caption": "Jakiro"
+            "caption": "jakiro"
         },
         {
             "wav": "evaluation/data/dota2/Lion/8.wav",
-            "caption": "Lion"
+            "caption": "lion"
         },
         {
             "wav": "evaluation/data/dota2/Invoker/8.wav",
-            "caption": "Invoker"
+            "caption": "invoker"
         },
         {
             "wav": "evaluation/data/dota2/Grimstroke/5.wav",
-            "caption": "Grimstroke"
+            "caption": "grimstroke"
         },
         {
             "wav": "evaluation/data/dota2/Gyrocopter/14.wav",
-            "caption": "Gyrocopter"
+            "caption": "gyrocopter"
         },
         {
             "wav": "evaluation/data/dota2/Dragon Knight/5.wav",
-            "caption": "Dragon Knight"
+            "caption": "dragon knight"
         },
         {
             "wav": "evaluation/data/dota2/Earth Spirit/19.wav",
-            "caption": "Earth Spirit"
+            "caption": "earth spirit"
         },
         {
             "wav": "evaluation/data/dota2/Spirit Breaker/12.wav",
-            "caption": "Spirit Breaker"
+            "caption": "spirit breaker"
         },
         {
             "wav": "evaluation/data/dota2/Oracle/7.wav",
-            "caption": "Oracle"
+            "caption": "oracle"
         },
         {
             "wav": "evaluation/data/dota2/Anti-Mage/15.wav",
-            "caption": "Anti-Mage"
+            "caption": "anti-mage"
         },
         {
             "wav": "evaluation/data/dota2/Clockwerk/3.wav",
-            "caption": "Clockwerk"
+            "caption": "clockwerk"
         },
         {
             "wav": "evaluation/data/dota2/Night Stalker/15.wav",
-            "caption": "Night Stalker"
+            "caption": "night stalker"
         },
         {
             "wav": "evaluation/data/dota2/Sniper/7.wav",
-            "caption": "Sniper"
+            "caption": "sniper"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Shaman/5.wav",
-            "caption": "Shadow Shaman"
+            "caption": "shadow shaman"
         },
         {
             "wav": "evaluation/data/dota2/Lina/11.wav",
-            "caption": "Lina"
+            "caption": "lina"
         },
         {
             "wav": "evaluation/data/dota2/Dawnbreaker/5.wav",
-            "caption": "Dawnbreaker"
+            "caption": "dawnbreaker"
         },
         {
             "wav": "evaluation/data/dota2/Tiny/13.wav",
-            "caption": "Tiny"
+            "caption": "tiny"
         },
         {
             "wav": "evaluation/data/dota2/Sven/6.wav",
-            "caption": "Sven"
+            "caption": "sven"
         },
         {
             "wav": "evaluation/data/dota2/Vengeful Spirit/18.wav",
-            "caption": "Vengeful Spirit"
+            "caption": "vengeful spirit"
         },
         {
             "wav": "evaluation/data/dota2/Gyrocopter/19.wav",
-            "caption": "Gyrocopter"
+            "caption": "gyrocopter"
         },
         {
             "wav": "evaluation/data/dota2/Death Prophet/0.wav",
-            "caption": "Death Prophet"
+            "caption": "death prophet"
         },
         {
             "wav": "evaluation/data/dota2/Outworld Destroyer/7.wav",
-            "caption": "Outworld Destroyer"
+            "caption": "outworld destroyer"
         },
         {
             "wav": "evaluation/data/dota2/Brewmaster/7.wav",
-            "caption": "Brewmaster"
+            "caption": "brewmaster"
         },
         {
             "wav": "evaluation/data/dota2/Tusk/4.wav",
-            "caption": "Tusk"
+            "caption": "tusk"
         },
         {
             "wav": "evaluation/data/dota2/Tidehunter/14.wav",
-            "caption": "Tidehunter"
+            "caption": "tidehunter"
         },
         {
             "wav": "evaluation/data/dota2/Gyrocopter/9.wav",
-            "caption": "Gyrocopter"
+            "caption": "gyrocopter"
         },
         {
             "wav": "evaluation/data/dota2/Brewmaster/15.wav",
-            "caption": "Brewmaster"
+            "caption": "brewmaster"
         },
         {
             "wav": "evaluation/data/dota2/Slark/14.wav",
-            "caption": "Slark"
+            "caption": "slark"
         },
         {
             "wav": "evaluation/data/dota2/Tiny/8.wav",
-            "caption": "Tiny"
+            "caption": "tiny"
         },
         {
             "wav": "evaluation/data/dota2/Batrider/9.wav",
-            "caption": "Batrider"
+            "caption": "batrider"
         },
         {
             "wav": "evaluation/data/dota2/Grimstroke/17.wav",
-            "caption": "Grimstroke"
+            "caption": "grimstroke"
         },
         {
             "wav": "evaluation/data/dota2/Omniknight/19.wav",
-            "caption": "Omniknight"
+            "caption": "omniknight"
         },
         {
             "wav": "evaluation/data/dota2/Treant Protector/0.wav",
-            "caption": "Treant Protector"
+            "caption": "treant protector"
         },
         {
             "wav": "evaluation/data/dota2/Wraith King/16.wav",
-            "caption": "Wraith King"
+            "caption": "wraith king"
         },
         {
             "wav": "evaluation/data/dota2/Venomancer/6.wav",
-            "caption": "Venomancer"
+            "caption": "venomancer"
         },
         {
             "wav": "evaluation/data/dota2/Viper/18.wav",
-            "caption": "Viper"
+            "caption": "viper"
         },
         {
             "wav": "evaluation/data/dota2/Dark Willow/14.wav",
-            "caption": "Dark Willow"
+            "caption": "dark willow"
         },
         {
             "wav": "evaluation/data/dota2/Puck/17.wav",
-            "caption": "Puck"
+            "caption": "puck"
         },
         {
             "wav": "evaluation/data/dota2/Terrorblade/4.wav",
-            "caption": "Terrorblade"
+            "caption": "terrorblade"
         },
         {
             "wav": "evaluation/data/dota2/Io/6.wav",
-            "caption": "Io"
+            "caption": "io"
         },
         {
             "wav": "evaluation/data/dota2/Faceless Void/3.wav",
-            "caption": "Faceless Void"
+            "caption": "faceless void"
         },
         {
             "wav": "evaluation/data/dota2/Lone Druid/6.wav",
-            "caption": "Lone Druid"
+            "caption": "lone druid"
         },
         {
             "wav": "evaluation/data/dota2/Leshrac/14.wav",
-            "caption": "Leshrac"
+            "caption": "leshrac"
         },
         {
             "wav": "evaluation/data/dota2/Clockwerk/6.wav",
-            "caption": "Clockwerk"
+            "caption": "clockwerk"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Lancer/14.wav",
-            "caption": "Phantom Lancer"
+            "caption": "phantom lancer"
         },
         {
             "wav": "evaluation/data/dota2/Naga Siren/12.wav",
-            "caption": "Naga Siren"
+            "caption": "naga siren"
         },
         {
             "wav": "evaluation/data/dota2/Oracle/6.wav",
-            "caption": "Oracle"
+            "caption": "oracle"
         },
         {
             "wav": "evaluation/data/dota2/Visage/12.wav",
-            "caption": "Visage"
+            "caption": "visage"
         },
         {
             "wav": "evaluation/data/dota2/Enigma/12.wav",
-            "caption": "Enigma"
+            "caption": "enigma"
         },
         {
             "wav": "evaluation/data/dota2/Chaos Knight/11.wav",
-            "caption": "Chaos Knight"
+            "caption": "chaos knight"
         },
         {
             "wav": "evaluation/data/dota2/Naga Siren/18.wav",
-            "caption": "Naga Siren"
+            "caption": "naga siren"
         },
         {
             "wav": "evaluation/data/dota2/Underlord/16.wav",
-            "caption": "Underlord"
+            "caption": "underlord"
         },
         {
             "wav": "evaluation/data/dota2/Winter Wyvern/3.wav",
-            "caption": "Winter Wyvern"
+            "caption": "winter wyvern"
         },
         {
             "wav": "evaluation/data/dota2/Lycan/16.wav",
-            "caption": "Lycan"
+            "caption": "lycan"
         },
         {
             "wav": "evaluation/data/dota2/Tidehunter/13.wav",
-            "caption": "Tidehunter"
+            "caption": "tidehunter"
         },
         {
             "wav": "evaluation/data/dota2/Batrider/8.wav",
-            "caption": "Batrider"
+            "caption": "batrider"
         },
         {
             "wav": "evaluation/data/dota2/Snapfire/9.wav",
-            "caption": "Snapfire"
+            "caption": "snapfire"
         },
         {
             "wav": "evaluation/data/dota2/Dragon Knight/16.wav",
-            "caption": "Dragon Knight"
+            "caption": "dragon knight"
         },
         {
             "wav": "evaluation/data/dota2/Monkey King/19.wav",
-            "caption": "Monkey King"
+            "caption": "monkey king"
         },
         {
             "wav": "evaluation/data/dota2/Clockwerk/4.wav",
-            "caption": "Clockwerk"
+            "caption": "clockwerk"
         },
         {
             "wav": "evaluation/data/dota2/Windranger/4.wav",
-            "caption": "Windranger"
+            "caption": "windranger"
         },
         {
             "wav": "evaluation/data/dota2/Anti-Mage/1.wav",
-            "caption": "Anti-Mage"
+            "caption": "anti-mage"
         },
         {
             "wav": "evaluation/data/dota2/Necrophos/11.wav",
-            "caption": "Necrophos"
+            "caption": "necrophos"
         },
         {
             "wav": "evaluation/data/dota2/Ember Spirit/0.wav",
-            "caption": "Ember Spirit"
+            "caption": "ember spirit"
         },
         {
             "wav": "evaluation/data/dota2/Muerta/13.wav",
-            "caption": "Muerta"
+            "caption": "muerta"
         },
         {
             "wav": "evaluation/data/dota2/Void Spirit/19.wav",
-            "caption": "Void Spirit"
+            "caption": "void spirit"
         },
         {
             "wav": "evaluation/data/dota2/Skywrath Mage/10.wav",
-            "caption": "Skywrath Mage"
+            "caption": "skywrath mage"
         },
         {
             "wav": "evaluation/data/dota2/Sven/3.wav",
-            "caption": "Sven"
+            "caption": "sven"
         },
         {
             "wav": "evaluation/data/dota2/Bristleback/13.wav",
-            "caption": "Bristleback"
+            "caption": "bristleback"
         },
         {
             "wav": "evaluation/data/dota2/Invoker/11.wav",
-            "caption": "Invoker"
+            "caption": "invoker"
         },
         {
             "wav": "evaluation/data/dota2/Meepo/3.wav",
-            "caption": "Meepo"
+            "caption": "meepo"
         },
         {
             "wav": "evaluation/data/dota2/Medusa/14.wav",
-            "caption": "Medusa"
+            "caption": "medusa"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Demon/9.wav",
-            "caption": "Shadow Demon"
+            "caption": "shadow demon"
         },
         {
             "wav": "evaluation/data/dota2/Mirana/9.wav",
-            "caption": "Mirana"
+            "caption": "mirana"
         },
         {
             "wav": "evaluation/data/dota2/Broodmother/14.wav",
-            "caption": "Broodmother"
+            "caption": "broodmother"
         },
         {
             "wav": "evaluation/data/dota2/Pangolier/18.wav",
-            "caption": "Pangolier"
+            "caption": "pangolier"
         },
         {
             "wav": "evaluation/data/dota2/Keeper of the Light/7.wav",
-            "caption": "Keeper of the Light"
+            "caption": "keeper of the light"
         },
         {
             "wav": "evaluation/data/dota2/Bristleback/16.wav",
-            "caption": "Bristleback"
+            "caption": "bristleback"
         },
         {
             "wav": "evaluation/data/dota2/Bloodseeker/7.wav",
-            "caption": "Bloodseeker"
+            "caption": "bloodseeker"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Fiend/13.wav",
-            "caption": "Shadow Fiend"
+            "caption": "shadow fiend"
         },
         {
             "wav": "evaluation/data/dota2/Spirit Breaker/6.wav",
-            "caption": "Spirit Breaker"
+            "caption": "spirit breaker"
         },
         {
             "wav": "evaluation/data/dota2/Dawnbreaker/18.wav",
-            "caption": "Dawnbreaker"
+            "caption": "dawnbreaker"
         },
         {
             "wav": "evaluation/data/dota2/Earthshaker/9.wav",
-            "caption": "Earthshaker"
+            "caption": "earthshaker"
         },
         {
             "wav": "evaluation/data/dota2/Lich/15.wav",
-            "caption": "Lich"
+            "caption": "lich"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Assassin/19.wav",
-            "caption": "Phantom Assassin"
+            "caption": "phantom assassin"
         },
         {
             "wav": "evaluation/data/dota2/Batrider/13.wav",
-            "caption": "Batrider"
+            "caption": "batrider"
         },
         {
             "wav": "evaluation/data/dota2/Enchantress/10.wav",
-            "caption": "Enchantress"
+            "caption": "enchantress"
         },
         {
             "wav": "evaluation/data/dota2/Jakiro/17.wav",
-            "caption": "Jakiro"
+            "caption": "jakiro"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Fiend/17.wav",
-            "caption": "Shadow Fiend"
+            "caption": "shadow fiend"
         },
         {
             "wav": "evaluation/data/dota2/Enchantress/15.wav",
-            "caption": "Enchantress"
+            "caption": "enchantress"
         },
         {
             "wav": "evaluation/data/dota2/Beastmaster/4.wav",
-            "caption": "Beastmaster"
+            "caption": "beastmaster"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Lancer/16.wav",
-            "caption": "Phantom Lancer"
+            "caption": "phantom lancer"
         },
         {
             "wav": "evaluation/data/dota2/Beastmaster/13.wav",
-            "caption": "Beastmaster"
+            "caption": "beastmaster"
         },
         {
             "wav": "evaluation/data/dota2/Lycan/12.wav",
-            "caption": "Lycan"
+            "caption": "lycan"
         },
         {
             "wav": "evaluation/data/dota2/Ogre Magi/15.wav",
-            "caption": "Ogre Magi"
+            "caption": "ogre magi"
         },
         {
             "wav": "evaluation/data/dota2/Troll Warlord/18.wav",
-            "caption": "Troll Warlord"
+            "caption": "troll warlord"
         },
         {
             "wav": "evaluation/data/dota2/Ursa/13.wav",
-            "caption": "Ursa"
+            "caption": "ursa"
         },
         {
             "wav": "evaluation/data/dota2/Razor/8.wav",
-            "caption": "Razor"
+            "caption": "razor"
         },
         {
             "wav": "evaluation/data/dota2/Razor/12.wav",
-            "caption": "Razor"
+            "caption": "razor"
         },
         {
             "wav": "evaluation/data/dota2/Tinker/2.wav",
-            "caption": "Tinker"
+            "caption": "tinker"
         },
         {
             "wav": "evaluation/data/dota2/Phoenix/15.wav",
-            "caption": "Phoenix"
+            "caption": "phoenix"
         },
         {
             "wav": "evaluation/data/dota2/Clockwerk/14.wav",
-            "caption": "Clockwerk"
+            "caption": "clockwerk"
         },
         {
             "wav": "evaluation/data/dota2/Doom/13.wav",
-            "caption": "Doom"
+            "caption": "doom"
         },
         {
             "wav": "evaluation/data/dota2/Lycan/4.wav",
-            "caption": "Lycan"
+            "caption": "lycan"
         },
         {
             "wav": "evaluation/data/dota2/Ursa/7.wav",
-            "caption": "Ursa"
+            "caption": "ursa"
         },
         {
             "wav": "evaluation/data/dota2/Void Spirit/0.wav",
-            "caption": "Void Spirit"
+            "caption": "void spirit"
         },
         {
             "wav": "evaluation/data/dota2/Razor/6.wav",
-            "caption": "Razor"
+            "caption": "razor"
         },
         {
             "wav": "evaluation/data/dota2/Disruptor/7.wav",
-            "caption": "Disruptor"
+            "caption": "disruptor"
         },
         {
             "wav": "evaluation/data/dota2/Nyx Assassin/13.wav",
-            "caption": "Nyx Assassin"
+            "caption": "nyx assassin"
         },
         {
             "wav": "evaluation/data/dota2/Terrorblade/16.wav",
-            "caption": "Terrorblade"
+            "caption": "terrorblade"
         },
         {
             "wav": "evaluation/data/dota2/Rubick/0.wav",
-            "caption": "Rubick"
+            "caption": "rubick"
         },
         {
             "wav": "evaluation/data/dota2/Bounty Hunter/13.wav",
-            "caption": "Bounty Hunter"
+            "caption": "bounty hunter"
         },
         {
             "wav": "evaluation/data/dota2/Phantom Assassin/10.wav",
-            "caption": "Phantom Assassin"
+            "caption": "phantom assassin"
         },
         {
             "wav": "evaluation/data/dota2/Warlock/18.wav",
-            "caption": "Warlock"
+            "caption": "warlock"
         },
         {
             "wav": "evaluation/data/dota2/Faceless Void/2.wav",
-            "caption": "Faceless Void"
+            "caption": "faceless void"
         },
         {
             "wav": "evaluation/data/dota2/Lone Druid/16.wav",
-            "caption": "Lone Druid"
+            "caption": "lone druid"
         },
         {
             "wav": "evaluation/data/dota2/Bloodseeker/19.wav",
-            "caption": "Bloodseeker"
+            "caption": "bloodseeker"
         },
         {
             "wav": "evaluation/data/dota2/Leshrac/16.wav",
-            "caption": "Leshrac"
+            "caption": "leshrac"
         },
         {
             "wav": "evaluation/data/dota2/Undying/9.wav",
-            "caption": "Undying"
+            "caption": "undying"
         },
         {
             "wav": "evaluation/data/dota2/Rubick/12.wav",
-            "caption": "Rubick"
+            "caption": "rubick"
         },
         {
             "wav": "evaluation/data/dota2/Chen/2.wav",
-            "caption": "Chen"
+            "caption": "chen"
         },
         {
             "wav": "evaluation/data/dota2/Ember Spirit/3.wav",
-            "caption": "Ember Spirit"
+            "caption": "ember spirit"
         },
         {
             "wav": "evaluation/data/dota2/Dragon Knight/17.wav",
-            "caption": "Dragon Knight"
+            "caption": "dragon knight"
         },
         {
             "wav": "evaluation/data/dota2/Alchemist/14.wav",
-            "caption": "Alchemist"
+            "caption": "alchemist"
         },
         {
             "wav": "evaluation/data/dota2/Broodmother/9.wav",
-            "caption": "Broodmother"
+            "caption": "broodmother"
         },
         {
             "wav": "evaluation/data/dota2/Mirana/12.wav",
-            "caption": "Mirana"
+            "caption": "mirana"
         },
         {
             "wav": "evaluation/data/dota2/Skywrath Mage/17.wav",
-            "caption": "Skywrath Mage"
+            "caption": "skywrath mage"
         },
         {
             "wav": "evaluation/data/dota2/Mars/16.wav",
-            "caption": "Mars"
+            "caption": "mars"
         },
         {
             "wav": "evaluation/data/dota2/Arc Warden/14.wav",
-            "caption": "Arc Warden"
+            "caption": "arc warden"
         },
         {
             "wav": "evaluation/data/dota2/Ursa/12.wav",
-            "caption": "Ursa"
+            "caption": "ursa"
         },
         {
             "wav": "evaluation/data/dota2/Lifestealer/8.wav",
-            "caption": "Lifestealer"
+            "caption": "lifestealer"
         },
         {
             "wav": "evaluation/data/dota2/Muerta/5.wav",
-            "caption": "Muerta"
+            "caption": "muerta"
         },
         {
             "wav": "evaluation/data/dota2/Chaos Knight/10.wav",
-            "caption": "Chaos Knight"
+            "caption": "chaos knight"
         },
         {
             "wav": "evaluation/data/dota2/Luna/19.wav",
-            "caption": "Luna"
+            "caption": "luna"
         },
         {
             "wav": "evaluation/data/dota2/Venomancer/0.wav",
-            "caption": "Venomancer"
+            "caption": "venomancer"
         },
         {
             "wav": "evaluation/data/dota2/Bristleback/6.wav",
-            "caption": "Bristleback"
+            "caption": "bristleback"
         },
         {
             "wav": "evaluation/data/dota2/Witch Doctor/5.wav",
-            "caption": "Witch Doctor"
+            "caption": "witch doctor"
         },
         {
             "wav": "evaluation/data/dota2/Razor/15.wav",
-            "caption": "Razor"
+            "caption": "razor"
         },
         {
             "wav": "evaluation/data/dota2/Lion/14.wav",
-            "caption": "Lion"
+            "caption": "lion"
         },
         {
             "wav": "evaluation/data/dota2/Terrorblade/15.wav",
-            "caption": "Terrorblade"
+            "caption": "terrorblade"
         },
         {
             "wav": "evaluation/data/dota2/Zeus/17.wav",
-            "caption": "Zeus"
+            "caption": "zeus"
         },
         {
             "wav": "evaluation/data/dota2/Crystal Maiden/7.wav",
-            "caption": "Crystal Maiden"
+            "caption": "crystal maiden"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Shaman/2.wav",
-            "caption": "Shadow Shaman"
+            "caption": "shadow shaman"
         },
         {
             "wav": "evaluation/data/dota2/Nature's Prophet/16.wav",
-            "caption": "Nature's Prophet"
+            "caption": "nature's prophet"
         },
         {
             "wav": "evaluation/data/dota2/Omniknight/12.wav",
-            "caption": "Omniknight"
+            "caption": "omniknight"
         },
         {
             "wav": "evaluation/data/dota2/Spirit Breaker/17.wav",
-            "caption": "Spirit Breaker"
+            "caption": "spirit breaker"
         },
         {
             "wav": "evaluation/data/dota2/Centaur Warrunner/11.wav",
-            "caption": "Centaur Warrunner"
+            "caption": "centaur warrunner"
         },
         {
             "wav": "evaluation/data/dota2/Marci/9.wav",
-            "caption": "Marci"
+            "caption": "marci"
         },
         {
             "wav": "evaluation/data/dota2/Doom/1.wav",
-            "caption": "Doom"
+            "caption": "doom"
         },
         {
             "wav": "evaluation/data/dota2/Morphling/12.wav",
-            "caption": "Morphling"
+            "caption": "morphling"
         },
         {
             "wav": "evaluation/data/dota2/Riki/1.wav",
-            "caption": "Riki"
+            "caption": "riki"
         },
         {
             "wav": "evaluation/data/dota2/Pangolier/4.wav",
-            "caption": "Pangolier"
+            "caption": "pangolier"
         },
         {
             "wav": "evaluation/data/dota2/Spirit Breaker/13.wav",
-            "caption": "Spirit Breaker"
+            "caption": "spirit breaker"
         },
         {
             "wav": "evaluation/data/dota2/Winter Wyvern/18.wav",
-            "caption": "Winter Wyvern"
+            "caption": "winter wyvern"
         },
         {
             "wav": "evaluation/data/dota2/Dark Willow/13.wav",
-            "caption": "Dark Willow"
+            "caption": "dark willow"
         },
         {
             "wav": "evaluation/data/dota2/Earth Spirit/2.wav",
-            "caption": "Earth Spirit"
+            "caption": "earth spirit"
         },
         {
             "wav": "evaluation/data/dota2/Undying/7.wav",
-            "caption": "Undying"
+            "caption": "undying"
         },
         {
             "wav": "evaluation/data/dota2/Anti-Mage/4.wav",
-            "caption": "Anti-Mage"
+            "caption": "anti-mage"
         },
         {
             "wav": "evaluation/data/dota2/Kunkka/19.wav",
-            "caption": "Kunkka"
+            "caption": "kunkka"
         },
         {
             "wav": "evaluation/data/dota2/Techies/5.wav",
-            "caption": "Techies"
+            "caption": "techies"
         },
         {
             "wav": "evaluation/data/dota2/Juggernaut/12.wav",
-            "caption": "Juggernaut"
+            "caption": "juggernaut"
         },
         {
             "wav": "evaluation/data/dota2/Meepo/14.wav",
-            "caption": "Meepo"
+            "caption": "meepo"
         },
         {
             "wav": "evaluation/data/dota2/Shadow Shaman/7.wav",
-            "caption": "Shadow Shaman"
+            "caption": "shadow shaman"
         },
         {
             "wav": "evaluation/data/dota2/Earthshaker/19.wav",
-            "caption": "Earthshaker"
+            "caption": "earthshaker"
         },
         {
             "wav": "evaluation/data/dota2/Arc Warden/4.wav",
-            "caption": "Arc Warden"
+            "caption": "arc warden"
         },
         {
             "wav": "evaluation/data/dota2/Enchantress/5.wav",
-            "caption": "Enchantress"
+            "caption": "enchantress"
         },
         {
             "wav": "evaluation/data/dota2/Timbersaw/5.wav",
-            "caption": "Timbersaw"
+            "caption": "timbersaw"
         },
         {
             "wav": "evaluation/data/dota2/Io/1.wav",
-            "caption": "Io"
+            "caption": "io"
         },
         {
             "wav": "evaluation/data/dota2/Ogre Magi/18.wav",
-            "caption": "Ogre Magi"
+            "caption": "ogre magi"
         },
         {
             "wav": "evaluation/data/dota2/Crystal Maiden/16.wav",
-            "caption": "Crystal Maiden"
+            "caption": "crystal maiden"
         },
         {
             "wav": "evaluation/data/dota2/Primal Beast/10.wav",
-            "caption": "Primal Beast"
+            "caption": "primal beast"
         },
         {
             "wav": "evaluation/data/dota2/Invoker/14.wav",
-            "caption": "Invoker"
+            "caption": "invoker"
         },
         {
             "wav": "evaluation/data/dota2/Sand King/1.wav",
-            "caption": "Sand King"
+            "caption": "sand king"
         },
         {
             "wav": "evaluation/data/dota2/Snapfire/13.wav",
-            "caption": "Snapfire"
+            "caption": "snapfire"
         },
         {
             "wav": "evaluation/data/dota2/Spectre/11.wav",
-            "caption": "Spectre"
+            "caption": "spectre"
         },
         {
             "wav": "evaluation/data/dota2/Chen/6.wav",
-            "caption": "Chen"
+            "caption": "chen"
         },
         {
             "wav": "evaluation/data/dota2/Zeus/1.wav",
-            "caption": "Zeus"
+            "caption": "zeus"
         },
         {
             "wav": "evaluation/data/dota2/Razor/10.wav",
-            "caption": "Razor"
+            "caption": "razor"
         },
         {
             "wav": "evaluation/data/dota2/Nature's Prophet/15.wav",
-            "caption": "Nature's Prophet"
+            "caption": "nature's prophet"
         },
         {
             "wav": "evaluation/data/dota2/Viper/8.wav",
-            "caption": "Viper"
+            "caption": "viper"
         },
         {
             "wav": "evaluation/data/dota2/Timbersaw/3.wav",
-            "caption": "Timbersaw"
+            "caption": "timbersaw"
         },
         {
             "wav": "evaluation/data/dota2/Naga Siren/19.wav",
-            "caption": "Naga Siren"
+            "caption": "naga siren"
         },
         {
             "wav": "evaluation/data/dota2/Anti-Mage/18.wav",
-            "caption": "Anti-Mage"
+            "caption": "anti-mage"
         },
         {
             "wav": "evaluation/data/dota2/Invoker/19.wav",
-            "caption": "Invoker"
+            "caption": "invoker"
         },
         {
             "wav": "evaluation/data/dota2/Visage/0.wav",
-            "caption": "Visage"
+            "caption": "visage"
         },
         {
             "wav": "evaluation/data/dota2/Juggernaut/0.wav",
-            "caption": "Juggernaut"
+            "caption": "juggernaut"
         },
         {
             "wav": "evaluation/data/dota2/Puck/0.wav",
-            "caption": "Puck"
+            "caption": "puck"
         },
         {
             "wav": "evaluation/data/dota2/Viper/9.wav",
-            "caption": "Viper"
+            "caption": "viper"
         },
         {
             "wav": "evaluation/data/dota2/Outworld Destroyer/3.wav",
-            "caption": "Outworld Destroyer"
+            "caption": "outworld destroyer"
         },
         {
             "wav": "evaluation/data/dota2/Night Stalker/14.wav",
-            "caption": "Night Stalker"
+            "caption": "night stalker"
         },
         {
             "wav": "evaluation/data/dota2/Axe/13.wav",
-            "caption": "Axe"
+            "caption": "axe"
         },
         {
             "wav": "evaluation/data/dota2/Queen of Pain/5.wav",
-            "caption": "Queen of Pain"
+            "caption": "queen of pain"
         },
         {
             "wav": "evaluation/data/dota2/Spectre/1.wav",
-            "caption": "Spectre"
+            "caption": "spectre"
         },
         {
             "wav": "evaluation/data/dota2/Disruptor/6.wav",
-            "caption": "Disruptor"
+            "caption": "disruptor"
         },
         {
             "wav": "evaluation/data/dota2/Pugna/16.wav",
-            "caption": "Pugna"
+            "caption": "pugna"
         },
         {
             "wav": "evaluation/data/dota2/Winter Wyvern/2.wav",
-            "caption": "Winter Wyvern"
+            "caption": "winter wyvern"
         },
         {
             "wav": "evaluation/data/dota2/Tiny/14.wav",
-            "caption": "Tiny"
+            "caption": "tiny"
         },
         {
             "wav": "evaluation/data/dota2/Jakiro/19.wav",
-            "caption": "Jakiro"
+            "caption": "jakiro"
         },
         {
             "wav": "evaluation/data/dota2/Weaver/5.wav",
-            "caption": "Weaver"
+            "caption": "weaver"
         },
         {
             "wav": "evaluation/data/dota2/Puck/13.wav",
-            "caption": "Puck"
+            "caption": "puck"
         },
         {
             "wav": "evaluation/data/dota2/Chen/12.wav",
-            "caption": "Chen"
+            "caption": "chen"
         },
         {
             "wav": "evaluation/data/dota2/Drow Ranger/19.wav",
-            "caption": "Drow Ranger"
+            "caption": "drow ranger"
         },
         {
             "wav": "evaluation/data/dota2/Medusa/7.wav",
-            "caption": "Medusa"
+            "caption": "medusa"
         },
         {
             "wav": "evaluation/data/dota2/Skywrath Mage/15.wav",
-            "caption": "Skywrath Mage"
+            "caption": "skywrath mage"
         },
         {
             "wav": "evaluation/data/dota2/Vengeful Spirit/11.wav",
-            "caption": "Vengeful Spirit"
+            "caption": "vengeful spirit"
         },
         {
             "wav": "evaluation/data/dota2/Skywrath Mage/19.wav",
-            "caption": "Skywrath Mage"
+            "caption": "skywrath mage"
         },
         {
             "wav": "evaluation/data/dota2/Huskar/2.wav",
-            "caption": "Huskar"
+            "caption": "huskar"
         },
         {
             "wav": "evaluation/data/dota2/Anti-Mage/17.wav",
-            "caption": "Anti-Mage"
+            "caption": "anti-mage"
         },
         {
             "wav": "evaluation/data/dota2/Sven/13.wav",
-            "caption": "Sven"
+            "caption": "sven"
         },
         {
             "wav": "evaluation/data/dota2/Bloodseeker/0.wav",
-            "caption": "Bloodseeker"
+            "caption": "bloodseeker"
         },
         {
             "wav": "evaluation/data/dota2/Muerta/17.wav",
-            "caption": "Muerta"
+            "caption": "muerta"
         },
         {
             "wav": "evaluation/data/dota2/Bane/8.wav",
-            "caption": "Bane"
+            "caption": "bane"
         },
         {
             "wav": "evaluation/data/dota2/Brewmaster/14.wav",
-            "caption": "Brewmaster"
+            "caption": "brewmaster"
         },
         {
             "wav": "evaluation/data/dota2/Dazzle/9.wav",
-            "caption": "Dazzle"
+            "caption": "dazzle"
         }
     ]
 }

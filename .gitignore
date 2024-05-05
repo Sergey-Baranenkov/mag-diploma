@@ -11,8 +11,9 @@ statistics
 research/separated
 logs
 eval_logs
-checkpoints
-!checkpoints/final
+checkpoints/train_audiosep_lora
+checkpoints/train_audiosep_lora_and_tuned_embeddings
+checkpoints/train_audiosep_tuned_embeddings
 wandb
 research/ww-img
 research/ontology.json

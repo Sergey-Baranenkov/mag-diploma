@@ -1,4 +1,4 @@
-dota2_heroes = [
+dota2_heroes = map(lambda x: x.lower(),[
     "Abaddon", "Alchemist", "Ancient Apparition", "Anti-Mage", "Arc Warden", "Axe", "Bane", "Batrider",
     "Beastmaster", "Bloodseeker", "Bounty Hunter", "Brewmaster", "Bristleback", "Broodmother",
     "Centaur Warrunner", "Chaos Knight", "Chen", "Clinkz", "Clockwerk", "Crystal Maiden", "Dark Seer",
@@ -15,7 +15,7 @@ dota2_heroes = [
     "Templar Assassin", "Terrorblade", "Tidehunter", "Timbersaw", "Tinker", "Tiny", "Treant Protector",
     "Troll Warlord", "Tusk", "Underlord", "Undying", "Ursa", "Vengeful Spirit", "Venomancer", "Viper", "Visage",
     "Void Spirit", "Warlock", "Weaver", "Windranger", "Winter Wyvern", "Witch Doctor", "Wraith King", "Zeus"
-]
+])
 
 musdb_ckpt = 'checkpoints/final/musdb18/lora_embeddings/final.ckpt'
 desed_ckpt = 'checkpoints/final/desed/lora_embeddings/final.ckpt'

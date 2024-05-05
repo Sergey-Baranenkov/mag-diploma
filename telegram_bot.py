@@ -24,7 +24,7 @@ wav_mimetypes = [
     "audio/x-wav",
 ]
 
-index = faiss.read_index('research/musdb_desed.idx')
+index = faiss.read_index('research/combined.idx')
 separator_instance = Separator(index, class_checkpoint_combinations, 0.85)
 
 
@@ -74,7 +74,7 @@ async def request(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
     print(text, input_file_path, output_file_path, input_filename)
 
-    resulting_caption = separator_instance.separate(input_file_path, output_file_path, text)
+    resulting_caption = separator_instance.separate(input_file_path, output_file_path, text.lower())
 
     await update.message.reply_document(output_file_path, f'Аудиозапись была отделена как {resulting_caption}.')
 
