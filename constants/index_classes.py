@@ -35,7 +35,7 @@ class_checkpoint_combinations = [
 
     ('drums', musdb_ckpt),
     ('bass', musdb_ckpt),
-    ('vocal', musdb_ckpt),
+    ('vocals', musdb_ckpt),
     ('other musical instruments', musdb_ckpt),
 ]
 
